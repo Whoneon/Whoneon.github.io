@@ -4,6 +4,8 @@ body {
   margin: 0 auto;
   padding: 1em;
   color: #333;
+  transform: scale(1.25); 
+  transform-origin: top
 }
 
 .dark-mode {
@@ -29,4 +31,18 @@ a {
 
 a:hover {
   text-decoration: underline;
+}
+
+ul { 
+	list-style-type: disc;
+	padding-left: 20px; 
+}
+
+ul li {
+	line-height: 1.5;
+	margin-bottom: 1rem;
+}
+
+ul li:last-child { 
+	margin-bottom: 0;
 }
