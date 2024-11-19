@@ -1,0 +1,32 @@
+body {
+  font-family: Arial, sans-serif;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 1em;
+  color: #333;
+}
+
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+header, section {
+  margin-bottom: 2em;
+}
+
+header h1 {
+  font-size: 2em;
+}
+
+section h2 {
+  font-size: 1.5em;
+}
+
+a {
+  color: #0056b3;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
