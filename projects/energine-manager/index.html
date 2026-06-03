@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Energine Manager, Antonio Guastella</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400;500&family=Syne:wght@400;500;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../project-detail.css">
+</head>
+<body>
+
+<nav>
+  <a href="../../" class="nav-logo">whoneon.is-a.dev</a>
+  <a href="../../#projects" class="nav-back">← tutti i progetti</a>
+</nav>
+
+<div class="page">
+
+  <div class="proj-eyebrow">Piattaforma gestionale · team · 2023 – oggi</div>
+  <h1 class="proj-title">Energine Manager</h1>
+
+  <div class="proj-meta-row">
+    <div class="meta-item">
+      <span class="meta-label">ruolo</span>
+      <span class="meta-value">CTO &amp; Tech Lead · coordinamento team</span>
+    </div>
+    <div class="meta-item">
+      <span class="meta-label">dominio</span>
+      <span class="meta-value">EV Charging · Efficienza energetica</span>
+    </div>
+    <div class="meta-item">
+      <span class="meta-label">stack principale</span>
+      <span class="meta-value">Full-stack · Mobile · EV Charging · OCPP</span>
+    </div>
+    <div class="meta-item">
+      <span class="meta-label">stato</span>
+      <span class="meta-value" style="color: var(--accent)">Produzione · in evoluzione</span>
+    </div>
+  </div>
+
+  <!-- CONTESTO -->
+  <div class="block">
+    <div class="block-title"><span class="num">01</span> Contesto</div>
+    <p class="prose">
+      <strong>Energine SRL</strong> opera nel settore dell'<strong>efficienza energetica e della mobilità elettrica</strong> nella Sicilia sud-orientale. La piattaforma gestionale interna è nata nel 2023 dal lavoro del team tecnico per coprire un flusso che nessun gestionale di mercato copriva end-to-end: anagrafica clienti, contratti, impianti, sessioni di ricarica EV, fatturazione elettronica e pagamenti.
+    </p>
+    <p class="prose" style="margin-top: 1rem;">
+      Nel <strong>2025</strong> ho assunto la direzione tecnica del progetto. La prima versione della piattaforma aveva portato l'azienda alla scala attuale, ma la roadmap richiedeva client multipli (web, mobile, POS) e cicli di rilascio più rapidi. Il team ha quindi avviato una riscrittura graduale verso un'architettura <em>API-first</em>.
+    </p>
+  </div>
+
+  <!-- IL MIO RUOLO -->
+  <div class="block">
+    <div class="block-title"><span class="num">02</span> Il mio ruolo</div>
+    <p class="prose">
+      Coordino un piccolo team interno, lavorando su tutta la filiera del prodotto invece che su una sola verticale:
+    </p>
+    <div class="two-col" style="margin-top: 1.5rem;">
+      <div class="info-card">
+        <div class="info-card-title">Direzione &amp; processo</div>
+        <div class="kv-row"><span class="kv-key">Specifiche</span><span class="kv-val">Raccolta requisiti, scrittura ticket</span></div>
+        <div class="kv-row"><span class="kv-key">Code review</span><span class="kv-val">Standard interni, mentoring</span></div>
+        <div class="kv-row"><span class="kv-key">Monitoraggio</span><span class="kv-val">Health check, log, incident response</span></div>
+        <div class="kv-row"><span class="kv-key">Architettura</span><span class="kv-val">Design API, decisioni tecniche</span></div>
+      </div>
+      <div class="info-card">
+        <div class="info-card-title">Programmazione diretta</div>
+        <div class="kv-row"><span class="kv-key">Backend</span><span class="kv-val">Layer API REST, ORM custom</span></div>
+        <div class="kv-row"><span class="kv-key">Frontend</span><span class="kv-val">Setup React/TS, componenti core</span></div>
+        <div class="kv-row"><span class="kv-key">Integrazioni</span><span class="kv-val">OCPP, SDI, payment gateway</span></div>
+        <div class="kv-row"><span class="kv-key">Pipeline dati</span><span class="kv-val">Script per ingest/report</span></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ARCHITETTURA -->
+  <div class="block">
+    <div class="block-title"><span class="num">03</span> Architettura in evoluzione</div>
+    <p class="prose">
+      Il passaggio in corso è da un sistema monolitico server-side a un'architettura a tre livelli con <strong>backend API REST</strong>, <strong>frontend React</strong> e <strong>client nativi</strong>. Il backend mantiene la base esistente affiancata da microservizi separati dove il dominio dati lo richiede.
+    </p>
+
+    <div class="arch-box">
+      <div class="arch-layer">
+        <div class="arch-layer-name">client</div>
+        <div class="arch-items">
+          <span class="arch-item">Web app</span>
+          <span class="arch-item">Mobile app</span>
+          <span class="arch-item">POS Android</span>
+        </div>
+      </div>
+      <div class="arch-arrow">↓</div>
+      <div class="arch-layer">
+        <div class="arch-layer-name">API · gateway REST</div>
+        <div class="arch-items">
+          <span class="arch-item">Autenticazione &amp; permessi</span>
+          <span class="arch-item">Routing per dominio</span>
+          <span class="arch-item">Contratti versionati</span>
+        </div>
+      </div>
+      <div class="arch-arrow">↓</div>
+      <div class="arch-layer">
+        <div class="arch-layer-name">applicazione</div>
+        <div class="arch-items">
+          <span class="arch-item">Backend server-side, ORM custom</span>
+          <span class="arch-item">Servizi Python (ingest, report, ML leggero)</span>
+          <span class="arch-item">Scheduler &amp; job cron</span>
+        </div>
+      </div>
+      <div class="arch-arrow">↓</div>
+      <div class="arch-layer">
+        <div class="arch-layer-name">integrazioni esterne</div>
+        <div class="arch-items">
+          <span class="arch-item">OCPP WebSocket (stazioni EV)</span>
+          <span class="arch-item">Payment gateway</span>
+          <span class="arch-item">SDI / FatturaPA</span>
+          <span class="arch-item">WireGuard VPN</span>
+        </div>
+      </div>
+      <div class="arch-arrow">↓</div>
+      <div class="arch-layer">
+        <div class="arch-layer-name">dati</div>
+        <div class="arch-items">
+          <span class="arch-item">Database relazionale (dati applicativi)</span>
+          <span class="arch-item">Log strutturati (sessioni OCPP)</span>
+          <span class="arch-item">File system (documenti, PDF)</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- MODULI -->
+  <div class="block">
+    <div class="block-title"><span class="num">04</span> Moduli principali</div>
+    <div class="two-col">
+      <div class="info-card">
+        <div class="info-card-title">Gestione clienti &amp; contratti</div>
+        <div class="kv-row"><span class="kv-key">Anagrafica</span><span class="kv-val">Clienti, referenti, sedi</span></div>
+        <div class="kv-row"><span class="kv-key">Contratti</span><span class="kv-val">Tipologie, scadenze, rinnovi</span></div>
+        <div class="kv-row"><span class="kv-key">Impianti</span><span class="kv-val">Mappatura per cliente/sede</span></div>
+        <div class="kv-row"><span class="kv-key">Documenti</span><span class="kv-val">Upload, archiviazione, firma</span></div>
+      </div>
+      <div class="info-card">
+        <div class="info-card-title">EV Charging · OCPP</div>
+        <div class="kv-row"><span class="kv-key">Protocollo</span><span class="kv-val">OCPP 1.6 WebSocket</span></div>
+        <div class="kv-row"><span class="kv-key">Monitoraggio</span><span class="kv-val">Stato real-time connettori</span></div>
+        <div class="kv-row"><span class="kv-key">Sessioni</span><span class="kv-val">Log, energia erogata, durata</span></div>
+        <div class="kv-row"><span class="kv-key">Alert</span><span class="kv-val">Offline detection con grace period</span></div>
+      </div>
+      <div class="info-card">
+        <div class="info-card-title">Fatturazione elettronica</div>
+        <div class="kv-row"><span class="kv-key">Standard</span><span class="kv-val">FatturaPA / SDI</span></div>
+        <div class="kv-row"><span class="kv-key">Integrazione</span><span class="kv-val">Provider certificato SDI</span></div>
+        <div class="kv-row"><span class="kv-key">Stato</span><span class="kv-val">Tracking ciclo vita fattura</span></div>
+        <div class="kv-row"><span class="kv-key">IVA</span><span class="kv-val">Gestione aliquote multiple</span></div>
+      </div>
+      <div class="info-card">
+        <div class="info-card-title">POS &amp; pagamenti in campo</div>
+        <div class="kv-row"><span class="kv-key">Hardware</span><span class="kv-val">Terminale Android</span></div>
+        <div class="kv-row"><span class="kv-key">App</span><span class="kv-val">Sviluppata in-house</span></div>
+        <div class="kv-row"><span class="kv-key">Sincronizzazione</span><span class="kv-val">API REST con la piattaforma</span></div>
+        <div class="kv-row"><span class="kv-key">Casi d'uso</span><span class="kv-val">Incassi tecnici, sessioni manuali</span></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- SFIDE TECNICHE -->
+  <div class="block">
+    <div class="block-title"><span class="num">05</span> Sfide tecniche affrontate</div>
+
+    <div class="callout">
+      <p><strong>OCPP offline alert storm.</strong> Le colonnine inviavano ping/pong WebSocket ogni 30 secondi e il sistema generava false offline alert ad ogni timeout di rete transiente, inondando i tecnici di email. Il team ha introdotto un grace period configurabile: l'alert parte solo dopo soglia sostenuta.</p>
+    </div>
+
+    <div class="callout">
+      <p><strong>Monofase detection su stazioni trifase.</strong> Alcune EV non negoziavano correttamente la potenza su stazioni trifase, restando in monofase a potenza ridotta. Abbiamo implementato un algoritmo di detection che identifica il pattern e applica un boost sulla L1 per compensare la negoziazione mancante.</p>
+    </div>
+
+    <div class="callout warn">
+      <p><strong>DC Fast Charger, firmware BMS.</strong> Un charger EV non completava la sessione con veicoli Tesla a causa di un fallback mancante. Ho coordinato l'analisi con il vendor che ha rilasciato il firmware "INTERNATIONAL" con il fix implementato.</p>
+    </div>
+
+    <div class="callout">
+      <p><strong>Migrazione progressiva monolite → API.</strong> Riscrivere un sistema in produzione senza fermarlo richiede di far convivere il vecchio rendering server-side e i nuovi endpoint REST per mesi. Stiamo procedendo per dominio (clienti → contratti → impianti → fatturazione), spostando un modulo alla volta dietro l'API e poi sostituendo la view server-side con la corrispondente schermata React.</p>
+    </div>
+  </div>
+
+  <!-- TIMELINE -->
+  <div class="block">
+    <div class="block-title"><span class="num">06</span> Evoluzione del progetto</div>
+    <div class="timeline">
+      <div class="tl-item">
+        <div class="tl-dot"></div>
+        <div>
+          <div class="tl-label">2023</div>
+          <div class="tl-text">Avvio della piattaforma, primo gestionale interno sviluppato dal team.</div>
+        </div>
+      </div>
+      <div class="tl-item">
+        <div class="tl-dot"></div>
+        <div>
+          <div class="tl-label">2024</div>
+          <div class="tl-text">Integrazione <strong>OCPP 1.6 WebSocket</strong> per le colonnine EV. Fatturazione elettronica SDI/FatturaPA. Dashboard di monitoraggio.</div>
+        </div>
+      </div>
+      <div class="tl-item">
+        <div class="tl-dot"></div>
+        <div>
+          <div class="tl-label">2025</div>
+          <div class="tl-text">Subentro come <strong>CTO &amp; Tech Lead</strong>. Avvio della migrazione ad architettura <strong>API-first</strong>: layer API REST, frontend in React/TypeScript, <strong>POS Android</strong>. Introduzione di servizi Python per pipeline dati e report.</div>
+        </div>
+      </div>
+      <div class="tl-item">
+        <div class="tl-dot"></div>
+        <div>
+          <div class="tl-label">In corso</div>
+          <div class="tl-text">Completamento della migrazione modulo per modulo, consolidamento dei contratti API, code review &amp; standard interni, ottimizzazioni performance e algoritmi di smart charging, app mobile.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="proj-footer">
+    <a href="../../#projects">← tutti i progetti</a>
+    <a href="../../#contact" class="proj-footer-cta">Mettiamoci in contatto →</a>
+  </div>
+
+</div>
+</body>
+</html>

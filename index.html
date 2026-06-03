@@ -2,131 +2,1290 @@
 <html lang="it">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.25">
-  <title>Portfolio di Antonio Guastella</title>
-  <link rel="stylesheet" href="styles.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Antonio Guastella, Software Engineer & CTO</title>
+  <meta name="description" content="Software Engineer, Data Scientist e CTO. Specializzato in sistemi IoT, infrastrutture energetiche e sviluppo full-stack.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300&family=Syne:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg:        #0a0a0b;
+      --bg2:       #111114;
+      --bg3:       #181820;
+      --border:    rgba(255,255,255,0.08);
+      --border2:   rgba(255,255,255,0.14);
+      --text:      #e8e6e0;
+      --muted:     #6b6a64;
+      --muted2:    #999790;
+      --accent:    #00e5a0;
+      --accent2:   #00b87a;
+      --warm:      #f0c060;
+      --red:       #ff5f5f;
+      --mono:      'DM Mono', monospace;
+      --sans:      'Syne', sans-serif;
+    }
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: var(--sans);
+      font-size: 16px;
+      line-height: 1.6;
+      overflow-x: hidden;
+    }
+
+    /* ─── NOISE TEXTURE OVERLAY ─── */
+    body::before {
+      content: '';
+      position: fixed;
+      inset: 0;
+      background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.04'/%3E%3C/svg%3E");
+      pointer-events: none;
+      z-index: 0;
+      opacity: 0.6;
+    }
+
+    /* ─── GRID LINES ─── */
+    body::after {
+      content: '';
+      position: fixed;
+      inset: 0;
+      background-image:
+        linear-gradient(rgba(255,255,255,0.015) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(255,255,255,0.015) 1px, transparent 1px);
+      background-size: 80px 80px;
+      pointer-events: none;
+      z-index: 0;
+    }
+
+    /* ─── NAV ─── */
+    nav {
+      position: fixed;
+      top: 0; left: 0; right: 0;
+      z-index: 100;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 1.25rem 3rem;
+      border-bottom: 1px solid var(--border);
+      background: rgba(10,10,11,0.85);
+      backdrop-filter: blur(12px);
+    }
+
+    .nav-logo {
+      font-family: var(--mono);
+      font-size: 0.85rem;
+      color: var(--accent);
+      letter-spacing: 0.05em;
+      text-decoration: none;
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 2.5rem;
+      list-style: none;
+    }
+
+    .nav-links a {
+      font-family: var(--mono);
+      font-size: 0.75rem;
+      color: var(--muted);
+      text-decoration: none;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      transition: color 0.2s;
+    }
+
+    .nav-links a:hover { color: var(--text); }
+
+    .nav-cta {
+      font-family: var(--mono);
+      font-size: 0.75rem;
+      color: var(--accent);
+      border: 1px solid var(--accent2);
+      padding: 0.45rem 1rem;
+      border-radius: 3px;
+      text-decoration: none;
+      letter-spacing: 0.08em;
+      transition: background 0.2s, color 0.2s;
+    }
+    .nav-cta:hover { background: var(--accent); color: var(--bg); }
+
+    /* ─── SECTIONS WRAPPER ─── */
+    section, .hero {
+      position: relative;
+      z-index: 1;
+    }
+
+    /* ─── HERO ─── */
+    .hero {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 8rem 3rem 4rem;
+      max-width: 1100px;
+      margin: 0 auto;
+    }
+
+    .hero-tag {
+      font-family: var(--mono);
+      font-size: 0.75rem;
+      color: var(--accent);
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      margin-bottom: 2rem;
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+    }
+
+    .hero-tag::before {
+      content: '';
+      display: inline-block;
+      width: 28px;
+      height: 1px;
+      background: var(--accent);
+    }
+
+    .hero h1 {
+      font-size: clamp(2.8rem, 7vw, 6rem);
+      font-weight: 800;
+      line-height: 1.0;
+      letter-spacing: -0.03em;
+      margin-bottom: 0.2em;
+    }
+
+    .hero h1 .dim { color: var(--muted); font-weight: 400; }
+    .hero h1 .acc { color: var(--accent); }
+
+    .hero-sub {
+      font-family: var(--mono);
+      font-size: 1rem;
+      color: var(--muted2);
+      max-width: 520px;
+      margin: 2rem 0 3rem;
+      line-height: 1.8;
+    }
+
+    .hero-sub em {
+      color: var(--warm);
+      font-style: normal;
+    }
+
+    .hero-actions {
+      display: flex;
+      gap: 1rem;
+      flex-wrap: wrap;
+    }
+
+    .btn-primary {
+      font-family: var(--mono);
+      font-size: 0.8rem;
+      letter-spacing: 0.08em;
+      color: var(--bg);
+      background: var(--accent);
+      border: none;
+      padding: 0.85rem 2rem;
+      border-radius: 3px;
+      text-decoration: none;
+      cursor: pointer;
+      transition: background 0.2s, transform 0.15s;
+    }
+    .btn-primary:hover { background: #00ffb3; transform: translateY(-1px); }
+
+    .btn-secondary {
+      font-family: var(--mono);
+      font-size: 0.8rem;
+      letter-spacing: 0.08em;
+      color: var(--text);
+      background: transparent;
+      border: 1px solid var(--border2);
+      padding: 0.85rem 2rem;
+      border-radius: 3px;
+      text-decoration: none;
+      cursor: pointer;
+      transition: border-color 0.2s, color 0.2s;
+    }
+    .btn-secondary:hover { border-color: var(--text); }
+
+    .hero-stats {
+      display: flex;
+      gap: 3rem;
+      margin-top: 5rem;
+      padding-top: 2.5rem;
+      border-top: 1px solid var(--border);
+    }
+
+    .stat-item {
+      display: flex;
+      flex-direction: column;
+      gap: 0.3rem;
+    }
+
+    .stat-num {
+      font-size: 2rem;
+      font-weight: 700;
+      color: var(--text);
+      line-height: 1;
+    }
+
+    .stat-num span { color: var(--accent); }
+
+    .stat-label {
+      font-family: var(--mono);
+      font-size: 0.7rem;
+      color: var(--muted);
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+    }
+
+    /* ─── SECTION COMMON ─── */
+    .section {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 6rem 3rem;
+    }
+
+    .section-header {
+      display: flex;
+      align-items: baseline;
+      gap: 1.5rem;
+      margin-bottom: 3.5rem;
+    }
+
+    .section-num {
+      font-family: var(--mono);
+      font-size: 0.7rem;
+      color: var(--accent);
+      letter-spacing: 0.1em;
+    }
+
+    .section-title {
+      font-size: 2.2rem;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+    }
+
+    .section-line {
+      flex: 1;
+      height: 1px;
+      background: var(--border);
+      margin-left: 1rem;
+    }
+
+    /* ─── ABOUT ─── */
+    .about-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 4rem;
+      align-items: start;
+    }
+
+    .about-text p {
+      font-family: var(--mono);
+      font-size: 0.9rem;
+      color: var(--muted2);
+      line-height: 1.9;
+      margin-bottom: 1.2rem;
+    }
+
+    .about-text p strong {
+      color: var(--text);
+      font-weight: 500;
+    }
+
+    .about-text p .hl { color: var(--accent); }
+
+    .about-card {
+      background: var(--bg2);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0 8px 32px rgba(0,0,0,0.25);
+    }
+
+    .json-header {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      padding: 0.75rem 1rem;
+      background: #0c0c0f;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .json-filename { flex: 1; }
+
+    .json-copy {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+      background: transparent;
+      border: 1px solid var(--border);
+      color: var(--muted2);
+      font-family: var(--mono);
+      font-size: 0.65rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      padding: 0.3rem 0.6rem;
+      border-radius: 4px;
+      cursor: pointer;
+      transition: color 0.2s, border-color 0.2s, background 0.2s;
+    }
+    .json-copy:hover { color: var(--text); border-color: var(--border2); background: rgba(255,255,255,0.025); }
+    .json-copy.copied { color: var(--accent); border-color: rgba(0,229,160,0.4); background: rgba(0,229,160,0.06); }
+    .json-copy svg { width: 12px; height: 12px; stroke: currentColor; fill: none; stroke-width: 1.8; }
+
+    .json-cursor {
+      display: inline-block;
+      width: 7px;
+      height: 0.95em;
+      background: var(--accent);
+      vertical-align: -2px;
+      margin-left: 4px;
+      animation: blink 1s step-end infinite;
+    }
+
+    .json-dots {
+      display: flex;
+      gap: 0.4rem;
+    }
+
+    .json-dots span {
+      width: 11px;
+      height: 11px;
+      border-radius: 50%;
+      background: var(--bg3);
+      border: 1px solid var(--border);
+    }
+
+    .json-dots span:nth-child(1) { background: #ff5f57; border-color: #c43e3a; }
+    .json-dots span:nth-child(2) { background: #febc2e; border-color: #c89826; }
+    .json-dots span:nth-child(3) { background: #28c840; border-color: #1f9a30; }
+
+    .json-filename {
+      font-family: var(--mono);
+      font-size: 0.72rem;
+      color: var(--muted2);
+      letter-spacing: 0.04em;
+    }
+
+    .json-filename .ext { color: var(--warm); }
+
+    .json-body {
+      display: grid;
+      grid-template-columns: auto 1fr;
+      font-family: var(--mono);
+      font-size: 0.82rem;
+      line-height: 1.85;
+      padding: 1rem 0 1.25rem;
+      background:
+        linear-gradient(90deg, rgba(255,255,255,0.015) 0, rgba(255,255,255,0.015) 2.6rem, transparent 2.6rem);
+    }
+
+    .json-gutter {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      padding: 0 0.85rem 0 0.6rem;
+      color: var(--muted);
+      opacity: 0.55;
+      user-select: none;
+      font-size: 0.72rem;
+      line-height: 1.85;
+      border-right: 1px solid var(--border);
+      padding-top: 0.05rem;
+    }
+
+    .json-gutter span { display: block; }
+
+    .json-code {
+      padding: 0 1rem 0 0.9rem;
+      white-space: pre;
+      overflow-x: auto;
+      scrollbar-width: thin;
+      scrollbar-color: var(--border2) transparent;
+    }
+    .json-code::-webkit-scrollbar { height: 6px; }
+    .json-code::-webkit-scrollbar-track { background: transparent; }
+    .json-code::-webkit-scrollbar-thumb { background: var(--border2); border-radius: 3px; }
+
+    .json-code .row { display: block; }
+    .json-code .indent { color: transparent; }
+    .json-key { color: #7dd3fc; }            /* azzurro chiave */
+    .json-str { color: var(--accent); }      /* stringa */
+    .json-num { color: var(--warm); }
+    .json-bool { color: #ff8da1; }
+    .json-punc { color: var(--muted); }
+    .json-brace { color: var(--text); }
+    .json-comment { color: var(--muted); font-style: italic; opacity: 0.75; }
+    .json-code a { color: var(--accent); text-decoration: none; }
+    .json-code a:hover { text-decoration: underline; }
+
+    /* ─── STACK ─── */
+    .stack-groups {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1.5rem;
+    }
+
+    .stack-group {
+      background: var(--bg2);
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      padding: 1.75rem;
+      transition: border-color 0.2s;
+    }
+
+    .stack-group:hover { border-color: var(--border2); }
+
+    .stack-group-title {
+      font-family: var(--mono);
+      font-size: 0.65rem;
+      color: var(--accent);
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      margin-bottom: 1.2rem;
+    }
+
+    .stack-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+    }
+
+    .tag {
+      font-family: var(--mono);
+      font-size: 0.72rem;
+      color: var(--muted2);
+      background: var(--bg3);
+      border: 1px solid var(--border);
+      padding: 0.3rem 0.65rem;
+      border-radius: 3px;
+      transition: color 0.2s, border-color 0.2s;
+    }
+
+    .tag:hover { color: var(--text); border-color: var(--border2); }
+    .tag.featured { color: var(--warm); border-color: rgba(240,192,96,0.25); background: rgba(240,192,96,0.05); }
+
+    /* ─── DEMOS / PROJECTS ─── */
+    .projects-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 1.5rem;
+    }
+
+    .project-card {
+      background: var(--bg2);
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      padding: 2rem;
+      text-decoration: none;
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      transition: border-color 0.2s, transform 0.15s;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .project-card::before {
+      content: '';
+      position: absolute;
+      top: 0; left: 0; right: 0;
+      height: 2px;
+      background: var(--accent);
+      transform: scaleX(0);
+      transform-origin: left;
+      transition: transform 0.3s ease;
+    }
+
+    .project-card:hover { border-color: var(--border2); transform: translateY(-2px); }
+    .project-card:hover::before { transform: scaleX(1); }
+
+    .project-card.featured-card::before { transform: scaleX(1); background: var(--warm); }
+
+    .project-meta {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .project-type {
+      font-family: var(--mono);
+      font-size: 0.65rem;
+      color: var(--muted);
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+    }
+
+    .project-year {
+      font-family: var(--mono);
+      font-size: 0.65rem;
+      color: var(--muted);
+    }
+
+    .project-title {
+      font-size: 1.1rem;
+      font-weight: 700;
+      color: var(--text);
+      letter-spacing: -0.01em;
+    }
+
+    .project-desc {
+      font-family: var(--mono);
+      font-size: 0.8rem;
+      color: var(--muted2);
+      line-height: 1.7;
+    }
+
+    .project-stack {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.4rem;
+      margin-top: auto;
+    }
+
+    .project-link {
+      font-family: var(--mono);
+      font-size: 0.7rem;
+      color: var(--accent);
+      letter-spacing: 0.06em;
+      display: flex;
+      align-items: center;
+      gap: 0.4rem;
+      align-self: flex-start;
+    }
+
+    .project-link::after { content: '→'; transition: transform 0.2s; }
+    .project-card:hover .project-link::after { transform: translateX(3px); }
+
+    /* ─── DEMOS SECTION ─── */
+    .demos-intro {
+      font-family: var(--mono);
+      font-size: 0.85rem;
+      color: var(--muted2);
+      max-width: 560px;
+      line-height: 1.8;
+      margin-bottom: 3rem;
+    }
+
+    .demos-intro strong { color: var(--warm); font-weight: 500; }
+
+    .demo-card {
+      background: var(--bg2);
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      padding: 2rem;
+      text-decoration: none;
+      display: grid;
+      grid-template-columns: auto 1fr auto;
+      align-items: center;
+      gap: 2rem;
+      transition: border-color 0.2s, background 0.2s;
+    }
+
+    .demo-card:hover { border-color: var(--border2); background: var(--bg3); }
+
+    .demo-icon {
+      font-size: 1.5rem;
+      width: 48px;
+      height: 48px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: var(--bg3);
+      border: 1px solid var(--border);
+      border-radius: 6px;
+    }
+
+    .demo-info { display: flex; flex-direction: column; gap: 0.35rem; }
+
+    .demo-title {
+      font-size: 1rem;
+      font-weight: 600;
+      color: var(--text);
+    }
+
+    .demo-desc {
+      font-family: var(--mono);
+      font-size: 0.78rem;
+      color: var(--muted2);
+    }
+
+    .demo-badge {
+      font-family: var(--mono);
+      font-size: 0.65rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      padding: 0.3rem 0.7rem;
+      border-radius: 3px;
+      white-space: nowrap;
+    }
+
+    .demo-badge.live { color: var(--accent); background: rgba(0,229,160,0.08); border: 1px solid rgba(0,229,160,0.2); }
+    .demo-badge.coming { color: var(--muted); background: var(--bg3); border: 1px solid var(--border); }
+
+    .demos-grid { display: flex; flex-direction: column; gap: 1rem; }
+
+    /* ─── CONTACT ─── */
+    .contact-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 4rem;
+    }
+
+    .contact-text p {
+      font-family: var(--mono);
+      font-size: 0.88rem;
+      color: var(--muted2);
+      line-height: 1.9;
+      margin-bottom: 1.5rem;
+    }
+
+    .contact-links {
+      display: flex;
+      flex-direction: column;
+      gap: 0.75rem;
+      margin-top: 2rem;
+    }
+
+    .contact-link {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      font-family: var(--mono);
+      font-size: 0.8rem;
+      color: var(--muted2);
+      text-decoration: none;
+      padding: 0.75rem 1rem;
+      border: 1px solid var(--border);
+      border-radius: 4px;
+      transition: border-color 0.2s, color 0.2s;
+    }
+
+    .contact-link:hover { border-color: var(--border2); color: var(--text); }
+
+    .contact-link-icon {
+      width: 18px;
+      color: var(--accent);
+      flex-shrink: 0;
+    }
+
+    /* ─── FORM ─── */
+    .form-group { margin-bottom: 1.25rem; }
+
+    .form-group label {
+      display: block;
+      font-family: var(--mono);
+      font-size: 0.7rem;
+      color: var(--muted);
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      margin-bottom: 0.5rem;
+    }
+
+    .form-group input,
+    .form-group textarea,
+    .form-group select {
+      width: 100%;
+      background: var(--bg2);
+      border: 1px solid var(--border);
+      border-radius: 4px;
+      padding: 0.85rem 1rem;
+      font-family: var(--mono);
+      font-size: 0.82rem;
+      color: var(--text);
+      outline: none;
+      transition: border-color 0.2s;
+      appearance: none;
+    }
+
+    .form-group input:focus,
+    .form-group textarea:focus,
+    .form-group select:focus { border-color: var(--accent2); }
+
+    .form-group textarea { resize: vertical; min-height: 120px; }
+
+    /* ─── FOOTER ─── */
+    footer {
+      position: relative;
+      z-index: 1;
+      border-top: 1px solid var(--border);
+      padding: 2rem 3rem;
+      max-width: 1100px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .footer-copy {
+      font-family: var(--mono);
+      font-size: 0.72rem;
+      color: var(--muted);
+    }
+
+    .footer-badge {
+      font-family: var(--mono);
+      font-size: 0.65rem;
+      color: var(--muted);
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .footer-badge span { color: var(--accent); }
+
+    /* ─── DIVIDER ─── */
+    .section-divider {
+      position: relative;
+      z-index: 1;
+      border: none;
+      border-top: 1px solid var(--border);
+      margin: 0;
+    }
+
+    /* ─── ANIMATIONS ─── */
+    @keyframes fadeUp {
+      from { opacity: 0; transform: translateY(20px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+
+    .hero-tag  { animation: fadeUp 0.5s ease both; animation-delay: 0.1s; }
+    .hero h1   { animation: fadeUp 0.5s ease both; animation-delay: 0.2s; }
+    .hero-sub  { animation: fadeUp 0.5s ease both; animation-delay: 0.35s; }
+    .hero-actions { animation: fadeUp 0.5s ease both; animation-delay: 0.5s; }
+    .hero-stats { animation: fadeUp 0.5s ease both; animation-delay: 0.65s; }
+
+    /* ─── CURSOR ─── */
+    .cursor-blink {
+      display: inline-block;
+      width: 3px;
+      height: 1em;
+      background: var(--accent);
+      margin-left: 4px;
+      vertical-align: middle;
+      animation: blink 1s step-end infinite;
+    }
+
+    @keyframes blink { 0%,100%{opacity:1} 50%{opacity:0} }
+
+    /* ─── RESPONSIVE ─── */
+    @media (max-width: 900px) {
+      nav { padding: 1rem 1.5rem; }
+      .nav-links { display: none; }
+      .hero { padding: 7rem 1.5rem 3rem; }
+      .section { padding: 4rem 1.5rem; }
+      .about-grid, .contact-grid { grid-template-columns: 1fr; gap: 2.5rem; }
+      .stack-groups { grid-template-columns: repeat(2, 1fr); }
+      .projects-grid { grid-template-columns: 1fr; }
+      .hero-stats { gap: 2rem; }
+      footer { flex-direction: column; gap: 1rem; padding: 1.5rem; }
+      .demo-card { grid-template-columns: auto 1fr; }
+      .demo-badge { display: none; }
+    }
+
+    @media (max-width: 600px) {
+      .stack-groups { grid-template-columns: 1fr; }
+    }
+  </style>
 </head>
 <body>
-  <header>
-	<p>Se sei qui per il progetto clicca <a href="HTML.html" target="_blank">QUI!</a></p>
 
-    <h1>Benvenuto nel mio Portfolio</h1>
-	<p>Se anche tu come me preferisci il tema scuro <button onclick="myFunction()">clicca qui!</button> </p>
-  <section id="cv">
-    <h2>Il Mio CV</h2>
-    <p>Dritti al punto? Scarica il mio <a href="CV - Guastella Antonio - 19NOV24.pdf" target="_blank">Curriculum Vitae</a></p>
-  </section>
-  </header>
-      <h1>Ti parlo di me</h1>
-  <section id="whoami">
-      <p>Mi chiamo Antonio Guastella e sono uno sviluppatore Python, C e VB.net!</p>
-	  <p>Sono un laureando del corso di Fisica presso l'Università degli Studi di Messina, ma questo non mi distrae dalla mia grande passione per l'informatica in tutti i suoi aspetti. Infatti nel 2022 ho conseguito un corso di specializzazione nell'uso di tenclologie IoT per il ciclo integrato delle acque, applicato specificatamente a depuratori e processi di potabilizzazione</p>
-	  <p>Negli anni mi sono occupato di diversi progetti legati a sviluppo, implementazione e manutenzione di applicativi e servizi web, oltre che di pianificazione ed installazione di server, reti, terminali e hardware di diversi tipi</p>
-      <p>Mi occupo anche di basi di dati, sia locali che cloud-based, e di data science; amo le interfacce semplici, in grado di fornire immediata intuizione riguardo l'interpretazione di una grandezza o di un fenomeno</p>
-      <p>Opero anche nel settore GeoData, con software e web-services creati ad hoc per ogni necessità</p>
-  </section>
-  <section id="knowledge">
-    <h2>Cosa Conosco</h2>
-	<h3>Linguaggi di Programmazione</h3>
-	<ul>
-      <li>Python</li>
-      <li>C/C++/Arduino</li>
-      <li>HTML, CSS, JavaScript</li>
-	  <li>VB.net</li>
-      <li>Bash</li>
-	</ul>
-	<h3>Data Science</h3>
-	<ul>
-      <li>Pandas, SciPy, MatplotLib, PySpark, SeaBorn</li>
-      <li>MATLAB</li>
-      <li>ROOT@Cern</li>
-      <li>QGis</li>
-	  <li>Copernicus OpenData</li>
-	  <li>AWS Lambda</li>
-	  <li>DataBricks</li>
-	</ul>
-	<h3>DataBase</h3>
-	<ul>
-      <li>MySql</li>
-	  <li>T-Sql/TransactSQL</li>
-	  <li>Sql Server</li>
-      <li>Sqlite</li>
-      <li>MongoDB</li>
-      <li>PostGre/PostGIS</li>
-	</ul>
-	<h3>WebDev</h3>
-	<ul>
-      <li>Python Flask/Django</li>
-	  <li>XAMPP</li>
-      <li>AWS S3</li>
-      <li>DevilBox</li>
-      <li>Bootstrap</li>
-      <li>Docker</li>
-	  <li>GitHub</li>
-	</ul>
-		<h3>Hardware e Software</h3>
-	<ul>
-      <li>Sistemi operativi basati su Windows (98, XP, Vista, Server, 7, 10, 11) e Linux (Ubuntu, Fedora, Arch, Kali)</li>
-	  <li>Conoscenza Avanzata Pacchetto Office</li>
-      <li>ECDL Level Advanced</li>
-      <li>Networking tools come NMAP e WireShark</li>
-      <li>LIMS e Software Gestionali</li>
-	  <li>PLC per il telecontrollo</li>
-	  <li>Microprocessori Arduino/ESP32</li>
-      <li>Raspberry Pi</li>
-	</ul>
-		<h3>Conoscenze Ambientali</h3>
-	<ul>
-      <li>Normative italiane in materia di Rifiuti, Acque, Compost, e relative classificazioni</li>
-	  <li>Valutazione e lettura rapporti di analisi chimiche e fisiche</li>
-      <li>Metodologie di analisi per dispositivi da laboratorio e relativi limiti di quantificazione</li>
-      <li>Funzionamento e tecnologie di depurazione dei reflui</li>
-      <li>Tecniche di produzione di biogas e biodiesel</li>
-      <li>Impiego di dispositivi IoT per il monitoraggio in tempo reale di parametri vitali e per modificare i parametri di un processo chimico/fisico</li>
-	</ul>
-		<h3>Intelligenza Artificiale e Machine Learning</h3>
-	<ul>
-      <li>Utilizzo delle API di Gemini/LLama/OpenAI all'interno di progetti</li>
-	  <li>LLM e GenAI</li>
-      <li>Metriche di valutazione efficacia modelli di apprendimento</li>
-      <li>Scikit-Learn, Keras, TensorFlow</li>
-      <li>OpenCV per la Computer Vision</li>
-	</ul>
-  </section>
-  <section id="langs">
-    <h2>Le lingue che conosco</h2>
-    <p>Sono madrelingua italiana e possiedo un B2 avanzato in inglese (certificato Cambridge)</p>
-  </section>
-  
-  <section id="projects">
-    <h2>Progetti recenti su cui ho lavorato</h2>
-    <ul>
-	  <li>Easy eLearning</a> - Piattaforma web (Python Django) per l'apprendimento digitale. Un catalogo di corsi e lezioni, con supporto approfondito per il docente e per lo studente</li>
-      <li>Gestionale Studio Medico</a> - Software gestionale per studi medici (VB.net + Sql Server). Supporta calendario, elenco pazienti, storico prescrizioni, sistema di ricerca degli archivi, controllo degli accessi. Comprende anche un'interfaccia web (flask)</li>
-      <li>MainFrame Stazioni Meteo</a> - Ambizioso progetto di prototipizzazione (ESP32) e gestione (flask+sqlite3) di un sistema centralizzato di immagazinamento e analisi dati atmosferici in tempo reale, provenienti dai prototipi da me stesso costruiti</li>      
-      <li>Movie Rating Suggestion</a> - Utilizzo di tecniche di Machine Learning in C per analizzare recensioni utente e consigliare prodotti interessanti basandosi su interessi simili ad altri recensori</li>      
-      <li>Rete Servizi Vittoria</a> - Creazione di una webapp (Django + GeoServer + PostGreSql) per la visualizzazione e monitoraggio delle infrastrutture urbane sotterranee (fognatura, approvigionamento idrico, illuminazione pubblica, internet e fibra ottica). Leggendo i dati provenienti dai sensori, è possibile tracciare un quadro immediato dello stato di ciascuna condotta, ed eventualmente pianificare un intervento tempestivo</li>      
-      <li>ML Lincense Plate</a> - Sistema centralizzato per l'analisi in tempo reale di flussi video al fine di riconoscere targhe e veicoli appartenenti a black list o a registri delle FF.OO; progettato con Flask, Sqlite, OpenCV e Pandas</li>      
-	  <li><a href="https://github.com/Whoneon/CCTV-Analyzer" target="_blank">CCTV Analyzer</a> - Sistema di analisi video per l'individuazione di movimenti anomali in una registrazione di videosorveglianza</li>
-	  <li><a href="https://github.com/Whoneon/Waste_management_chatbot" target="_blank">Waste management chatbot</a> - Una chatbot intelligente per fornire autonomamente risposte rigurado la gestione dei rifiuti del comune di Catania; implementata usando le API di OpenAI o un LLM locale.</li>
-	  <li><a href="https://github.com/Whoneon/TelegramVoice2Pi" target="_blank">Telegram Voice2Pi</a> - Realizzazione di un interfono domestico per la lettura ad alta voce di messaggi inviati ad un bot di telegram. Utile per la comunicazione con i miei coinquilini</li>
-	  <li><a href="https://github.com/Whoneon/Telegram_Library" target="_blank">Telegram Library</a> - Un bot telegram per gestire un archivio di libri o film. Invia una parola chiave come messaggio e ottieni i risultati della query del db.</li>
-	  <li><a href="https://github.com/Whoneon/BetheBloch" target="_blank">Bethe Bloch</a> - Un'interfaccia grafica per valutare la perdita di energia di una particella carica urtante contro un bersaglio di spessore finito</li>
-	  <li><a href="https://github.com/Whoneon/Accettanza_Geometrica" target="_blank">Accettanza Geometrica</a> - Usiamo il metodo Monte Carlo per determinare l'accettanza geometrica di un rilevatore di radiazioni di forma e dimensione varia</li>
-    </ul>
-	Se vuoi conoscere di più ti invito a visitare il mio <a href="https://github.com/Whoneon" target="_blank">Profilo GitHub</a>
-  </section>
+<!-- ─── NAV ─── -->
+<nav>
+  <a href="#" class="nav-logo">whoneon.is-a.dev</a>
+  <ul class="nav-links">
+    <li><a href="#about">about</a></li>
+    <li><a href="#stack">stack</a></li>
+    <li><a href="#projects">progetti</a></li>
+    <li><a href="#demos">demo</a></li>
+  </ul>
+  <a href="#contact" class="nav-cta">contattami</a>
+</nav>
 
-  <section id="contatti">
-    <h2>Contattami</h2>
-    <p>Email: <a href="mailto:antonioguastella99@gmail.com.com">qui</a></p>
-    <p>LinkedIn: <a href="https://www.linkedin.com/in/antonio-guastella-08909a245/" target="_blank">Profilo LinkedIn</a></p>
-  </section>
+<!-- ─── HERO ─── -->
+<div class="hero">
+  <div class="hero-tag">Software Engineer &amp; CTO · Sicilia, Italia</div>
+  <h1>
+    Antonio<br>
+    Guastella<span class="acc">.</span><span class="cursor-blink"></span>
+  </h1>
+  <p class="hero-sub">
+    Costruisco sistemi complessi, da <em>infrastrutture EV</em> a pipeline di <em>data science</em>, da <em>architetture IoT</em> a gestionali su misura.<br>
+    Fisico di formazione. Ingegnere per vocazione.
+  </p>
+  <div class="hero-actions">
+    <a href="#demos" class="btn-primary">Guarda le demo</a>
+    <a href="#contact" class="btn-secondary">Richiedi il CV</a>
+  </div>
+  <div class="hero-stats">
+    <div class="stat-item">
+      <div class="stat-num">5<span>+</span></div>
+      <div class="stat-label">anni di esperienza</div>
+    </div>
+    <div class="stat-item">
+      <div class="stat-num">20<span>+</span></div>
+      <div class="stat-label">progetti completati</div>
+    </div>
+    <div class="stat-item">
+      <div class="stat-num">3</div>
+      <div class="stat-label">domini principali</div>
+    </div>
+    <div class="stat-item">
+      <div class="stat-num">∞</div>
+      <div class="stat-label">caffè consumati</div>
+    </div>
+  </div>
+</div>
+
+<hr class="section-divider">
+
+<!-- ─── ABOUT ─── -->
+<section id="about" class="section">
+  <div class="section-header">
+    <span class="section-num">01</span>
+    <h2 class="section-title">Chi sono</h2>
+    <div class="section-line"></div>
+  </div>
+  <div class="about-grid">
+    <div class="about-text">
+      <p>
+        Sono <strong>CTO e IT Director</strong> presso <span class="hl">Energine SRL</span>, azienda siciliana nel settore dell'efficienza energetica e della mobilità sostenibile. Coordino il team tecnico, revisione del codice, raccolta e scrittura delle specifiche, monitoraggio e sviluppo diretto, e guido l'evoluzione della piattaforma gestionale interna verso un'architettura <span class="hl">API-first</span>.
+      </p>
+      <p>
+        Sono un laureando in <strong>Fisica</strong> all'Università di Messina, un percorso che sta plasmando il mio approccio: ragionare dai <span class="hl">principi primi</span>, costruire modelli, validarli con i dati. Lo stesso metodo che applico allo sviluppo software e al data science.
+      </p>
+      <p>
+        Nel tempo libero faccio ricerca matematica (struttura dell'albero inverso di Collatz), contribuisco a progetti open source come <strong>PS2Recomp</strong>, e esploro audio/video editing. Ogni tanto finisco in un rabbit hole di algebra geometrica di Clifford alle 2 di notte.
+      </p>
+    </div>
+    <div class="about-card" role="img" aria-label="Scheda profilo in formato JSON">
+      <div class="json-header">
+        <div class="json-dots"><span></span><span></span><span></span></div>
+        <div class="json-filename">antonio<span class="ext">.json</span></div>
+        <button type="button" class="json-copy" id="json-copy-btn" aria-label="Copia il JSON negli appunti">
+          <svg viewBox="0 0 24 24"><rect x="9" y="9" width="11" height="11" rx="2"/><path d="M5 15V6a2 2 0 0 1 2-2h9"/></svg>
+          <span class="json-copy-label">copy</span>
+        </button>
+      </div>
+      <div class="json-body">
+        <div class="json-gutter" aria-hidden="true">
+          <span>1</span><span>2</span><span>3</span><span>4</span><span>5</span><span>6</span><span>7</span><span>8</span><span>9</span><span>10</span><span>11</span><span>12</span><span>13</span><span>14</span><span>15</span>
+        </div>
+        <div class="json-code"><span class="row"><span class="json-brace">{</span></span><span class="row"><span class="indent">  </span><span class="json-key">"ruolo"</span><span class="json-punc">:</span> <span class="json-str">"CTO · Software Engineer"</span><span class="json-punc">,</span></span><span class="row"><span class="indent">  </span><span class="json-key">"sede"</span><span class="json-punc">:</span> <span class="json-str">"Vittoria, Sicilia 🇮🇹"</span><span class="json-punc">,</span></span><span class="row"><span class="indent">  </span><span class="json-key">"formazione"</span><span class="json-punc">:</span> <span class="json-str">"Fisica, UniME"</span><span class="json-punc">,</span></span><span class="row"><span class="indent">  </span><span class="json-key">"lingue"</span><span class="json-punc">:</span> <span class="json-brace">[</span><span class="json-str">"it"</span><span class="json-punc">,</span> <span class="json-str">"en-B2"</span><span class="json-brace">]</span><span class="json-punc">,</span></span><span class="row"><span class="indent">  </span><span class="json-key">"interessi"</span><span class="json-punc">:</span> <span class="json-brace">[</span></span><span class="row"><span class="indent">    </span><span class="json-str">"civic-tech"</span><span class="json-punc">,</span> <span class="json-str">"iot"</span><span class="json-punc">,</span></span><span class="row"><span class="indent">    </span><span class="json-str">"data-science"</span></span><span class="row"><span class="indent">  </span><span class="json-brace">]</span><span class="json-punc">,</span></span><span class="row"><span class="indent">  </span><span class="json-key">"anni_esperienza"</span><span class="json-punc">:</span> <span class="json-num">5</span><span class="json-punc">,</span></span><span class="row"><span class="indent">  </span><span class="json-key">"contatti"</span><span class="json-punc">:</span> <span class="json-brace">{</span></span><span class="row"><span class="indent">    </span><span class="json-key">"github"</span><span class="json-punc">:</span> <span class="json-str">"<a href="https://github.com/Whoneon" target="_blank">@Whoneon</a>"</span><span class="json-punc">,</span></span><span class="row"><span class="indent">    </span><span class="json-key">"email"</span><span class="json-punc">:</span> <span class="json-str">"<a href="mailto:antonioguastella99@gmail.com">antonioguastella99@gmail.com</a>"</span></span><span class="row"><span class="indent">  </span><span class="json-brace">}</span></span><span class="row"><span class="json-brace">}</span><span class="json-cursor" aria-hidden="true"></span></span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<hr class="section-divider">
+
+<!-- ─── STACK ─── -->
+<section id="stack" class="section">
+  <div class="section-header">
+    <span class="section-num">02</span>
+    <h2 class="section-title">Stack tecnico</h2>
+    <div class="section-line"></div>
+  </div>
+  <div class="stack-groups">
+
+    <div class="stack-group">
+      <div class="stack-group-title">Backend &amp; sistemi</div>
+      <div class="stack-tags">
+        <span class="tag featured">PHP 8</span>
+        <span class="tag featured">Python</span>
+        <span class="tag">FastAPI</span>
+        <span class="tag">Django</span>
+        <span class="tag">Flask</span>
+        <span class="tag">C/C++</span>
+      </div>
+    </div>
+
+    <div class="stack-group">
+      <div class="stack-group-title">Frontend</div>
+      <div class="stack-tags">
+        <span class="tag featured">React</span>
+        <span class="tag">Next.js</span>
+        <span class="tag">TypeScript</span>
+        <span class="tag">HTML/CSS/JS</span>
+        <span class="tag">Tailwind</span>
+        <span class="tag">Bootstrap</span>
+      </div>
+    </div>
+
+    <div class="stack-group">
+      <div class="stack-group-title">Data Science &amp; ML</div>
+      <div class="stack-tags">
+        <span class="tag featured">Pandas</span>
+        <span class="tag featured">Scikit-Learn</span>
+        <span class="tag">TensorFlow</span>
+        <span class="tag">OpenCV</span>
+        <span class="tag">MATLAB</span>
+        <span class="tag">SciPy</span>
+      </div>
+    </div>
+
+    <div class="stack-group">
+      <div class="stack-group-title">Database &amp; infra</div>
+      <div class="stack-tags">
+        <span class="tag featured">PostgreSQL</span>
+        <span class="tag">MySQL</span>
+        <span class="tag">SQLite</span>
+        <span class="tag">MongoDB</span>
+        <span class="tag">TimescaleDB</span>
+        <span class="tag">Redis</span>
+        <span class="tag">Docker</span>
+        <span class="tag">WireGuard</span>
+      </div>
+    </div>
+
+    <div class="stack-group">
+      <div class="stack-group-title">IoT &amp; protocolli</div>
+      <div class="stack-tags">
+        <span class="tag featured">Modbus RTU/TCP</span>
+        <span class="tag featured">OCPP</span>
+        <span class="tag">MQTT</span>
+        <span class="tag">RS485</span>
+        <span class="tag">SOAP/REST</span>
+        <span class="tag">Arduino</span>
+        <span class="tag">ESP32</span>
+        <span class="tag">Raspberry Pi</span>
+      </div>
+    </div>
+
+    <div class="stack-group">
+      <div class="stack-group-title">AI &amp; automazione</div>
+      <div class="stack-tags">
+        <span class="tag featured">OpenAI API</span>
+        <span class="tag">n8n</span>
+        <span class="tag">RAG / Qdrant</span>
+        <span class="tag">LLM integration</span>
+        <span class="tag">WhatsApp API</span>
+        <span class="tag">Telegram bots</span>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<hr class="section-divider">
+
+<!-- ─── PROJECTS ─── -->
+<section id="projects" class="section">
+  <div class="section-header">
+    <span class="section-num">03</span>
+    <h2 class="section-title">Progetti</h2>
+    <div class="section-line"></div>
+  </div>
+  <div class="projects-grid">
+
+    <a href="projects/elezioni-sicilia/" class="project-card featured-card">
+      <div class="project-meta">
+        <span class="project-type">Civic Tech · PA</span>
+        <span class="project-year">2026</span>
+      </div>
+      <div class="project-title">Elezioni Sicilia, Rifacimento portale</div>
+      <p class="project-desc">Prototipo di rifacimento del portale ufficiale del Servizio Elettorale della Regione Sicilia. Pipeline di scraping Python, build statica Next.js 15 conforme a Bootstrap Italia / linee guida AgID, mappa SVG da open data ISTAT.</p>
+      <div class="project-stack">
+        <span class="tag">Next.js 15</span><span class="tag">TypeScript</span><span class="tag">Python</span><span class="tag">Bootstrap Italia</span><span class="tag">SSG</span>
+      </div>
+      <span class="project-link">dettagli + demo</span>
+    </a>
+
+    <a href="projects/energine-manager/" class="project-card">
+      <div class="project-meta">
+        <span class="project-type">Piattaforma gestionale · team</span>
+        <span class="project-year">2025–oggi</span>
+      </div>
+      <div class="project-title">Energine Manager</div>
+      <p class="project-desc">Piattaforma gestionale interna per Energine SRL: impianti EV, clienti, contratti e fatturazione elettronica. Dal 2025 coordino l'evoluzione verso un'architettura API-first multi-client (web, mobile, POS Android), con integrazione OCPP 1.6 per le colonnine di ricarica.</p>
+      <div class="project-stack">
+        <span class="tag">Python</span><span class="tag">React</span><span class="tag">TypeScript</span><span class="tag">React Native</span><span class="tag">Kotlin</span><span class="tag">OCPP</span><span class="tag">REST API</span>
+      </div>
+      <span class="project-link">dettagli</span>
+    </a>
+
+    <a href="https://github.com/Whoneon/Waste_management_chatbot" target="_blank" class="project-card">
+      <div class="project-meta">
+        <span class="project-type">AI · Chatbot</span>
+        <span class="project-year">2024</span>
+      </div>
+      <div class="project-title">Waste Management Chatbot</div>
+      <p class="project-desc">Chatbot intelligente per la gestione rifiuti del Comune di Catania. Risponde autonomamente usando OpenAI API o LLM locale con RAG su knowledge base comunale.</p>
+      <div class="project-stack">
+        <span class="tag">Python</span><span class="tag">OpenAI</span><span class="tag">RAG</span><span class="tag">Telegram</span>
+      </div>
+      <span class="project-link">github</span>
+    </a>
+
+    <a href="https://github.com/Whoneon/CCTV-Analyzer" target="_blank" class="project-card">
+      <div class="project-meta">
+        <span class="project-type">Computer Vision</span>
+        <span class="project-year">2024</span>
+      </div>
+      <div class="project-title">CCTV Analyzer</div>
+      <p class="project-desc">Sistema di analisi video per l'individuazione di movimenti anomali in registrazioni di videosorveglianza. Elaborazione frame-by-frame con rilevamento di anomalie comportamentali.</p>
+      <div class="project-stack">
+        <span class="tag">Python</span><span class="tag">OpenCV</span><span class="tag">NumPy</span>
+      </div>
+      <span class="project-link">github</span>
+    </a>
+
+    <a href="projects/pv-monitor/" class="project-card">
+      <div class="project-meta">
+        <span class="project-type">IoT · Monitoraggio</span>
+        <span class="project-year">Q3 2025–oggi</span>
+      </div>
+      <div class="project-title">PV Inverter Monitor</div>
+      <p class="project-desc">Edge device per impianti fotovoltaici residenziali e commerciali fino a ~100 kWp. Legge registri SunSpec via Modbus RTU, pubblica su MQTT e include una webview standalone per l'onboarding guidato direttamente dal cliente o dal suo elettricista, nessuna preconfigurazione richiesta.</p>
+      <div class="project-stack">
+        <span class="tag">Python</span><span class="tag">Modbus RTU</span><span class="tag">MQTT</span><span class="tag">SunSpec</span><span class="tag">Raspberry Pi</span>
+      </div>
+      <span class="project-link">dettagli</span>
+    </a>
+
+    <a href="projects/lead-management/" class="project-card">
+      <div class="project-meta">
+        <span class="project-type">Automazione · AI</span>
+        <span class="project-year">2025</span>
+      </div>
+      <div class="project-title">Lead Management con n8n + AI</div>
+      <p class="project-desc">Sistema di automazione per la gestione lead aziendali con WhatsApp Business API, classificazione AI degli intenti, RAG su documenti aziendali e integrazione CRM.</p>
+      <div class="project-stack">
+        <span class="tag">n8n</span><span class="tag">OpenAI</span><span class="tag">WhatsApp API</span><span class="tag">Qdrant</span>
+      </div>
+      <span class="project-link">dettagli</span>
+    </a>
+
+    <a href="https://github.com/Whoneon" target="_blank" class="project-card">
+      <div class="project-meta">
+        <span class="project-type">Tutti i progetti</span>
+        <span class="project-year">→</span>
+      </div>
+      <div class="project-title">Altri su GitHub</div>
+      <p class="project-desc">Bethe-Bloch simulator, Monte Carlo geometrico, plate recognition, stazioni meteo, fuel price PWA, ricerca matematica su R(5,5) e struttura dell'albero inverso di Collatz.</p>
+      <div class="project-stack">
+        <span class="tag">C</span><span class="tag">Rust</span><span class="tag">Python</span><span class="tag">React</span><span class="tag">FastAPI</span>
+      </div>
+      <span class="project-link">github.com/Whoneon</span>
+    </a>
+
+  </div>
+</section>
+
+<hr class="section-divider">
+
+<!-- ─── DEMOS ─── -->
+<section id="demos" class="section">
+  <div class="section-header">
+    <span class="section-num">04</span>
+    <h2 class="section-title">Demo live</h2>
+    <div class="section-line"></div>
+  </div>
+  <p class="demos-intro">
+    Qui trovi alcune demo interattive di prodotti reali su cui sto lavorando o che ho sviluppato per clienti.<br>
+    <strong>Hai un progetto in mente? Contattami</strong>.
+  </p>
+  <div class="demos-grid">
+
+    <a href="demos/energy-dashboard/" class="demo-card">
+      <div class="demo-icon">⚡</div>
+      <div class="demo-info">
+        <div class="demo-title">Energy Consumption Dashboard</div>
+        <div class="demo-desc">Profili di consumo energetico orario per tipologia utente · fasce F1/F2/F3 · confronto interattivo</div>
+      </div>
+      <span class="demo-badge live">live</span>
+    </a>
+
+    <a href="demos/elezioni-sicilia/" target="_blank" class="demo-card">
+      <div class="demo-icon">🗳️</div>
+      <div class="demo-info">
+        <div class="demo-title">Elezioni Sicilia, Portale rifatto</div>
+        <div class="demo-desc">Rifacimento del portale del Servizio Elettorale Regione Sicilia · Bootstrap Italia · mappa SVG · 86 pagine SSG</div>
+      </div>
+      <span class="demo-badge live">live</span>
+    </a>
+
+    <a href="#" class="demo-card" style="opacity:0.5; pointer-events:none;">
+      <div class="demo-icon">📊</div>
+      <div class="demo-info">
+        <div class="demo-title">Gestionale Contabile (WIP)</div>
+        <div class="demo-desc">Interfaccia gestionale per studi commercialisti · anagrafiche clienti · prima nota · scadenzario</div>
+      </div>
+      <span class="demo-badge coming">in sviluppo</span>
+    </a>
+
+    <a href="#" class="demo-card" style="opacity:0.5; pointer-events:none;">
+      <div class="demo-icon">🦷</div>
+      <div class="demo-info">
+        <div class="demo-title">DentaFlow PWA</div>
+        <div class="demo-desc">Gestionale per studi dentistici · agenda · pazienti · calcolo regime forfettario</div>
+      </div>
+      <span class="demo-badge coming">visionabile su richiesta</span>
+    </a>
+
+  </div>
+</section>
+
+<hr class="section-divider">
+
+<!-- ─── CONTACT ─── -->
+<section id="contact" class="section">
+  <div class="section-header">
+    <span class="section-num">05</span>
+    <h2 class="section-title">Contatti</h2>
+    <div class="section-line"></div>
+  </div>
+  <div class="contact-grid">
+
+    <div class="contact-text">
+      <p>
+        Mi interessano collaborazioni e scambi su sistemi IoT, piattaforme web, automazione e data science, soprattutto quando c'è un problema tecnico interessante da risolvere o un'idea che vale la pena costruire insieme.
+      </p>
+      <p style="margin-top: 1rem;">
+        Per richieste, idee, segnalazioni o semplicemente per fare due chiacchiere, usa il form qui a fianco o uno dei contatti sotto.
+      </p>
+      <div class="contact-links">
+        <a href="mailto:antonioguastella99@gmail.com" class="contact-link">
+          <svg class="contact-link-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m2 7 10 7 10-7"/></svg>
+          antonioguastella99@gmail.com
+        </a>
+        <a href="https://www.linkedin.com/in/antonio-guastella-08909a245/" target="_blank" class="contact-link">
+          <svg class="contact-link-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="2" width="20" height="20" rx="4"/><path d="M7 10v8M7 7v.01M11 18v-5a2 2 0 0 1 4 0v5M11 13h4"/></svg>
+          LinkedIn · Antonio Guastella
+        </a>
+        <a href="https://github.com/Whoneon" target="_blank" class="contact-link">
+          <svg class="contact-link-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+          github.com/Whoneon
+        </a>
+      </div>
+    </div>
+
+    <form id="contact-form">
+      <div class="form-group">
+        <label for="name">Nome</label>
+        <input type="text" id="name" name="name" placeholder="Mario Rossi" required>
+      </div>
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="mario@esempio.it" required>
+      </div>
+      <div class="form-group">
+        <label for="topic">Argomento</label>
+        <select id="topic" name="topic">
+          <option value="">Seleziona...</option>
+          <option value="collaborazione">Collaborazione su un progetto</option>
+          <option value="domanda">Domanda tecnica</option>
+          <option value="demo">Richiesta demo</option>
+          <option value="cv">Richiesta CV</option>
+          <option value="altro">Altro</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="message">Messaggio</label>
+        <textarea id="message" name="message" placeholder="Descrivi brevemente il progetto o la domanda..." required></textarea>
+      </div>
+      <button type="submit" id="form-submit" class="btn-primary" style="width:100%">Invia messaggio →</button>
+      <div id="form-feedback" style="display:none; margin-top:1rem; padding:1rem 1.25rem; border-radius:4px; font-family:var(--mono); font-size:0.82rem;"></div>
+    </form>
+
+    <script>
+      // ── Copia antonio.json negli appunti ──
+      (function() {
+        const btn = document.getElementById('json-copy-btn');
+        if (!btn) return;
+        const payload = {
+          ruolo: "CTO · Software Engineer",
+          sede: "Vittoria, Sicilia 🇮🇹",
+          formazione: "Fisica, UniME",
+          lingue: ["it", "en-B2"],
+          interessi: ["civic-tech", "iot", "data-science"],
+          anni_esperienza: 5,
+          contatti: {
+            github: "https://github.com/Whoneon",
+            email: "antonioguastella99@gmail.com"
+          }
+        };
+        const label = btn.querySelector('.json-copy-label');
+        btn.addEventListener('click', async () => {
+          try {
+            await navigator.clipboard.writeText(JSON.stringify(payload, null, 2));
+            btn.classList.add('copied');
+            label.textContent = 'copied!';
+            setTimeout(() => {
+              btn.classList.remove('copied');
+              label.textContent = 'copy';
+            }, 1800);
+          } catch {
+            label.textContent = 'errore';
+            setTimeout(() => { label.textContent = 'copy'; }, 1800);
+          }
+        });
+      })();
+
+      document.getElementById('contact-form').addEventListener('submit', async function(e) {
+        e.preventDefault();
+        const btn = document.getElementById('form-submit');
+        const feedback = document.getElementById('form-feedback');
+        const form = e.target;
+
+        btn.textContent = 'Invio in corso…';
+        btn.disabled = true;
+        btn.style.opacity = '0.6';
+
+        const data = {
+          name:    form.name.value,
+          email:   form.email.value,
+          topic:   form.topic.value,
+          message: form.message.value
+        };
+
+        try {
+          const res = await fetch('https://formspree.io/f/xzdwjlel', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
+            body: JSON.stringify(data)
+          });
+
+          if (res.ok) {
+            feedback.style.display = 'block';
+            feedback.style.background = 'rgba(0,229,160,0.07)';
+            feedback.style.border = '1px solid rgba(0,229,160,0.25)';
+            feedback.style.color = 'var(--accent)';
+            feedback.textContent = '✓ Messaggio inviato. Ti rispondo entro 24h.';
+            form.reset();
+            btn.textContent = 'Inviato ✓';
+          } else {
+            throw new Error('server error');
+          }
+        } catch {
+          feedback.style.display = 'block';
+          feedback.style.background = 'rgba(255,95,95,0.07)';
+          feedback.style.border = '1px solid rgba(255,95,95,0.25)';
+          feedback.style.color = 'var(--red)';
+          feedback.textContent = '✗ Errore nell\'invio. Scrivi direttamente a antonioguastella99@gmail.com';
+          btn.textContent = 'Invia messaggio →';
+          btn.disabled = false;
+          btn.style.opacity = '1';
+        }
+      });
+    </script>
+
+  </div>
+</section>
+
+<!-- ─── FOOTER ─── -->
+<footer>
+  <span class="footer-copy">2026 Antonio Guastella · Vittoria, Sicilia</span>
+  <span class="footer-badge">Hosted on <span>GitHub Pages</span> · whoneon.is-a.dev</span>
+</footer>
+
 </body>
-<script>
-function myFunction() {
-   var element = document.body;
-   element.classList.toggle("dark-mode");
-}
-</script>
 </html>

@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lead Management AI, Antonio Guastella</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400;500&family=Syne:wght@400;500;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../project-detail.css">
+</head>
+<body>
+
+<nav>
+  <a href="../../" class="nav-logo">whoneon.is-a.dev</a>
+  <a href="../../#projects" class="nav-back">← tutti i progetti</a>
+</nav>
+
+<div class="page">
+
+  <div class="proj-eyebrow">Automazione · AI · 2025</div>
+  <h1 class="proj-title">Lead Management<br>con n8n + AI</h1>
+
+  <div class="proj-meta-row">
+    <div class="meta-item">
+      <span class="meta-label">ruolo</span>
+      <span class="meta-value">Progettazione & implementazione</span>
+    </div>
+    <div class="meta-item">
+      <span class="meta-label">canale</span>
+      <span class="meta-value">WhatsApp Business API</span>
+    </div>
+    <div class="meta-item">
+      <span class="meta-label">AI</span>
+      <span class="meta-value">OpenAI GPT-4o · RAG · Qdrant</span>
+    </div>
+    <div class="meta-item">
+      <span class="meta-label">orchestrazione</span>
+      <span class="meta-value" style="color: var(--accent)">n8n self-hosted</span>
+    </div>
+  </div>
+
+  <!-- PROBLEMA -->
+  <div class="block">
+    <div class="block-title"><span class="num">01</span> Il problema</div>
+    <p class="prose">
+      Un'azienda cliente riceveva decine di messaggi WhatsApp al giorno da potenziali clienti, richieste di preventivo, domande su prodotti, richieste di appuntamento. La gestione era manuale, lenta, e molti lead andavano persi nel caos. Non c'era nessun sistema di qualificazione o routing automatico verso il commerciale giusto.
+    </p>
+    <p class="prose" style="margin-top: 1rem;">
+      L'obiettivo: <em>risposta automatica intelligente</em> ai messaggi WhatsApp entro 30 secondi, qualificazione del lead, raccolta strutturata delle informazioni, e notifica al CRM interno con il profilo già compilato.
+    </p>
+  </div>
+
+  <!-- ARCHITETTURA -->
+  <div class="block">
+    <div class="block-title"><span class="num">02</span> Architettura del sistema</div>
+
+    <div class="arch-box">
+      <div class="arch-layer">
+        <div class="arch-layer-name">ingresso</div>
+        <div class="arch-items">
+          <span class="arch-item">WhatsApp Business API (webhook)</span>
+          <span class="arch-item">Testo · Immagini · Documenti</span>
+        </div>
+      </div>
+      <div class="arch-arrow">↓ webhook → n8n</div>
+      <div class="arch-layer">
+        <div class="arch-layer-name">orchestrazione · n8n</div>
+        <div class="arch-items">
+          <span class="arch-item">Classificazione intento (OpenAI)</span>
+          <span class="arch-item">Estrazione entità strutturate</span>
+          <span class="arch-item">Routing per categoria lead</span>
+          <span class="arch-item">Gestione stato conversazione</span>
+          <span class="arch-item">Escalation a operatore umano</span>
+        </div>
+      </div>
+      <div class="arch-arrow">↓</div>
+      <div class="arch-layer">
+        <div class="arch-layer-name">AI · RAG</div>
+        <div class="arch-items">
+          <span class="arch-item">GPT-4o (risposta e classificazione)</span>
+          <span class="arch-item">Qdrant (vector store)</span>
+          <span class="arch-item">Embedding documenti aziendali</span>
+          <span class="arch-item">Retrieval top-K per contesto</span>
+        </div>
+      </div>
+      <div class="arch-arrow">↓</div>
+      <div class="arch-layer">
+        <div class="arch-layer-name">uscite</div>
+        <div class="arch-items">
+          <span class="arch-item">Risposta WhatsApp automatica</span>
+          <span class="arch-item">Lead card → CRM (webhook)</span>
+          <span class="arch-item">Notifica Slack/email al team</span>
+          <span class="arch-item">Log strutturato in database</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- FLUSSO -->
+  <div class="block">
+    <div class="block-title"><span class="num">03</span> Flusso di una conversazione</div>
+    <div class="timeline">
+      <div class="tl-item">
+        <div class="tl-dot"></div>
+        <div>
+          <div class="tl-label">t = 0s, messaggio ricevuto</div>
+          <div class="tl-text">WhatsApp Business API riceve il messaggio e triggera il webhook n8n. Il sistema recupera la storia della conversazione (fino a N turni) dallo store.</div>
+        </div>
+      </div>
+      <div class="tl-item">
+        <div class="tl-dot"></div>
+        <div>
+          <div class="tl-label">t ≈ 1s, classificazione intento</div>
+          <div class="tl-text">GPT-4o classifica il messaggio: <strong>richiesta preventivo</strong> / <strong>info prodotto</strong> / <strong>appuntamento</strong> / <strong>reclamo</strong> / <strong>altro</strong>. L'output è JSON strutturato con confidence score.</div>
+        </div>
+      </div>
+      <div class="tl-item">
+        <div class="tl-dot"></div>
+        <div>
+          <div class="tl-label">t ≈ 2s, RAG retrieval</div>
+          <div class="tl-text">La query viene embeddata e cercata in Qdrant contro il corpus documentale aziendale (listini, FAQ, schede prodotto). Top-3 chunks iniettati nel contesto del prompt di risposta.</div>
+        </div>
+      </div>
+      <div class="tl-item">
+        <div class="tl-dot"></div>
+        <div>
+          <div class="tl-label">t ≈ 4s, risposta generata</div>
+          <div class="tl-text">GPT-4o genera una risposta personalizzata in stile e tono aziendale configurabili. Se il lead è qualificato, estrae nome, prodotto di interesse, budget indicativo, urgenza.</div>
+        </div>
+      </div>
+      <div class="tl-item">
+        <div class="tl-dot"></div>
+        <div>
+          <div class="tl-label">t ≈ 5s, CRM & notifica</div>
+          <div class="tl-text">La lead card viene inviata al CRM via webhook. Il team commerciale riceve notifica con il profilo compilato e un breve riassunto delle info salienti.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- DETTAGLI RAG -->
+  <div class="block">
+    <div class="block-title"><span class="num">04</span> RAG, implementazione</div>
+    <div class="two-col">
+      <div class="info-card">
+        <div class="info-card-title">Ingestion pipeline</div>
+        <div class="kv-row"><span class="kv-key">Sorgenti</span><span class="kv-val">PDF, DOCX, pagine web</span></div>
+        <div class="kv-row"><span class="kv-key">Chunking</span><span class="kv-val">Semantic (512 token, 50 overlap)</span></div>
+        <div class="kv-row"><span class="kv-key">Embedding</span><span class="kv-val">text-embedding-3-small</span></div>
+        <div class="kv-row"><span class="kv-key">Store</span><span class="kv-val">Qdrant (self-hosted, Docker)</span></div>
+      </div>
+      <div class="info-card">
+        <div class="info-card-title">Retrieval</div>
+        <div class="kv-row"><span class="kv-key">Algoritmo</span><span class="kv-val">Cosine similarity</span></div>
+        <div class="kv-row"><span class="kv-key">Top-K</span><span class="kv-val">3 chunks per query</span></div>
+        <div class="kv-row"><span class="kv-key">Threshold</span><span class="kv-val">Score minimo 0.72</span></div>
+        <div class="kv-row"><span class="kv-key">Latency</span><span class="kv-val">&lt; 80ms (P95)</span></div>
+      </div>
+    </div>
+
+    <div class="callout" style="margin-top: 1.5rem;">
+      <p><strong>Guardrail anti-allucinazione.</strong> Il prompt di sistema include una regola esplicita: se nessun chunk recuperato supera il threshold, il modello risponde con una formula di escalation standard invece di inventare informazioni aziendali. Questo ha eliminato le risposte inventate sui prezzi.</p>
+    </div>
+  </div>
+
+  <!-- INFRASTRUTTURA -->
+  <div class="block">
+    <div class="block-title"><span class="num">05</span> Infrastruttura</div>
+    <p class="prose">
+      n8n è deployato <strong>self-hosted su VPS</strong> con accesso sicuro via <em>Cloudflare Tunnel</em>, nessuna porta aperta sul firewall. Qdrant gira in Docker con volume persistente. Il tutto su ~4 GB RAM, costo infrastruttura &lt; 15 €/mese.
+    </p>
+    <div class="two-col" style="margin-top: 1.25rem;">
+      <div class="info-card">
+        <div class="info-card-title">Hosting</div>
+        <div class="kv-row"><span class="kv-key">n8n</span><span class="kv-val">VPS Ubuntu (self-hosted)</span></div>
+        <div class="kv-row"><span class="kv-key">Qdrant</span><span class="kv-val">Docker container</span></div>
+        <div class="kv-row"><span class="kv-key">Accesso</span><span class="kv-val">Cloudflare Tunnel (zero-trust)</span></div>
+        <div class="kv-row"><span class="kv-key">Backup</span><span class="kv-val">Qdrant snapshot giornaliero</span></div>
+      </div>
+      <div class="info-card">
+        <div class="info-card-title">Costi mensili stimati</div>
+        <div class="kv-row"><span class="kv-key">VPS (2vCPU, 4GB)</span><span class="kv-val">~8 €/mese</span></div>
+        <div class="kv-row"><span class="kv-key">OpenAI API</span><span class="kv-val">variabile (input volume)</span></div>
+        <div class="kv-row"><span class="kv-key">WhatsApp Business</span><span class="kv-val">Meta pricing per conv.</span></div>
+        <div class="kv-row"><span class="kv-key">Cloudflare</span><span class="kv-val">gratuito</span></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- STACK -->
+  <div class="block">
+    <div class="block-title"><span class="num">06</span> Stack completo</div>
+    <div class="tag-row">
+      <span class="tag hl">n8n</span>
+      <span class="tag hl">OpenAI GPT-4o</span>
+      <span class="tag hl">Qdrant</span>
+      <span class="tag hl">WhatsApp Business API</span>
+      <span class="tag">text-embedding-3-small</span>
+      <span class="tag">Docker</span>
+      <span class="tag">Cloudflare Tunnel</span>
+      <span class="tag">Python</span>
+      <span class="tag">SQLite</span>
+      <span class="tag">Webhook</span>
+      <span class="tag">Slack API</span>
+    </div>
+  </div>
+
+  <div class="proj-footer">
+    <a href="../../#projects">← tutti i progetti</a>
+    <a href="../../#contact" class="proj-footer-cta">Mettiamoci in contatto →</a>
+  </div>
+
+</div>
+</body>
+</html>

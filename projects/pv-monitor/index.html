@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PV Inverter Monitor, Antonio Guastella</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400;500&family=Syne:wght@400;500;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../project-detail.css">
+</head>
+<body>
+
+<nav>
+  <a href="../../" class="nav-logo">whoneon.is-a.dev</a>
+  <a href="../../#projects" class="nav-back">← tutti i progetti</a>
+</nav>
+
+<div class="page">
+
+  <div class="proj-eyebrow">IoT · Edge device · Q3 2025 – oggi</div>
+  <h1 class="proj-title">PV Inverter Monitor</h1>
+
+  <div class="proj-meta-row">
+    <div class="meta-item">
+      <span class="meta-label">ruolo</span>
+      <span class="meta-value">Progettazione &amp; sviluppo completo</span>
+    </div>
+    <div class="meta-item">
+      <span class="meta-label">hardware</span>
+      <span class="meta-value">Raspberry Pi · RS485 · Inverter FV</span>
+    </div>
+    <div class="meta-item">
+      <span class="meta-label">protocolli</span>
+      <span class="meta-value">Modbus RTU · SunSpec · MQTT</span>
+    </div>
+    <div class="meta-item">
+      <span class="meta-label">scala</span>
+      <span class="meta-value">Residenziale 6 kWp → commerciale ~100 kWp</span>
+    </div>
+  </div>
+
+  <!-- CONTESTO -->
+  <div class="block">
+    <div class="block-title"><span class="num">01</span> Contesto e obiettivo</div>
+    <p class="prose">
+      Gli inverter fotovoltaici espongono dati operativi (potenza, tensione, corrente, energia cumulata, stato storage) tramite <strong>RS485 con protocollo Modbus RTU</strong>. I sistemi di monitoraggio forniti dai vendor sono spesso cloud-dipendenti, con accesso ai dati raw limitato o assente, e non sempre integrabili con piattaforme proprietarie.
+    </p>
+    <p class="prose" style="margin-top:1rem;">
+      L'obiettivo è un <strong>edge device autonomo</strong> che acquisisce i dati localmente in standard <strong>SunSpec</strong>, li pubblica via <strong>MQTT</strong> per l'integrazione con qualsiasi backend, e, soprattutto, può essere installato dal cliente finale o dal suo elettricista senza preconfigurazione, grazie a una webview di onboarding guidato.
+    </p>
+  </div>
+
+  <!-- ONBOARDING -->
+  <div class="block">
+    <div class="block-title"><span class="num">02</span> Onboarding self-service</div>
+    <p class="prose">
+      Il device esce "vuoto" dal nostro magazzino. Una volta alimentato espone una <strong>webview standalone</strong> raggiungibile in rete locale (o tramite hotspot generato dal device stesso) che guida l'installatore attraverso tutte le scelte necessarie
+    </p>
+    <div class="two-col" style="margin-top: 1.5rem;">
+      <div class="info-card">
+        <div class="info-card-title">Step di configurazione</div>
+        <div class="kv-row"><span class="kv-key">1 · Rete</span><span class="kv-val">Wi-Fi/Ethernet, hotspot fallback</span></div>
+        <div class="kv-row"><span class="kv-key">2 · Bus seriale</span><span class="kv-val">Porta, baudrate, slave ID discovery</span></div>
+        <div class="kv-row"><span class="kv-key">3 · Inverter</span><span class="kv-val">Auto-detect modelli SunSpec presenti</span></div>
+        <div class="kv-row"><span class="kv-key">4 · MQTT broker</span><span class="kv-val">URL, credenziali, topic prefix, TLS</span></div>
+        <div class="kv-row"><span class="kv-key">5 · Anagrafica</span><span class="kv-val">ID impianto, intervallo polling</span></div>
+        <div class="kv-row"><span class="kv-key">6 · Test &amp; salva</span><span class="kv-val">Lettura di prova + publish test sul broker</span></div>
+      </div>
+      <div class="info-card">
+        <div class="info-card-title">Perché conta</div>
+        <div class="kv-row"><span class="kv-key">Logistica</span><span class="kv-val">Stesso firmware per ogni impianto</span></div>
+        <div class="kv-row"><span class="kv-key">Tempi</span><span class="kv-val">Installazione in minuti, non ore</span></div>
+        <div class="kv-row"><span class="kv-key">Ruolo</span><span class="kv-val">L'elettricista basta a sé stesso</span></div>
+        <div class="kv-row"><span class="kv-key">Robustezza</span><span class="kv-val">Wizard validato, errori parlanti</span></div>
+        <div class="kv-row"><span class="kv-key">Riconfig</span><span class="kv-val">Stesso wizard anche post-deploy</span></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ARCHITETTURA -->
+  <div class="block">
+    <div class="block-title"><span class="num">03</span> Architettura</div>
+
+    <div class="arch-box">
+      <div class="arch-layer">
+        <div class="arch-layer-name">hardware</div>
+        <div class="arch-items">
+          <span class="arch-item">Raspberry Pi (Raspberry Pi OS)</span>
+          <span class="arch-item">Adattatore USB → RS485</span>
+          <span class="arch-item">Inverter fotovoltaico (SunSpec-compliant)</span>
+          <span class="arch-item">Battery storage system (opzionale)</span>
+        </div>
+      </div>
+      <div class="arch-arrow">↓ Modbus RTU seriale</div>
+      <div class="arch-layer">
+        <div class="arch-layer-name">acquisizione dati</div>
+        <div class="arch-items">
+          <span class="arch-item">Python (pymodbus)</span>
+          <span class="arch-item">SunSpec Models 701 · 702 · 703 · 713</span>
+          <span class="arch-item">Polling configurabile (default 5 min)</span>
+          <span class="arch-item">Scale factor correction (SUNSSF)</span>
+        </div>
+      </div>
+      <div class="arch-arrow">↓</div>
+      <div class="arch-layer">
+        <div class="arch-layer-name">trasporto &amp; servizi locali</div>
+        <div class="arch-items">
+          <span class="arch-item">MQTT publisher (paho-mqtt, QoS configurabile)</span>
+          <span class="arch-item">Buffer locale per riconnessione (store-and-forward)</span>
+          <span class="arch-item">SQLite, serie storica di backup</span>
+          <span class="arch-item">Webview di configurazione (Flask + hotspot)</span>
+        </div>
+      </div>
+      <div class="arch-arrow">↓</div>
+      <div class="arch-layer">
+        <div class="arch-layer-name">consumatori (a valle del broker)</div>
+        <div class="arch-items">
+          <span class="arch-item">Energine Manager (dashboard, alert)</span>
+          <span class="arch-item">Backend cliente (qualsiasi servizio MQTT-subscriber)</span>
+          <span class="arch-item">Time-series DB (es. InfluxDB / Timescale)</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- SUNSPEC -->
+  <div class="block">
+    <div class="block-title"><span class="num">04</span> SunSpec Models, dettaglio tecnico</div>
+    <p class="prose">
+      Lo standard <strong>SunSpec Alliance</strong> definisce un insieme di modelli Modbus con registri a offset fisso per ogni tipo di dispositivo. Il sistema implementa quattro modelli:
+    </p>
+    <div class="two-col" style="margin-top: 1.25rem;">
+      <div class="info-card">
+        <div class="info-card-title">Model 701, AC meter</div>
+        <div class="kv-row"><span class="kv-key">W</span><span class="kv-val">Potenza attiva totale</span></div>
+        <div class="kv-row"><span class="kv-key">VA</span><span class="kv-val">Potenza apparente</span></div>
+        <div class="kv-row"><span class="kv-key">PF</span><span class="kv-val">Power factor</span></div>
+        <div class="kv-row"><span class="kv-key">Hz</span><span class="kv-val">Frequenza rete</span></div>
+      </div>
+      <div class="info-card">
+        <div class="info-card-title">Model 702, PV string</div>
+        <div class="kv-row"><span class="kv-key">DCV</span><span class="kv-val">Tensione stringa DC</span></div>
+        <div class="kv-row"><span class="kv-key">DCA</span><span class="kv-val">Corrente stringa DC</span></div>
+        <div class="kv-row"><span class="kv-key">DCW</span><span class="kv-val">Potenza stringa DC</span></div>
+        <div class="kv-row"><span class="kv-key">Tmp</span><span class="kv-val">Temperatura moduli</span></div>
+      </div>
+      <div class="info-card">
+        <div class="info-card-title">Model 703, storage</div>
+        <div class="kv-row"><span class="kv-key">SoC</span><span class="kv-val">State of Charge (%)</span></div>
+        <div class="kv-row"><span class="kv-key">W</span><span class="kv-val">Potenza carica/scarica</span></div>
+        <div class="kv-row"><span class="kv-key">St</span><span class="kv-val">Stato operativo storage</span></div>
+        <div class="kv-row"><span class="kv-key">ChaSt</span><span class="kv-val">Stato di carica</span></div>
+      </div>
+      <div class="info-card">
+        <div class="info-card-title">Model 713, controllo</div>
+        <div class="kv-row"><span class="kv-key">Conn</span><span class="kv-val">Connessione rete</span></div>
+        <div class="kv-row"><span class="kv-key">WMaxLimPct</span><span class="kv-val">Limite potenza (%)</span></div>
+        <div class="kv-row"><span class="kv-key">OutPFSet</span><span class="kv-val">Power factor setpoint</span></div>
+        <div class="kv-row"><span class="kv-key">VArPct</span><span class="kv-val">Reactive power (%)</span></div>
+      </div>
+    </div>
+
+    <div class="callout" style="margin-top: 1.5rem;">
+      <p><strong>Scale factor bug (SUNSSF).</strong> I registri SunSpec usano fattori di scala a 16 bit con segno (int16) accoppiati ai valori grezzi. Interpretarli come uint16 portava a letture sbagliate di ordini di grandezza, potenze negative lette come decine di kW. Il fix ha richiesto il cast esplicito a <code style="color:var(--warm)">ctypes.c_int16</code> prima dell'applicazione del fattore.</p>
+    </div>
+  </div>
+
+  <!-- DEPLOY -->
+  <div class="block">
+    <div class="block-title"><span class="num">05</span> Deploy &amp; scala</div>
+    <div class="results-grid">
+      <div class="result-card">
+        <div class="result-num">6 → 100<span style="font-size:0.6em">kWp</span></div>
+        <div class="result-label">range impianti supportati</div>
+      </div>
+      <div class="result-card">
+        <div class="result-num warm">0</div>
+        <div class="result-label">preconfigurazione richiesta</div>
+      </div>
+      <div class="result-card">
+        <div class="result-num">MQTT</div>
+        <div class="result-label">integrazione standard con qualsiasi backend</div>
+      </div>
+    </div>
+    <p class="prose" style="margin-top:1.5rem;">
+      Il device è in produzione su impianti che vanno dal residenziale (<strong>6 kWp + 10 kWh storage</strong>) al <strong>commerciale fino a ~100 kWp</strong>. Lo stesso firmware copre entrambi i casi: cambia solo la configurazione, fatta dall'installatore tramite la webview al momento della messa in servizio. I dati raccolti alimentano analisi di autoconsumo, ottimizzazione fasce orarie di carica e valutazione dell'efficienza del sistema di accumulo nel tempo.
+    </p>
+  </div>
+
+  <!-- STACK -->
+  <div class="block">
+    <div class="block-title"><span class="num">06</span> Stack completo</div>
+    <div class="tag-row">
+***REMOVED***
+      <span class="tag hl">Modbus RTU</span>
+      <span class="tag hl">SunSpec</span>
+      <span class="tag hl">MQTT</span>
+      <span class="tag">pymodbus</span>
+      <span class="tag">paho-mqtt</span>
+      <span class="tag">RS485</span>
+      <span class="tag hl">Raspberry Pi</span>
+      <span class="tag">SQLite</span>
+      <span class="tag">Flask (webview)</span>
+      <span class="tag">hostapd / dnsmasq (hotspot)</span>
+      <span class="tag">systemd</span>
+      <span class="tag">Linux ARM</span>
+    </div>
+  </div>
+
+  <div class="proj-footer">
+    <a href="../../#projects">← tutti i progetti</a>
+    <a href="../../#contact" class="proj-footer-cta">Mettiamoci in contatto →</a>
+  </div>
+
+</div>
+</body>
+</html>

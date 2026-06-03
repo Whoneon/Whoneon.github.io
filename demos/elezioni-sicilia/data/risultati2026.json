@@ -1,0 +1,5942 @@
+{
+  "tornata": "comunali2026",
+  "comuni": {
+    "siculiana": {
+      "stato": "completato",
+      "sezioni": {
+        "scrutinate": 7,
+        "totali": 7
+      },
+      "sintesi": "Risultati Candidati Sindaco relativi a n. 7 su n. 7 sezioni",
+      "candidati": [
+        {
+          "numero": 1,
+          "nome": "LUCIA SANTO",
+          "voti": 859,
+          "perc": 30.24,
+          "eletto": false,
+          "ballottaggio": false,
+          "liste": [
+            {
+              "numero": 1,
+              "nome": "FUTURA - SANTO LUCIA SINDACO",
+              "candidati": 12,
+              "voti": 836,
+              "perc": 29.48,
+              "contrassegno": "AG_11089.JPG"
+            }
+          ]
+        },
+        {
+          "numero": 2,
+          "nome": "ZAMBITO GIUSEPPE detto PEPPE",
+          "voti": 1982,
+          "perc": 69.76,
+          "eletto": true,
+          "ballottaggio": false,
+          "liste": [
+            {
+              "numero": 2,
+              "nome": "LISTA CIVICA PER SICULIANA - ORIZZONTE COMUNE - PEPPE ZAMBITO SINDACO",
+              "candidati": 12,
+              "voti": 2000,
+              "perc": 70.52,
+              "contrassegno": "AG_11091.JPG"
+            }
+          ]
+        }
+      ],
+      "slug": "siculiana",
+      "comune_id": 344,
+      "provincia_sigla": "AG",
+      "source": {
+        "candidati_liste": "https://www.elezioni.regione.sicilia.it/AG/ReportCandidatiListeAG344.html",
+        "dati_lista": "https://www.elezioni.regione.sicilia.it/AG/ReportDatiListaAG344.html"
+      }
+    },
+    "camastra": {
+      "stato": "completato",
+      "sezioni": {
+        "scrutinate": 3,
+        "totali": 3
+      },
+      "sintesi": "Risultati Candidati Sindaco relativi a n. 3 su n. 3 sezioni",
+      "candidati": [
+        {
+          "numero": 1,
+          "nome": "BELLOMO GERA",
+          "voti": 455,
+          "perc": 35.16,
+          "eletto": false,
+          "ballottaggio": false,
+          "liste": [
+            {
+              "numero": 1,
+              "nome": "SIAMO CAMASTRA - COSTRUIAMO INSIEME IL DOMANI - GERA BELLOMO SINDACO",
+              "candidati": 10,
+              "voti": 446,
+              "perc": 34.6,
+              "contrassegno": "AG_11129.JPG"
+            }
+          ]
+        },
+        {
+          "numero": 2,
+          "nome": "GAGLIO DARIO",
+          "voti": 839,
+          "perc": 64.84,
+          "eletto": true,
+          "ballottaggio": false,
+          "liste": [
+            {
+              "numero": 2,
+              "nome": "PROGETTO CAMASTRA - LISTA CIVICA - DARIO GAGLIO SINDACO",
+              "candidati": 10,
+              "voti": 843,
+              "perc": 65.4,
+              "contrassegno": "AG_11131.JPG"
+            }
+          ]
+        }
+      ],
+      "slug": "camastra",
+      "comune_id": 60,
+      "provincia_sigla": "AG",
+      "source": {
+        "candidati_liste": "https://www.elezioni.regione.sicilia.it/AG/ReportCandidatiListeAG60.html",
+        "dati_lista": "https://www.elezioni.regione.sicilia.it/AG/ReportDatiListaAG60.html"
+      }
+    },
+    "casteltermini": {
+      "stato": "completato",
+      "sezioni": {
+        "scrutinate": 12,
+        "totali": 12
+      },
+      "sintesi": "Risultati Candidati Sindaco relativi a n. 12 su n. 12 sezioni",
+      "candidati": [
+        {
+          "numero": 1,
+          "nome": "RIPEPE COSTANTINO",
+          "voti": 1471,
+          "perc": 30.42,
+          "eletto": false,
+          "ballottaggio": false,
+          "liste": [
+            {
+              "numero": 1,
+              "nome": "IL FUTURO E' ADESSO - COSTANTINO RIPEPE SINDACO",
+              "candidati": 12,
+              "voti": 1440,
+              "perc": 30.4,
+              "contrassegno": "AG_11137.JPG"
+            }
+          ]
+        },
+        {
+          "numero": 2,
+          "nome": "MANCUSO PASQUALE",
+          "voti": 1513,
+          "perc": 31.29,
+          "eletto": false,
+          "ballottaggio": false,
+          "liste": [
+            {
+              "numero": 2,
+              "nome": "OFFICINA DI IMPEGNO CIVICO - PASQUALE MANCUSO SINDACO",
+              "candidati": 12,
+              "voti": 1513,
+              "perc": 31.94,
+              "contrassegno": "AG_11139.JPG"
+            }
+          ]
+        },
+        {
+          "numero": 3,
+          "nome": "NICASTRO GIOACCHINO",
+          "voti": 1852,
+          "perc": 38.3,
+          "eletto": true,
+          "ballottaggio": false,
+          "liste": [
+            {
+              "numero": 3,
+              "nome": "UNITI PER CASTELTERMINI - ADESSO SI PUO' - GIOACCHINO NICASTRO SINDACO",
+              "candidati": 12,
+              "voti": 1784,
+              "perc": 37.66,
+              "contrassegno": "AG_11141.JPG"
+            }
+          ]
+        }
+      ],
+      "slug": "casteltermini",
+      "comune_id": 89,
+      "provincia_sigla": "AG",
+      "source": {
+        "candidati_liste": "https://www.elezioni.regione.sicilia.it/AG/ReportCandidatiListeAG89.html",
+        "dati_lista": "https://www.elezioni.regione.sicilia.it/AG/ReportDatiListaAG89.html"
+      }
+    },
+    "raffadali": {
+      "stato": "completato",
+      "sezioni": {
+        "scrutinate": 12,
+        "totali": 12
+      },
+      "sintesi": "Risultati Candidati Sindaco relativi a n. 12 su n. 12 sezioni",
+      "candidati": [
+        {
+          "numero": 1,
+          "nome": "MILISENDA FRANCESCO",
+          "voti": 51,
+          "perc": 0.71,
+          "eletto": false,
+          "ballottaggio": false,
+          "liste": [
+            {
+              "numero": 1,
+              "nome": "RAFFADALI RINASCE - FRANCESCO MILISENDA SINDACO",
+              "candidati": 12,
+              "voti": 36,
+              "perc": 0.51,
+              "contrassegno": "AG_11143.JPG"
+            }
+          ]
+        },
+        {
+          "numero": 2,
+          "nome": "CUFFARO IDA",
+          "voti": 5418,
+          "perc": 75.7,
+          "eletto": true,
+          "ballottaggio": false,
+          "liste": [
+            {
+              "numero": 2,
+              "nome": "RAFFADALI DALLA PARTE VOSTRA - IDA CUFFARO SINDACO",
+              "candidati": 16,
+              "voti": 5417,
+              "perc": 77.41,
+              "contrassegno": "AG_11145.JPG"
+            }
+          ]
+        },
+        {
+          "numero": 3,
+          "nome": "MANGIONE SABRINA",
+          "voti": 1688,
+          "perc": 23.58,
+          "eletto": false,
+          "ballottaggio": false,
+          "liste": [
+            {
+              "numero": 3,
+              "nome": "PARTITO DEMOCRATICO",
+              "candidati": 16,
+              "voti": 1545,
+              "perc": 22.08,
+              "contrassegno": "AG_11147.JPG"
+            }
+          ]
+        }
+      ],
+      "slug": "raffadali",
+      "comune_id": 269,
+      "provincia_sigla": "AG",
+      "source": {
+        "candidati_liste": "https://www.elezioni.regione.sicilia.it/AG/ReportCandidatiListeAG269.html",
+        "dati_lista": "https://www.elezioni.regione.sicilia.it/AG/ReportDatiListaAG269.html"
+      }
+    },
+    "agrigento": {
+      "stato": "in_corso",
+      "sezioni": {
+        "scrutinate": 56,
+        "totali": 57
+      },
+      "sintesi": "Risultati Candidati Sindaco relativi a n. 56 su n. 57 sezioni",
+      "candidati": [
+        {
+          "numero": 1,
+          "nome": "DI ROSA GIUSEPPE",
+          "voti": 3546,
+          "perc": 11.97,
+          "eletto": false,
+          "ballottaggio": false,
+          "liste": [
+            {
+              "numero": 3,
+              "nome": "LIBERIAMO AGRIGENTO - DI ROSA SINDACO",
+              "candidati": 24,
+              "voti": 220,
+              "perc": 0.77,
+              "contrassegno": "AG_11105.JPG"
+            },
+            {
+              "numero": 13,
+              "nome": "AGRIGENTO AMORE MIO - DI ROSA SINDACO",
+              "candidati": 24,
+              "voti": 704,
+              "perc": 2.47,
+              "contrassegno": "AG_11125.JPG"
+            }
+          ]
+        },
+        {
+          "numero": 2,
+          "nome": "GENTILE LUIGI",
+          "voti": 4182,
+          "perc": 14.11,
+          "eletto": false,
+          "ballottaggio": false,
+          "liste": [
+            {
+              "numero": 4,
+              "nome": "NOI MODERATI - PARTITO POPOLARE EUROPEO - SUD CHIAMA NORD",
+              "candidati": 17,
+              "voti": 160,
+              "perc": 0.56,
+              "contrassegno": "AG_11107.JPG"
+            },
+            {
+              "numero": 8,
+              "nome": "LEGA AGRIGENTO",
+              "candidati": 24,
+              "voti": 1822,
+              "perc": 6.39,
+              "contrassegno": "AG_11115.JPG"
+            },
+            {
+              "numero": 12,
+              "nome": "GENTILE SINDACO DI AGRIGENTO - PRIMA L'ITALIA",
+              "candidati": 22,
+              "voti": 207,
+              "perc": 0.73,
+              "contrassegno": "AG_11123.JPG"
+            },
+            {
+              "numero": 14,
+              "nome": "DEMOCRAZIA CRISTIANA",
+              "candidati": 24,
+              "voti": 2329,
+              "perc": 8.17,
+              "contrassegno": "AG_11127.JPG"
+            }
+          ]
+        },
+        {
+          "numero": 3,
+          "nome": "ALONGE GERLANDO",
+          "voti": 10308,
+          "perc": 34.79,
+          "eletto": false,
+          "ballottaggio": false,
+          "liste": [
+            {
+              "numero": 1,
+              "nome": "FORZA ITALIA - BERLUSCONI - PARTITO POPOLARE EUROPEO",
+              "candidati": 24,
+              "voti": 4144,
+              "perc": 14.54,
+              "contrassegno": "AG_11101.JPG"
+            },
+            {
+              "numero": 2,
+              "nome": "POPOLARI E AUTONOMISTI - NOI CON LA SICILIA - GRANDE SICILIA",
+              "candidati": 24,
+              "voti": 3742,
+              "perc": 13.13,
+              "contrassegno": "AG_11103.JPG"
+            },
+            {
+              "numero": 7,
+              "nome": "FORZA AZZURRI - AGRIGENTO",
+              "candidati": 24,
+              "voti": 2415,
+              "perc": 8.47,
+              "contrassegno": "AG_11113.JPG"
+            },
+            {
+              "numero": 9,
+              "nome": "UNIONE DI CENTRO - ITALIA",
+              "candidati": 24,
+              "voti": 1405,
+              "perc": 4.93,
+              "contrassegno": "AG_11117.JPG"
+            },
+            {
+              "numero": 11,
+              "nome": "FRATELLI D'ITALIA - GIORGIA MELONI",
+              "candidati": 24,
+              "voti": 4929,
+              "perc": 17.29,
+              "contrassegno": "AG_11121.JPG"
+            }
+          ]
+        },
+        {
+          "numero": 4,
+          "nome": "SODANO MICHELE",
+          "voti": 11596,
+          "perc": 39.13,
+          "eletto": false,
+          "ballottaggio": false,
+          "liste": [
+            {
+              "numero": 5,
+              "nome": "CONTRO CORRENTE - ISMAELE LA VARDERA",
+              "candidati": 24,
+              "voti": 3319,
+              "perc": 11.64,
+              "contrassegno": "AG_11109.JPG"
+            },
+            {
+              "numero": 6,
+              "nome": "PARTITO DEMOCRATICO - AGRIGENTO IN MOVIMENTO",
+              "candidati": 24,
+              "voti": 2407,
+              "perc": 8.44,
+              "contrassegno": "AG_11111.JPG"
+            },
+            {
+              "numero": 10,
+              "nome": "CASA RIFORMISTA - AGRIGENTO",
+              "candidati": 24,
+              "voti": 701,
+              "perc": 2.46,
+              "contrassegno": "AG_11119.JPG"
+            }
+          ]
+        }
+      ],
+      "slug": "agrigento",
+      "comune_id": 11,
+      "provincia_sigla": "AG",
+      "source": {
+        "candidati_liste": "https://www.elezioni.regione.sicilia.it/AG/ReportCandidatiListeAG11.html",
+        "dati_lista": "https://www.elezioni.regione.sicilia.it/AG/ReportDatiListaAG11.html"
+      }
+    },
+    "cammarata": {
+      "stato": "completato",
+      "sezioni": {
+        "scrutinate": 6,
+        "totali": 6
+      },
+      "sintesi": "Risultati Candidati Sindaco relativi a n. 6 su n. 6 sezioni",
+      "candidati": [
+        {
+          "numero": 1,
+          "nome": "MANGIAPANE GIUSEPPE",
+          "voti": 2467,
+          "perc": 60.73,
+          "eletto": true,
+          "ballottaggio": false,
+          "liste": [
+            {
+              "numero": 1,
+              "nome": "COSTRUIRE ORIZZONTI - GIUSEPPE MANGIAPANE SINDACO",
+              "candidati": 12,
+              "voti": 2456,
+              "perc": 60.91,
+              "contrassegno": "AG_11133.JPG"
+            }
+          ]
+        },
+        {
+          "numero": 2,
+          "nome": "TRAINA GIULIANO",
+          "voti": 1595,
+          "perc": 39.27,
+          "eletto": false,
+          "ballottaggio": false,
+          "liste": [
+            {
+              "numero": 2,
+              "nome": "IDEA COMUNE - TRAINA SINDACO",
+              "candidati": 12,
+              "voti": 1576,
+              "perc": 39.09,
+              "contrassegno": "AG_11135.JPG"
+            }
+          ]
+        }
+      ],
+      "slug": "cammarata",
+      "comune_id": 61,
+      "provincia_sigla": "AG",
+      "source": {
+        "candidati_liste": "https://www.elezioni.regione.sicilia.it/AG/ReportCandidatiListeAG61.html",
+        "dati_lista": "https://www.elezioni.regione.sicilia.it/AG/ReportDatiListaAG61.html"
+      }
+    },
+    "sambuca-di-sicilia": {
+      "stato": "completato",
+      "sezioni": {
+        "scrutinate": 7,
+        "totali": 7
+      },
+      "sintesi": "Risultati Candidati Sindaco relativi a n. 7 su n. 7 sezioni",
+      "candidati": [
+        {
+          "numero": 1,
+          "nome": "CASA' GIOVANNA",
+          "voti": 2092,
+          "perc": 57.54,
+          "eletto": true,
+          "ballottaggio": false,
+          "liste": [
+            {
+              "numero": 1,
+              "nome": "SAMBUCA PRIMA DI TUTTO - GIOVANNA CASA' SINDACO",
+              "candidati": 12,
+              "voti": 2065,
+              "perc": 57.22,
+              "contrassegno": "AG_11097.JPG"
+            }
+          ]
+        },
+        {
+          "numero": 2,
+          "nome": "ARBISI SARIO",
+          "voti": 1544,
+          "perc": 42.46,
+          "eletto": false,
+          "ballottaggio": false,
+          "liste": [
+            {
+              "numero": 2,
+              "nome": "SIAMO SAMBUCA - SARIO ARBISI SINDACO",
+              "candidati": 12,
+              "voti": 1544,
+              "perc": 42.78,
+              "contrassegno": "AG_11099.JPG"
+            }
+          ]
+        }
+      ],
+      "slug": "sambuca-di-sicilia",
+      "comune_id": 293,
+      "provincia_sigla": "AG",
+      "source": {
+        "candidati_liste": "https://www.elezioni.regione.sicilia.it/AG/ReportCandidatiListeAG293.html",
+        "dati_lista": "https://www.elezioni.regione.sicilia.it/AG/ReportDatiListaAG293.html"
+      }
+    },
+    "ribera": {
+      "stato": "completato",
+      "sezioni": {
+        "scrutinate": 21,
+        "totali": 21
+      },
+      "sintesi": "Risultati Candidati Sindaco relativi a n. 21 su n. 21 sezioni",
+      "candidati": [
+        {
+          "numero": 1,
+          "nome": "PALMINTERI EUNICE",
+          "voti": 648,
+          "perc": 5.61,
+          "eletto": false,
+          "ballottaggio": false,
+          "liste": [
+            {
+              "numero": 11,
+              "nome": "MOVIMENTO CINQUE STELLE - CONTRO CORRENTE - RIBERA 2026 - PALMINTERI SINDACA",
+              "candidati": 16,
+              "voti": 580,
+              "perc": 5.18,
+              "contrassegno": "AG_11085.JPG"
+            }
+          ]
+        },
+        {
+          "numero": 2,
+          "nome": "ROMANO RICCARDO",
+          "voti": 442,
+          "perc": 3.83,
+          "eletto": false,
+          "ballottaggio": false,
+          "liste": [
+            {
+              "numero": 3,
+              "nome": "SOCIETA' CIVILE RIBERA - RICCARDO ROMANO SINDACO",
+              "candidati": 11,
+              "voti": 274,
+              "perc": 2.45,
+              "contrassegno": "AG_11069.JPG"
+            }
+          ]
+        },
+        {
+          "numero": 3,
+          "nome": "PROVENZANO ROSARIA",
+          "voti": 4113,
+          "perc": 35.63,
+          "eletto": false,
+          "ballottaggio": false,
+          "liste": [
+            {
+              "numero": 2,
+              "nome": "RIBERA DOMANI - MARIA ROSARIA PROVENZANO SINDACA",
+              "candidati": 16,
+              "voti": 553,
+              "perc": 4.94,
+              "contrassegno": "AG_11067.JPG"
+            },
+            {
+              "numero": 4,
+              "nome": "PROVENZANO MARIA ROSARIA SINDACA",
+              "candidati": 16,
+              "voti": 1269,
+              "perc": 11.34,
+              "contrassegno": "AG_11071.JPG"
+            },
+            {
+              "numero": 9,
+              "nome": "IDEE IN MOVIMENTO - RIBERA",
+              "candidati": 16,
+              "voti": 804,
+              "perc": 7.18,
+              "contrassegno": "AG_11081.JPG"
+            },
+            {
+              "numero": 12,
+              "nome": "RIBERA - PROGETTO COMUNE",
+              "candidati": 16,
+              "voti": 1149,
+              "perc": 10.27,
+              "contrassegno": "AG_11087.JPG"
+            }
+          ]
+        },
+        {
+          "numero": 4,
+          "nome": "PACE CARMELO",
+          "voti": 6339,
+          "perc": 54.92,
+          "eletto": true,
+          "ballottaggio": false,
+          "liste": [
+            {
+              "numero": 1,
+              "nome": "PER RIBERA - PACE SINDACO",
+              "candidati": 16,
+              "voti": 1221,
+              "perc": 10.91,
+              "contrassegno": "AG_11065.JPG"
+            },
+            {
+              "numero": 5,
+              "nome": "RIBERA CHE VORREI - INSIEME PER LA RINASCITA",
+              "candidati": 16,
+              "voti": 520,
+              "perc": 4.65,
+              "contrassegno": "AG_11073.JPG"
+            },
+            {
+              "numero": 6,
+              "nome": "CARMELO PACE SINDACO",
+              "candidati": 16,
+              "voti": 1274,
+              "perc": 11.38,
+              "contrassegno": "AG_11075.JPG"
+            },
+            {
+              "numero": 7,
+              "nome": "SUD CHIAMA NORD - PER RIBERA PACE",
+              "candidati": 16,
+              "voti": 439,
+              "perc": 3.92,
+              "contrassegno": "AG_11077.JPG"
+            },
+            {
+              "numero": 8,
+              "nome": "ORA PER RIBERA",
+              "candidati": 16,
+              "voti": 792,
+              "perc": 7.08,
+              "contrassegno": "AG_11079.JPG"
+            },
+            {
+              "numero": 10,
+              "nome": "DEMOCRAZIA CRISTANA",
+              "candidati": 16,
+              "voti": 2316,
+              "perc": 20.69,
+              "contrassegno": "AG_11083.JPG"
+            }
+          ]
+        }
+      ],
+      "slug": "ribera",
+      "comune_id": 279,
+      "provincia_sigla": "AG",
+      "source": {
+        "candidati_liste": "https://www.elezioni.regione.sicilia.it/AG/ReportCandidatiListeAG279.html",
+        "dati_lista": "https://www.elezioni.regione.sicilia.it/AG/ReportDatiListaAG279.html"
+      }
+    },
+    "bompensiere": {
+      "stato": "completato",
+      "sezioni": {
+        "scrutinate": 1,
+        "totali": 1
+      },
+      "sintesi": "Risultati Candidati Sindaco relativi a n. 1 su n. 1 sezioni",
+      "candidati": [
+        {
+          "numero": 1,
+          "nome": "LIBRETTA LUCIO GIUSEPPE",
+          "voti": 49,
+          "perc": 14.2,
+          "eletto": false,
+          "ballottaggio": false,
+          "liste": [
+            {
+              "numero": 1,
+              "nome": "SVEGLIA",
+              "candidati": 7,
+              "voti": 11,
+              "perc": 3.39,
+              "contrassegno": "CL_11153.JPG"
+            }
+          ]
+        },
+        {
+          "numero": 2,
+          "nome": "VIRCIGLIO SALVATORE detto SALVI",
+          "voti": 296,
+          "perc": 85.8,
+          "eletto": true,
+          "ballottaggio": false,
+          "liste": [
+            {
+              "numero": 2,
+              "nome": "IMPEGNO E' FUTURO - VIRCIGLIO SINDACO",
+              "candidati": 10,
+              "voti": 313,
+              "perc": 96.61,
+              "contrassegno": "CL_11155.JPG"
+            }
+          ]
+        }
+      ],
+      "slug": "bompensiere",
+      "comune_id": 41,
+      "provincia_sigla": "CL",
+      "source": {
+        "candidati_liste": "https://www.elezioni.regione.sicilia.it/CL/ReportCandidatiListeCL41.html",
+        "dati_lista": "https://www.elezioni.regione.sicilia.it/CL/ReportDatiListaCL41.html"
+      }
+    },
+    "villafranca-sicula": {
+      "stato": "completato",
+      "sezioni": {
+        "scrutinate": 2,
+        "totali": 2
+      },
+      "sintesi": "Risultati Candidati Sindaco relativi a n. 2 su n. 2 sezioni",
+      "candidati": [
+        {
+          "numero": 1,
+          "nome": "BALSAMO DOMENICO",
+          "voti": 430,
+          "perc": 48.31,
+          "eletto": false,
+          "ballottaggio": false,
+          "liste": [
+            {
+              "numero": 1,
+              "nome": "VILLAFRANCA RINASCE - BALSAMO SINDACO",
+              "candidati": 8,
+              "voti": 440,
+              "perc": 49.6,
+              "contrassegno": "AG_11149.JPG"
+            }
+          ]
+        },
+        {
+          "numero": 2,
+          "nome": "SORTINO ROSARIO",
+          "voti": 460,
+          "perc": 51.69,
+          "eletto": true,
+          "ballottaggio": false,
+          "liste": [
+            {
+              "numero": 2,
+              "nome": "VILLAFRANCA ..... SEMPRE - ROSARIO SORTINO SINDACO",
+              "candidati": 8,
+              "voti": 447,
+              "perc": 50.4,
+              "contrassegno": "AG_11151.JPG"
+            }
+          ]
+        }
+      ],
+      "slug": "villafranca-sicula",
+      "comune_id": 382,
+      "provincia_sigla": "AG",
+      "source": {
+        "candidati_liste": "https://www.elezioni.regione.sicilia.it/AG/ReportCandidatiListeAG382.html",
+        "dati_lista": "https://www.elezioni.regione.sicilia.it/AG/ReportDatiListaAG382.html"
+      }
+    },
+    "mussomeli": {
+      "stato": "completato",
+      "sezioni": {
+        "scrutinate": 11,
+        "totali": 11
+      },
+      "sintesi": "Risultati Candidati Sindaco relativi a n. 11 su n. 11 sezioni",
+      "candidati": [
+        {
+          "numero": 1,
+          "nome": "NOTO CASTAGNINO DANIELA MARGARETH detta DANIELA NOTO",
+          "voti": 1596,
+          "perc": 24.84,
+          "eletto": false,
+          "ballottaggio": false,
+          "liste": [
+            {
+              "numero": 1,
+              "nome": "INSIEME, SI PUO' CON DANIELA SINDACO",
+              "candidati": 16,
+              "voti": 1974,
+              "perc": 30.85,
+              "contrassegno": "CL_11157.JPG"
+            }
+          ]
+        },
+        {
+          "numero": 2,
+          "nome": "NIGRELLI GIANLUCA",
+          "voti": 4829,
+          "perc": 75.16,
+          "eletto": true,
+          "ballottaggio": false,
+          "liste": [
+            {
+              "numero": 2,
+              "nome": "LISTA CIVICA MUSSOMELI IN COMUNE - CONTINUITA' E FUTURO! - GIANLUCA NIGRELLI SINDACO",
+              "candidati": 16,
+              "voti": 4424,
+              "perc": 69.15,
+              "contrassegno": "CL_11159.JPG"
+            }
+          ]
+        }
+      ],
+      "slug": "mussomeli",
+      "comune_id": 223,
+      "provincia_sigla": "CL",
+      "source": {
+        "candidati_liste": "https://www.elezioni.regione.sicilia.it/CL/ReportCandidatiListeCL223.html",
+        "dati_lista": "https://www.elezioni.regione.sicilia.it/CL/ReportDatiListaCL223.html"
+      }
+    },
+    "vallelunga-pratameno": {
+      "stato": "completato",
+      "sezioni": {
+        "scrutinate": 4,
+        "totali": 4
+      },
+      "sintesi": "Risultati Candidati Sindaco relativi a n. 4 su n. 4 sezioni",
+      "candidati": [
+        {
+          "numero": 1,
+          "nome": "MINISTERI SAMANDA",
+          "voti": 787,
+          "perc": 41.27,
+          "eletto": false,
+          "ballottaggio": false,
+          "liste": [
+            {
+              "numero": 1,
+              "nome": "FUTURO IN COMUNE",
+              "candidati": 12,
+              "voti": 764,
+              "perc": 40.72,
+              "contrassegno": "CL_11165.JPG"
+            }
+          ]
+        },
+        {
+          "numero": 2,
+          "nome": "IZZO ROSA",
+          "voti": 1120,
+          "perc": 58.73,
+          "eletto": true,
+          "ballottaggio": false,
+          "liste": [
+            {
+              "numero": 2,
+              "nome": "UNITI CONTINUIAMO PER VALLELUNGA ROSA IZZO SINDACO",
+              "candidati": 12,
+              "voti": 1112,
+              "perc": 59.28,
+              "contrassegno": "CL_11167.JPG"
+            }
+          ]
+        }
+      ],
+      "slug": "vallelunga-pratameno",
+      "comune_id": 375,
+      "provincia_sigla": "CL",
+      "source": {
+        "candidati_liste": "https://www.elezioni.regione.sicilia.it/CL/ReportCandidatiListeCL375.html",
+        "dati_lista": "https://www.elezioni.regione.sicilia.it/CL/ReportDatiListaCL375.html"
+      }
+    },
+    "villalba": {
+      "stato": "completato",
+      "sezioni": {
+        "scrutinate": 3,
+        "totali": 3
+      },
+      "sintesi": "Risultati Candidati Sindaco relativi a n. 3 su n. 3 sezioni",
+      "candidati": [
+        {
+          "numero": 1,
+          "nome": "FAVATA RITA",
+          "voti": 423,
+          "perc": 44.76,
+          "eletto": false,
+          "ballottaggio": false,
+          "liste": [
+            {
+              "numero": 1,
+              "nome": "L'ALTRA VILLALBA RITA FAVATA SINDACO",
+              "candidati": 8,
+              "voti": 414,
+              "perc": 44.04,
+              "contrassegno": "CL_11173.JPG"
+            }
+          ]
+        },
+        {
+          "numero": 2,
+          "nome": "PLUMERI FABIO",
+          "voti": 522,
+          "perc": 55.24,
+          "eletto": true,
+          "ballottaggio": false,
+          "liste": [
+            {
+              "numero": 2,
+              "nome": "VIVERE VILLALBA FABIO PLUMERI SINDACO",
+              "candidati": 8,
+              "voti": 526,
+              "perc": 55.96,
+              "contrassegno": "CL_11175.JPG"
+            }
+          ]
+        }
+      ],
+      "slug": "villalba",
+      "comune_id": 385,
+      "provincia_sigla": "CL",
+      "source": {
+        "candidati_liste": "https://www.elezioni.regione.sicilia.it/CL/ReportCandidatiListeCL385.html",
+        "dati_lista": "https://www.elezioni.regione.sicilia.it/CL/ReportDatiListaCL385.html"
+      }
+    },
+    "bronte": {
+      "stato": "completato",
+      "sezioni": {
+        "scrutinate": 20,
+        "totali": 20
+      },
+      "sintesi": "Risultati Candidati Sindaco relativi a n. 20 su n. 20 sezioni",
+      "candidati": [
+        {
+          "numero": 1,
+          "nome": "CARUSO GIOVANNA",
+          "voti": 2778,
+          "perc": 24.08,
+          "eletto": false,
+          "ballottaggio": true,
+          "liste": [
+            {
+              "numero": 1,
+              "nome": "BRONTE PROTAGONISTA GIOVANNA CARUSO SINDACO FRATELLI D'ITALIA GIORGIA MELONI",
+              "candidati": 16,
+              "voti": 300,
+              "perc": 2.74,
+              "contrassegno": "CT_11435.JPG"
+            },
+            {
+              "numero": 3,
+              "nome": "BRONTE BENE COMUNE",
+              "candidati": 16,
+              "voti": 297,
+              "perc": 2.71,
+              "contrassegno": "CT_11441.JPG"
+            },
+            {
+              "numero": 4,
+              "nome": "PRIMA L'ITALIA PER BRONTE",
+              "candidati": 16,
+              "voti": 543,
+              "perc": 4.95,
+              "contrassegno": "CT_11445.JPG"
+            },
+            {
+              "numero": 5,
+              "nome": "VIVIAMO BRONTE GIOVANNA CARUSO SINDACO",
+              "candidati": 16,
+              "voti": 1205,
+              "perc": 10.99,
+              "contrassegno": "CT_11449.JPG"
+            },
+            {
+              "numero": 10,
+              "nome": "LEGA SICILIA",
+              "candidati": 16,
+              "voti": 1003,
+              "perc": 9.15,
+              "contrassegno": "CT_11463.JPG"
+            },
+            {
+              "numero": 13,
+              "nome": "BRONTE ADESSO",
+              "candidati": 16,
+              "voti": 306,
+              "perc": 2.79,
+              "contrassegno": "CT_11469.JPG"
+            },
+            {
+              "numero": 6,
+              "nome": "FORZA BRONTE CASTIGLIONE SINDACO",
+              "candidati": 16,
+              "voti": 1170,
+              "perc": 10.67,
+              "contrassegno": "CT_11451.JPG"
+            },
+            {
+              "numero": 8,
+              "nome": "GIOVANI PER BRONTE CASTIGLIONE SINDACO",
+              "candidati": 16,
+              "voti": 695,
+              "perc": 6.34,
+              "contrassegno": "CT_11459.JPG"
+            },
+            {
+              "numero": 11,
+              "nome": "FORZA ITALIA",
+              "candidati": 15,
+              "voti": 593,
+              "perc": 5.41,
+              "contrassegno": "CT_11465.JPG"
+            },
+            {
+              "numero": 15,
+              "nome": "UNITI PER BRONTE CASTIGLIONE SINDACO",
+              "candidati": 16,
+              "voti": 638,
+              "perc": 5.82,
+              "contrassegno": "CT_11473.JPG"
+            },
+            {
+              "numero": 16,
+              "nome": "AZZURRI PER BRONTE CASTIGLIONE SINDACO",
+              "candidati": 16,
+              "voti": 889,
+              "perc": 8.11,
+              "contrassegno": "CT_11475.JPG"
+            }
+          ]
+        },
+        {
+          "numero": 3,
+          "nome": "CALANNA GRAZIANO",
+          "voti": 2184,
+          "perc": 18.93,
+          "eletto": false,
+          "ballottaggio": true,
+          "liste": [
+            {
+              "numero": 2,
+              "nome": "BRONTE PER IL FUTURO",
+              "candidati": 16,
+              "voti": 412,
+              "perc": 3.76,
+              "contrassegno": "CT_11437.JPG"
+            },
+            {
+              "numero": 7,
+              "nome": "GUARDIAMO AVANTI INSIEME",
+              "candidati": 16,
+              "voti": 764,
+              "perc": 6.97,
+              "contrassegno": "CT_11455.JPG"
+            },
+            {
+              "numero": 9,
+              "nome": "PARTITO DEMOCRATICO",
+              "candidati": 16,
+              "voti": 893,
+              "perc": 8.15,
+              "contrassegno": "CT_11461.JPG"
+            },
+            {
+              "numero": 12,
+              "nome": "CONTROCORRENTE ISMAELE LA VARDERA LOTTARE PER RESTARE",
+              "candidati": 16,
+              "voti": 809,
+              "perc": 7.38,
+              "contrassegno": "CT_11467.JPG"
+            },
+            {
+              "numero": 14,
+              "nome": "SINDACO GULLOTTA AVVOCATO DI STRADA",
+              "candidati": 13,
+              "voti": 446,
+              "perc": 4.07,
+              "contrassegno": "CT_11471.JPG"
+            }
+          ]
+        }
+      ],
+      "slug": "bronte",
+      "comune_id": 45,
+      "provincia_sigla": "CT",
+      "source": {
+        "candidati_liste": "https://www.elezioni.regione.sicilia.it/CT/ReportCandidatiListeCT45.html",
+        "dati_lista": "https://www.elezioni.regione.sicilia.it/CT/ReportDatiListaCT45.html"
+      }
+    },
+    "mascali": {
+      "stato": "completato",
+      "sezioni": {
+        "scrutinate": 14,
+        "totali": 14
+      },
+      "sintesi": "Risultati Candidati Sindaco relativi a n. 14 su n. 14 sezioni",
+      "candidati": [
+        {
+          "numero": 1,
+          "nome": "SUSINNI BIAGIO",
+          "voti": 621,
+          "perc": 8.2,
+          "eletto": false,
+          "ballottaggio": false,
+          "liste": [
+            {
+              "numero": 1,
+              "nome": "AMO MASCALI BIAGIO SUSINNI SINDACO",
+              "candidati": 16,
+              "voti": 454,
+              "perc": 6.21,
+              "contrassegno": "CT_11485.JPG"
+            }
+          ]
+        },
+        {
+          "numero": 2,
+          "nome": "MUSUMECI VERONICA",
+          "voti": 2963,
+          "perc": 39.14,
+          "eletto": false,
+          "ballottaggio": false,
+          "liste": [
+            {
+              "numero": 2,
+              "nome": "LA CONTEA MASCALI VERONICA MUSUMECI SINDACO",
+              "candidati": 16,
+              "voti": 2795,
+              "perc": 38.24,
+              "contrassegno": "CT_11487.JPG"
+            }
+          ]
+        },
+        {
+          "numero": 3,
+          "nome": "GULLOTTA SALVATORE",
+          "voti": 3987,
+          "perc": 52.66,
+          "eletto": true,
+          "ballottaggio": false,
+          "liste": [
+            {
+              "numero": 3,
+              "nome": "MASCALI RINASCE ALLEANZA PER CAMBIARE SALVO GULLOTTA SINDACO",
+              "candidati": 16,
+              "voti": 4060,
+              "perc": 55.55,
+              "contrassegno": "CT_11489.JPG"
+            }
+          ]
+        }
+      ],
+      "slug": "mascali",
+      "comune_id": 185,
+      "provincia_sigla": "CT",
+      "source": {
+        "candidati_liste": "https://www.elezioni.regione.sicilia.it/CT/ReportCandidatiListeCT185.html",
+        "dati_lista": "https://www.elezioni.regione.sicilia.it/CT/ReportDatiListaCT185.html"
+      }
+    },
+    "milo": {
+      "stato": "completato",
+      "sezioni": {
+        "scrutinate": 2,
+        "totali": 2
+      },
+      "sintesi": "Risultati Candidati Sindaco relativi a n. 2 su n. 2 sezioni",
+      "candidati": [
+        {
+          "numero": 1,
+          "nome": "CANTARELLA MARIA CONCETTA",
+          "voti": 356,
+          "perc": 47.03,
+          "eletto": false,
+          "ballottaggio": false,
+          "liste": [
+            {
+              "numero": 1,
+              "nome": "UNITI PER MILO",
+              "candidati": 10,
+              "voti": 342,
+              "perc": 45.6,
+              "contrassegno": "CT_11495.JPG"
+            }
+          ]
+        },
+        {
+          "numero": 2,
+          "nome": "CATALANO MARIA AURORA",
+          "voti": 401,
+          "perc": 52.97,
+          "eletto": true,
+          "ballottaggio": false,
+          "liste": [
+            {
+              "numero": 2,
+              "nome": "MILO FUTURA",
+              "candidati": 10,
+              "voti": 408,
+              "perc": 54.4,
+              "contrassegno": "CT_11497.JPG"
+            }
+          ]
+        }
+      ],
+      "slug": "milo",
+      "comune_id": 200,
+      "provincia_sigla": "CT",
+      "source": {
+        "candidati_liste": "https://www.elezioni.regione.sicilia.it/CT/ReportCandidatiListeCT200.html",
+        "dati_lista": "https://www.elezioni.regione.sicilia.it/CT/ReportDatiListaCT200.html"
+      }
+    },
+    "pedara": {
+      "stato": "completato",
+      "sezioni": {
+        "scrutinate": 11,
+        "totali": 11
+      },
+      "sintesi": "Risultati Candidati Sindaco relativi a n. 11 su n. 11 sezioni",
+      "candidati": [
+        {
+          "numero": 1,
+          "nome": "PEZZINO DOMENICA",
+          "voti": 1118,
+          "perc": 15.08,
+          "eletto": false,
+          "ballottaggio": false,
+          "liste": [
+            {
+              "numero": 1,
+              "nome": "UN CUORE PER PEDARA MIMMA PEZZINO SINDACO",
+              "candidati": 16,
+              "voti": 941,
+              "perc": 13.18,
+              "contrassegno": "CT_11501.JPG"
+            }
+          ]
+        },
+        {
+          "numero": 2,
+          "nome": "AGOSTA OLGA",
+          "voti": 947,
+          "perc": 12.77,
+          "eletto": false,
+          "ballottaggio": false,
+          "liste": [
+            {
+              "numero": 2,
+              "nome": "PEDARA FUTURA OLGA AGOSTA SINDACO",
+              "candidati": 16,
+              "voti": 793,
+              "perc": 11.11,
+              "contrassegno": "CT_11503.JPG"
+            }
+          ]
+        },
+        {
+          "numero": 3,
+          "nome": "CRISTAUDO ALFIO",
+          "voti": 5351,
+          "perc": 72.15,
+          "eletto": true,
+          "ballottaggio": false,
+          "liste": [
+            {
+              "numero": 3,
+              "nome": "VIVI PEDARA CRISTAUDO SINDACO",
+              "candidati": 16,
+              "voti": 5404,
+              "perc": 75.71,
+              "contrassegno": "CT_11505.JPG"
+            }
+          ]
+        }
+      ],
+      "slug": "pedara",
+      "comune_id": 248,
+      "provincia_sigla": "CT",
+      "source": {
+        "candidati_liste": "https://www.elezioni.regione.sicilia.it/CT/ReportCandidatiListeCT248.html",
+        "dati_lista": "https://www.elezioni.regione.sicilia.it/CT/ReportDatiListaCT248.html"
+      }
+    },
+    "trecastagni": {
+      "stato": "completato",
+      "sezioni": {
+        "scrutinate": 7,
+        "totali": 7
+      },
+      "sintesi": "Risultati Candidati Sindaco relativi a n. 7 su n. 7 sezioni",
+      "candidati": [
+        {
+          "numero": 1,
+          "nome": "TROVATO RAFFAELE MARTINO",
+          "voti": 2770,
+          "perc": 44.66,
+          "eletto": false,
+          "ballottaggio": false,
+          "liste": [
+            {
+              "numero": 1,
+              "nome": "L'ALTERNATIVA - TROVATO SINDACO",
+              "candidati": 16,
+              "voti": 2415,
+              "perc": 39.8,
+              "contrassegno": "CT_11409.JPG"
+            }
+          ]
+        },
+        {
+          "numero": 2,
+          "nome": "PAPPALARDO EDMONDO",
+          "voti": 3432,
+          "perc": 55.34,
+          "eletto": true,
+          "ballottaggio": false,
+          "liste": [
+            {
+              "numero": 2,
+              "nome": "AMARE TRECASTAGNI - PAPPALARDO SINDACO",
+              "candidati": 16,
+              "voti": 3653,
+              "perc": 60.2,
+              "contrassegno": "CT_11411.JPG"
+            }
+          ]
+        }
+      ],
+      "slug": "trecastagni",
+      "comune_id": 364,
+      "provincia_sigla": "CT",
+      "source": {
+        "candidati_liste": "https://www.elezioni.regione.sicilia.it/CT/ReportCandidatiListeCT364.html",
+        "dati_lista": "https://www.elezioni.regione.sicilia.it/CT/ReportDatiListaCT364.html"
+      }
+    },
+    "sutera": {
+      "stato": "completato",
+      "sezioni": {
+        "scrutinate": 3,
+        "totali": 3
+      },
+      "sintesi": "Risultati Candidati Sindaco relativi a n. 3 su n. 3 sezioni",
+      "candidati": [
+        {
+          "numero": 1,
+          "nome": "SALAMONE CARMELO",
+          "voti": 463,
+          "perc": 56.46,
+          "eletto": true,
+          "ballottaggio": false,
+          "liste": [
+            {
+              "numero": 1,
+              "nome": "SUTERA RADICI E FUTURO CARMELO SALAMONE SINDACO",
+              "candidati": 10,
+              "voti": 464,
+              "perc": 56.86,
+              "contrassegno": "CL_11161.JPG"
+            }
+          ]
+        },
+        {
+          "numero": 2,
+          "nome": "GIUSEPPINA CATANIA",
+          "voti": 357,
+          "perc": 43.54,
+          "eletto": false,
+          "ballottaggio": false,
+          "liste": [
+            {
+              "numero": 2,
+              "nome": "NOI PER SUTERA CATANIA SINDACO",
+              "candidati": 10,
+              "voti": 352,
+              "perc": 43.14,
+              "contrassegno": "CL_11163.JPG"
+            }
+          ]
+        }
+      ],
+      "slug": "sutera",
+      "comune_id": 352,
+      "provincia_sigla": "CL",
+      "source": {
+        "candidati_liste": "https://www.elezioni.regione.sicilia.it/CL/ReportCandidatiListeCL352.html",
+        "dati_lista": "https://www.elezioni.regione.sicilia.it/CL/ReportDatiListaCL352.html"
+      }
+    },
+    "calatabiano": {
+      "stato": "completato",
+      "sezioni": {
+        "scrutinate": 7,
+        "totali": 7
+      },
+      "sintesi": "Risultati Candidati Sindaco relativi a n. 7 su n. 7 sezioni",
+      "candidati": [
+        {
+          "numero": 1,
+          "nome": "PETRALIA ANTONIO FILIPPO",
+          "voti": 1574,
+          "perc": 50.64,
+          "eletto": true,
+          "ballottaggio": false,
+          "liste": [
+            {
+              "numero": 1,
+              "nome": "CALATABIANO NON SI FERMA PETRALIA SINDACO",
+              "candidati": 12,
+              "voti": 1497,
+              "perc": 50.44,
+              "contrassegno": "CT_11477.JPG"
+            }
+          ]
+        },
+        {
+          "numero": 2,
+          "nome": "MIUCCIO DOMENICO ANTONIO MARIA detto DOTTORE",
+          "voti": 1534,
+          "perc": 49.36,
+          "eletto": false,
+          "ballottaggio": false,
+          "liste": [
+            {
+              "numero": 2,
+              "nome": "CAMBIAMO CALATABIANO DOTT. DOMENICO MIUCCIO",
+              "candidati": 12,
+              "voti": 1471,
+              "perc": 49.56,
+              "contrassegno": "CT_11479.JPG"
+            }
+          ]
+        }
+      ],
+      "slug": "calatabiano",
+      "comune_id": 54,
+      "provincia_sigla": "CT",
+      "source": {
+        "candidati_liste": "https://www.elezioni.regione.sicilia.it/CT/ReportCandidatiListeCT54.html",
+        "dati_lista": "https://www.elezioni.regione.sicilia.it/CT/ReportDatiListaCT54.html"
+      }
+    },
+    "santa-caterina-villarmosa": {
+      "stato": "completato",
+      "sezioni": {
+        "scrutinate": 7,
+        "totali": 7
+      },
+      "sintesi": "Risultati Candidati Sindaco relativi a n. 7 su n. 7 sezioni",
+      "candidati": [
+        {
+          "numero": 1,
+          "nome": "NATALE GIUSEPPE",
+          "voti": 1052,
+          "perc": 35.7,
+          "eletto": true,
+          "ballottaggio": false,
+          "liste": [
+            {
+              "numero": 1,
+              "nome": "VOLENTEROSI PER SANTA CATERINA VILLAERMOSA - GIUSEPPE NATALE SINDACO",
+              "candidati": 12,
+              "voti": 1102,
+              "perc": 38.33,
+              "contrassegno": "CL_11169.JPG"
+            }
+          ]
+        },
+        {
+          "numero": 2,
+          "nome": "FIACCATO ANTONINO",
+          "voti": 993,
+          "perc": 33.69,
+          "eletto": false,
+          "ballottaggio": false,
+          "liste": [
+            {
+              "numero": 2,
+              "nome": "RICOMINCI....AMO SANTA CATERINA VILLAERMOSA - FIACCATO SINDACO",
+              "candidati": 12,
+              "voti": 985,
+              "perc": 34.26,
+              "contrassegno": "CL_11171.JPG"
+            }
+          ]
+        },
+        {
+          "numero": 3,
+          "nome": "IPPOLITO GIUSEPPE",
+          "voti": 902,
+          "perc": 30.61,
+          "eletto": false,
+          "ballottaggio": false,
+          "liste": [
+            {
+              "numero": 3,
+              "nome": "GIUSEPPE IPPOLITO SINDACO - SANTA CATERINA A VELE SPIEGATE",
+              "candidati": 12,
+              "voti": 788,
+              "perc": 27.41,
+              "contrassegno": "CL_11177.JPG"
+            }
+          ]
+        }
+      ],
+      "slug": "santa-caterina-villarmosa",
+      "comune_id": 313,
+      "provincia_sigla": "CL",
+      "source": {
+        "candidati_liste": "https://www.elezioni.regione.sicilia.it/CL/ReportCandidatiListeCL313.html",
+        "dati_lista": "https://www.elezioni.regione.sicilia.it/CL/ReportDatiListaCL313.html"
+      }
+    },
+    "san-pietro-clarenza": {
+      "stato": "completato",
+      "sezioni": {
+        "scrutinate": 6,
+        "totali": 6
+      },
+      "sintesi": "Risultati Candidati Sindaco relativi a n. 6 su n. 6 sezioni",
+      "candidati": [
+        {
+          "numero": 1,
+          "nome": "SANTONOCITO VINCENZO detto ENZO",
+          "voti": 3078,
+          "perc": 80.39,
+          "eletto": true,
+          "ballottaggio": false,
+          "liste": [
+            {
+              "numero": 1,
+              "nome": "SAN PIETRO CLARENZA AL 1 POSTO",
+              "candidati": 12,
+              "voti": 3123,
+              "perc": 83.86,
+              "contrassegno": "CT_11413.JPG"
+            }
+          ]
+        },
+        {
+          "numero": 2,
+          "nome": "SCALIA ORAZIO",
+          "voti": 751,
+          "perc": 19.61,
+          "eletto": false,
+          "ballottaggio": false,
+          "liste": [
+            {
+              "numero": 2,
+              "nome": "PER SAN PIETRO CLARENZA - SCALIA SINDACO",
+              "candidati": 12,
+              "voti": 601,
+              "perc": 16.14,
+              "contrassegno": "CT_11415.JPG"
+            }
+          ]
+        }
+      ],
+      "slug": "san-pietro-clarenza",
+      "comune_id": 309,
+      "provincia_sigla": "CT",
+      "source": {
+        "candidati_liste": "https://www.elezioni.regione.sicilia.it/CT/ReportCandidatiListeCT309.html",
+        "dati_lista": "https://www.elezioni.regione.sicilia.it/CT/ReportDatiListaCT309.html"
+      }
+    },
+    "serradifalco": {
+      "stato": "completato",
+      "sezioni": {
+        "scrutinate": 8,
+        "totali": 8
+      },
+      "sintesi": "Risultati Candidati Sindaco relativi a n. 8 su n. 8 sezioni",
+      "candidati": [
+        {
+          "numero": 1,
+          "nome": "BURGIO LEONARDO",
+          "voti": 2825,
+          "perc": 100.0,
+          "eletto": true,
+          "ballottaggio": false,
+          "liste": [
+            {
+              "numero": 1,
+              "nome": "IL FUTURO CI UNISCE!",
+              "candidati": 12,
+              "voti": 2778,
+              "perc": 100.0,
+              "contrassegno": "CL_11179.JPG"
+            }
+          ]
+        }
+      ],
+      "slug": "serradifalco",
+      "comune_id": 343,
+      "provincia_sigla": "CL",
+      "source": {
+        "candidati_liste": "https://www.elezioni.regione.sicilia.it/CL/ReportCandidatiListeCL343.html",
+        "dati_lista": "https://www.elezioni.regione.sicilia.it/CL/ReportDatiListaCL343.html"
+      }
+    },
+    "randazzo": {
+      "stato": "completato",
+      "sezioni": {
+        "scrutinate": 12,
+        "totali": 12
+      },
+      "sintesi": "Risultati Candidati Sindaco relativi a n. 12 su n. 12 sezioni",
+      "candidati": [
+        {
+          "numero": 1,
+          "nome": "GRILLO ANTONINO detto NINO",
+          "voti": 2861,
+          "perc": 44.25,
+          "eletto": true,
+          "ballottaggio": false,
+          "liste": [
+            {
+              "numero": 1,
+              "nome": "RANDAZZO RIPARTE - NINO GRILLO SINDACO",
+              "candidati": 16,
+              "voti": 2668,
+              "perc": 42.34,
+              "contrassegno": "CT_11481.JPG"
+            }
+          ]
+        },
+        {
+          "numero": 2,
+          "nome": "ANZALONE GIANLUCA GIUSEPPE",
+          "voti": 1144,
+          "perc": 17.69,
+          "eletto": false,
+          "ballottaggio": false,
+          "liste": [
+            {
+              "numero": 2,
+              "nome": "SI MUOVE LA CITTA' - GIANLUCA ANZALONE SINDACO",
+              "candidati": 16,
+              "voti": 1176,
+              "perc": 18.66,
+              "contrassegno": "CT_11483.JPG"
+            }
+          ]
+        },
+        {
+          "numero": 3,
+          "nome": "FOTI CONCETTA CARLA LUISA detta CETTINA",
+          "voti": 497,
+          "perc": 7.69,
+          "eletto": false,
+          "ballottaggio": false,
+          "liste": [
+            {
+              "numero": 3,
+              "nome": "RESPONSABILITA' E FUTURO - CETTINA FOTI SINDACO RANDAZZO",
+              "candidati": 16,
+              "voti": 440,
+              "perc": 6.98,
+              "contrassegno": "CT_11491.JPG"
+            }
+          ]
+        },
+        {
+          "numero": 4,
+          "nome": "PILLERA ALFIO detto FREDDY",
+          "voti": 892,
+          "perc": 13.8,
+          "eletto": false,
+          "ballottaggio": false,
+          "liste": [
+            {
+              "numero": 4,
+              "nome": "TRASPARENZA E LEGALITA' - FREDDY PILLERA SINDACO",
+              "candidati": 16,
+              "voti": 915,
+              "perc": 14.52,
+              "contrassegno": "CT_11493.JPG"
+            }
+          ]
+        },
+        {
+          "numero": 5,
+          "nome": "BERTOLO FILIPPO GAETANO",
+          "voti": 1071,
+          "perc": 16.57,
+          "eletto": false,
+          "ballottaggio": false,
+          "liste": [
+            {
+              "numero": 5,
+              "nome": "PROPOSTA POPOLARE - FILIPPO BERTOLO SINDACO",
+              "candidati": 16,
+              "voti": 1103,
+              "perc": 17.5,
+              "contrassegno": "CT_11499.JPG"
+            }
+          ]
+        }
+      ],
+      "slug": "randazzo",
+      "comune_id": 273,
+      "provincia_sigla": "CT",
+      "source": {
+        "candidati_liste": "https://www.elezioni.regione.sicilia.it/CT/ReportCandidatiListeCT273.html",
+        "dati_lista": "https://www.elezioni.regione.sicilia.it/CT/ReportDatiListaCT273.html"
+      }
+    },
+    "agira": {
+      "stato": "completato",
+      "sezioni": {
+        "scrutinate": 12,
+        "totali": 12
+      },
+      "sintesi": "Risultati Candidati Sindaco relativi a n. 12 su n. 12 sezioni",
+      "candidati": [
+        {
+          "numero": 1,
+          "nome": "MARCHESE FRANCESCO detto FRANCO",
+          "voti": 3305,
+          "perc": 74.02,
+          "eletto": true,
+          "ballottaggio": false,
+          "liste": [
+            {
+              "numero": 1,
+              "nome": "LA STORIA CONTINUA - FRANCESCO MARCHESE SINDACO",
+              "candidati": 12,
+              "voti": 3300,
+              "perc": 74.71,
+              "contrassegno": "EN_11033.JPG"
+            }
+          ]
+        },
+        {
+          "numero": 2,
+          "nome": "GRASSIA FILIPPO",
+          "voti": 1160,
+          "perc": 25.98,
+          "eletto": false,
+          "ballottaggio": false,
+          "liste": [
+            {
+              "numero": 2,
+              "nome": "AGIRA FUTURA - GRASSIA SINDACO",
+              "candidati": 11,
+              "voti": 1117,
+              "perc": 25.29,
+              "contrassegno": "EN_11031.JPG"
+            }
+          ]
+        }
+      ],
+      "slug": "agira",
+      "comune_id": 10,
+      "provincia_sigla": "EN",
+      "source": {
+        "candidati_liste": "https://www.elezioni.regione.sicilia.it/EN/ReportCandidatiListeEN10.html",
+        "dati_lista": "https://www.elezioni.regione.sicilia.it/EN/ReportDatiListaEN10.html"
+      }
+    },
+    "centuripe": {
+      "stato": "completato",
+      "sezioni": {
+        "scrutinate": 6,
+        "totali": 6
+      },
+      "sintesi": "Risultati Candidati Sindaco relativi a n. 6 su n. 6 sezioni",
+      "candidati": [
+        {
+          "numero": 1,
+          "nome": "LA SPINA SALVATORE",
+          "voti": 3004,
+          "perc": 100.0,
+          "eletto": true,
+          "ballottaggio": false,
+          "liste": [
+            {
+              "numero": 1,
+              "nome": "CENTURIPE NEL CUORE - AVANTI INSIEME CON SALVATORE LA SPINA SINDACO",
+              "candidati": 12,
+              "voti": 2943,
+              "perc": 100.0,
+              "contrassegno": "EN_11035.JPG"
+            }
+          ]
+        }
+      ],
+      "slug": "centuripe",
+      "comune_id": 100,
+      "provincia_sigla": "EN",
+      "source": {
+        "candidati_liste": "https://www.elezioni.regione.sicilia.it/EN/ReportCandidatiListeEN100.html",
+        "dati_lista": "https://www.elezioni.regione.sicilia.it/EN/ReportDatiListaEN100.html"
+      }
+    },
+    "nicosia": {
+      "stato": "completato",
+      "sezioni": {
+        "scrutinate": 15,
+        "totali": 15
+      },
+      "sintesi": "Risultati Candidati Sindaco relativi a n. 15 su n. 15 sezioni",
+      "candidati": [
+        {
+          "numero": 1,
+          "nome": "SPEDALE FRANCESCO",
+          "voti": 3675,
+          "perc": 45.07,
+          "eletto": false,
+          "ballottaggio": false,
+          "liste": [
+            {
+              "numero": 1,
+              "nome": "NICOSIA E VILLADORO NEL CUORE - SPEDALE SINDACO",
+              "candidati": 16,
+              "voti": 3608,
+              "perc": 44.86,
+              "contrassegno": "EN_11037.JPG"
+            }
+          ]
+        },
+        {
+          "numero": 2,
+          "nome": "GEMMELLARO FRANCESCA detta ANNA MARIA",
+          "voti": 3994,
+          "perc": 48.98,
+          "eletto": true,
+          "ballottaggio": false,
+          "liste": [
+            {
+              "numero": 2,
+              "nome": "N! NICOSIA COMUNE - CREDIAMOCI INSIEME - GEMMELLARO SINDACO",
+              "candidati": 16,
+              "voti": 3991,
+              "perc": 49.63,
+              "contrassegno": "EN_11039.JPG"
+            }
+          ]
+        },
+        {
+          "numero": 3,
+          "nome": "LA GANGA CICIRITTO GIOVANNI detto ALDO",
+          "voti": 485,
+          "perc": 5.95,
+          "eletto": false,
+          "ballottaggio": false,
+          "liste": [
+            {
+              "numero": 3,
+              "nome": "LA GANGA SINDACO",
+              "candidati": 15,
+              "voti": 443,
+              "perc": 5.51,
+              "contrassegno": "EN_11041.JPG"
+            }
+          ]
+        }
+      ],
+      "slug": "nicosia",
+      "comune_id": 227,
+      "provincia_sigla": "EN",
+      "source": {
+        "candidati_liste": "https://www.elezioni.regione.sicilia.it/EN/ReportCandidatiListeEN227.html",
+        "dati_lista": "https://www.elezioni.regione.sicilia.it/EN/ReportDatiListaEN227.html"
+      }
+    },
+    "san-giovanni-la-punta": {
+      "stato": "completato",
+      "sezioni": {
+        "scrutinate": 20,
+        "totali": 20
+      },
+      "sintesi": "Risultati Candidati Sindaco relativi a n. 20 su n. 20 sezioni",
+      "candidati": [
+        {
+          "numero": 1,
+          "nome": "BRANCATO MARIO LUCIANO",
+          "voti": 5532,
+          "perc": 44.79,
+          "eletto": true,
+          "ballottaggio": false,
+          "liste": [
+            {
+              "numero": 3,
+              "nome": "FORZA ITALIA",
+              "candidati": 16,
+              "voti": 855,
+              "perc": 7.31,
+              "contrassegno": "CT_11421.JPG"
+            },
+            {
+              "numero": 4,
+              "nome": "SAN GIOVANNI LA PUNTA - L'ORA DI AGIRE",
+              "candidati": 16,
+              "voti": 475,
+              "perc": 4.06,
+              "contrassegno": "CT_11423.JPG"
+            },
+            {
+              "numero": 5,
+              "nome": "RISORGIMENTO PUNTESE - BASILE CON SAN GIOVANNI LA PUNTA E TRAPPETO",
+              "candidati": 16,
+              "voti": 743,
+              "perc": 6.35,
+              "contrassegno": "CT_11425.JPG"
+            },
+            {
+              "numero": 7,
+              "nome": "LIBERI E FORTI PER SAN GIOVANNI LA PUNTA",
+              "candidati": 16,
+              "voti": 920,
+              "perc": 7.87,
+              "contrassegno": "CT_11429.JPG"
+            },
+            {
+              "numero": 8,
+              "nome": "NOI CON LA SICILIA - POPOLARI E AUTONOMISTI",
+              "candidati": 16,
+              "voti": 1016,
+              "perc": 8.69,
+              "contrassegno": "CT_11431.JPG"
+            },
+            {
+              "numero": 10,
+              "nome": "PUNTA IN ALTO",
+              "candidati": 16,
+              "voti": 953,
+              "perc": 8.15,
+              "contrassegno": "CT_11439.JPG"
+            },
+            {
+              "numero": 11,
+              "nome": "ONDA",
+              "candidati": 16,
+              "voti": 669,
+              "perc": 5.72,
+              "contrassegno": "CT_11443.JPG"
+            },
+            {
+              "numero": 14,
+              "nome": "SUD CHIAMA NORD BRANCATO PER SAN GIOVANNI LA PUNTA",
+              "candidati": 16,
+              "voti": 703,
+              "perc": 6.01,
+              "contrassegno": "CT_11457.JPG"
+            }
+          ]
+        },
+        {
+          "numero": 2,
+          "nome": "BATTIPAGLIA PATRICK",
+          "voti": 267,
+          "perc": 2.16,
+          "eletto": false,
+          "ballottaggio": false,
+          "liste": [
+            {
+              "numero": 6,
+              "nome": "SAN GIOVANNI LA PUNTA MIGLIORE",
+              "candidati": 12,
+              "voti": 177,
+              "perc": 1.51,
+              "contrassegno": "CT_11427.JPG"
+            }
+          ]
+        },
+        {
+          "numero": 3,
+          "nome": "TROVATO SANTO",
+          "voti": 4415,
+          "perc": 35.75,
+          "eletto": false,
+          "ballottaggio": false,
+          "liste": [
+            {
+              "numero": 1,
+              "nome": "LEGA SICILIA",
+              "candidati": 16,
+              "voti": 761,
+              "perc": 6.51,
+              "contrassegno": "CT_11417.JPG"
+            },
+            {
+              "numero": 9,
+              "nome": "ALLEANZA PUNTESE",
+              "candidati": 16,
+              "voti": 377,
+              "perc": 3.22,
+              "contrassegno": "CT_11433.JPG"
+            },
+            {
+              "numero": 12,
+              "nome": "FRATELLI D'ITALIA",
+              "candidati": 16,
+              "voti": 2006,
+              "perc": 17.15,
+              "contrassegno": "CT_11447.JPG"
+            },
+            {
+              "numero": 13,
+              "nome": "SI CAMBIA",
+              "candidati": 16,
+              "voti": 631,
+              "perc": 5.39,
+              "contrassegno": "CT_11453.JPG"
+            }
+          ]
+        },
+        {
+          "numero": 4,
+          "nome": "RICCOBENE ANTONELLA MARIA",
+          "voti": 2137,
+          "perc": 17.3,
+          "eletto": false,
+          "ballottaggio": false,
+          "liste": [
+            {
+              "numero": 2,
+              "nome": "MOVIMENTO CINQUE STELLE - CONTROCORRENTE PER RICCOBENE SINDACA",
+              "candidati": 16,
+              "voti": 1409,
+              "perc": 12.05,
+              "contrassegno": "CT_11419.JPG"
+            }
+          ]
+        }
+      ],
+      "slug": "san-giovanni-la-punta",
+      "comune_id": 301,
+      "provincia_sigla": "CT",
+      "source": {
+        "candidati_liste": "https://www.elezioni.regione.sicilia.it/CT/ReportCandidatiListeCT301.html",
+        "dati_lista": "https://www.elezioni.regione.sicilia.it/CT/ReportDatiListaCT301.html"
+      }
+    },
+    "pietraperzia": {
+      "stato": "completato",
+      "sezioni": {
+        "scrutinate": 14,
+        "totali": 14
+      },
+      "sintesi": "Risultati Candidati Sindaco relativi a n. 14 su n. 14 sezioni",
+      "candidati": [
+        {
+          "numero": 1,
+          "nome": "DI GLORIA CALOGERO",
+          "voti": 2179,
+          "perc": 57.12,
+          "eletto": true,
+          "ballottaggio": false,
+          "liste": [
+            {
+              "numero": 1,
+              "nome": "INSIEME PER PIETRAPERZIA - CALOGERO DI GLORIA - SINDACO",
+              "candidati": 12,
+              "voti": 2187,
+              "perc": 58.27,
+              "contrassegno": "EN_11025.JPG"
+            }
+          ]
+        },
+        {
+          "numero": 2,
+          "nome": "ZARBA ANGELICA",
+          "voti": 340,
+          "perc": 8.91,
+          "eletto": false,
+          "ballottaggio": false,
+          "liste": [
+            {
+              "numero": 2,
+              "nome": "ANGELICA ZARBA - SINDACO - LISTA CIVICA",
+              "candidati": 12,
+              "voti": 319,
+              "perc": 8.5,
+              "contrassegno": "EN_11027.JPG"
+            }
+          ]
+        },
+        {
+          "numero": 3,
+          "nome": "ROMANO SILVIA",
+          "voti": 1296,
+          "perc": 33.97,
+          "eletto": false,
+          "ballottaggio": false,
+          "liste": [
+            {
+              "numero": 3,
+              "nome": "L'ORA DEL CAMBIAMENTO - SILVIA ROMANO - SINDACO",
+              "candidati": 12,
+              "voti": 1247,
+              "perc": 33.23,
+              "contrassegno": "EN_11029.JPG"
+            }
+          ]
+        }
+      ],
+      "slug": "pietraperzia",
+      "comune_id": 256,
+      "provincia_sigla": "EN",
+      "source": {
+        "candidati_liste": "https://www.elezioni.regione.sicilia.it/EN/ReportCandidatiListeEN256.html",
+        "dati_lista": "https://www.elezioni.regione.sicilia.it/EN/ReportDatiListaEN256.html"
+      }
+    },
+    "valguarnera-caropepe": {
+      "stato": "completato",
+      "sezioni": {
+        "scrutinate": 12,
+        "totali": 12
+      },
+      "sintesi": "Risultati Candidati Sindaco relativi a n. 12 su n. 12 sezioni",
+      "candidati": [
+        {
+          "numero": 1,
+          "nome": "BRUNO ANGELO",
+          "voti": 1668,
+          "perc": 38.31,
+          "eletto": false,
+          "ballottaggio": false,
+          "liste": [
+            {
+              "numero": 1,
+              "nome": "CON ANGELO BRUNO SINDACO PER VALGUARNERA",
+              "candidati": 12,
+              "voti": 1731,
+              "perc": 40.48,
+              "contrassegno": "EN_11023.JPG"
+            }
+          ]
+        },
+        {
+          "numero": 2,
+          "nome": "INTERLICCHIA GIUSEPPE",
+          "voti": 498,
+          "perc": 11.44,
+          "eletto": false,
+          "ballottaggio": false,
+          "liste": [
+            {
+              "numero": 2,
+              "nome": "INSIEME CON GIUSEPPE INTERLICCHIA SINDACO DI VALGUARNERA - COMPETENZA E FUTURO",
+              "candidati": 9,
+              "voti": 303,
+              "perc": 7.09,
+              "contrassegno": "EN_11019.JPG"
+            }
+          ]
+        },
+        {
+          "numero": 3,
+          "nome": "CUTRONA CARMELINA",
+          "voti": 2188,
+          "perc": 50.25,
+          "eletto": true,
+          "ballottaggio": false,
+          "liste": [
+            {
+              "numero": 3,
+              "nome": "CARMEN CUTRONA SINDACO - CONTINUITA'. CERTEZZA. EQUILIBRIO.",
+              "candidati": 12,
+              "voti": 2242,
+              "perc": 52.43,
+              "contrassegno": "EN_11021.JPG"
+            }
+          ]
+        }
+      ],
+      "slug": "valguarnera-caropepe",
+      "comune_id": 373,
+      "provincia_sigla": "EN",
+      "source": {
+        "candidati_liste": "https://www.elezioni.regione.sicilia.it/EN/ReportCandidatiListeEN373.html",
+        "dati_lista": "https://www.elezioni.regione.sicilia.it/EN/ReportDatiListaEN373.html"
+      }
+    },
+    "enna": {
+      "stato": "completato",
+      "sezioni": {
+        "scrutinate": 35,
+        "totali": 35
+      },
+      "sintesi": "Risultati Candidati Sindaco relativi a n. 35 su n. 35 sezioni",
+      "candidati": [
+        {
+          "numero": 1,
+          "nome": "DE ROSE EZIO MASSIMO",
+          "voti": 5015,
+          "perc": 32.23,
+          "eletto": false,
+          "ballottaggio": false,
+          "liste": [
+            {
+              "numero": 2,
+              "nome": "FARE COMUNE",
+              "candidati": 18,
+              "voti": 694,
+              "perc": 4.67,
+              "contrassegno": "EN_11095.JPG"
+            },
+            {
+              "numero": 4,
+              "nome": "FRATELLI D'ITALIA - GIORGIA MELONI",
+              "candidati": 24,
+              "voti": 710,
+              "perc": 4.77,
+              "contrassegno": "EN_11047.JPG"
+            },
+            {
+              "numero": 5,
+              "nome": "NOI MODERATI - PARTITO POPOLARE EUROPEO",
+              "candidati": 24,
+              "voti": 427,
+              "perc": 2.87,
+              "contrassegno": "EN_11049.JPG"
+            },
+            {
+              "numero": 6,
+              "nome": "NOI CON LA SICILIA - POPOLARI E AUTONOMISTI - DE ROSE SINDACO",
+              "candidati": 24,
+              "voti": 2230,
+              "perc": 14.99,
+              "contrassegno": "EN_11051.JPG"
+            },
+            {
+              "numero": 7,
+              "nome": "ENNA FUTURA",
+              "candidati": 24,
+              "voti": 1177,
+              "perc": 7.91,
+              "contrassegno": "EN_11053.JPG"
+            },
+            {
+              "numero": 11,
+              "nome": "FORZA ITALIA - BERLUSCONI - PARTITO POPOLARE EUROPEO",
+              "candidati": 24,
+              "voti": 905,
+              "perc": 6.09,
+              "contrassegno": "EN_11061.JPG"
+            }
+          ]
+        },
+        {
+          "numero": 2,
+          "nome": "CRISAFULLI VLADIMIRO",
+          "voti": 9975,
+          "perc": 64.11,
+          "eletto": true,
+          "ballottaggio": false,
+          "liste": [
+            {
+              "numero": 3,
+              "nome": "MOVIMENTO PROGESSISTA E DEMOCRATICI PER ENNA - CRISAFULLI SINDACO",
+              "candidati": 24,
+              "voti": 484,
+              "perc": 3.25,
+              "contrassegno": "EN_11045.JPG"
+            },
+            {
+              "numero": 8,
+              "nome": "ENNA DEMOCRATICA",
+              "candidati": 24,
+              "voti": 4020,
+              "perc": 27.03,
+              "contrassegno": "EN_11055.JPG"
+            },
+            {
+              "numero": 9,
+              "nome": "DEMOCRATICI E PROGRESSISTI - CRISAFULLI SINDACO",
+              "candidati": 24,
+              "voti": 1727,
+              "perc": 11.61,
+              "contrassegno": "EN_11057.JPG"
+            },
+            {
+              "numero": 10,
+              "nome": "PRIMA ENNA - LISTA CIVICA INDIPENDENTE - CRISAFULLI SINDACO",
+              "candidati": 24,
+              "voti": 849,
+              "perc": 5.71,
+              "contrassegno": "EN_11059.JPG"
+            },
+            {
+              "numero": 12,
+              "nome": "SINISTRA DEMOCRATICA - CRISAFULLI SINDACO",
+              "candidati": 24,
+              "voti": 1359,
+              "perc": 9.14,
+              "contrassegno": "EN_11063.JPG"
+            }
+          ]
+        },
+        {
+          "numero": 3,
+          "nome": "FIAMMETTA FILIPPO",
+          "voti": 569,
+          "perc": 3.66,
+          "eletto": false,
+          "ballottaggio": false,
+          "liste": [
+            {
+              "numero": 1,
+              "nome": "COORDINAMENTO CIVICO PER ENNA - FIAMMETTA SINDACO",
+              "candidati": 23,
+              "voti": 291,
+              "perc": 1.96,
+              "contrassegno": "EN_11043.JPG"
+            }
+          ]
+        }
+      ],
+      "slug": "enna",
+      "comune_id": 117,
+      "provincia_sigla": "EN",
+      "source": {
+        "candidati_liste": "https://www.elezioni.regione.sicilia.it/EN/ReportCandidatiListeEN117.html",
+        "dati_lista": "https://www.elezioni.regione.sicilia.it/EN/ReportDatiListaEN117.html"
+      }
+    },
+    "ali-terme": {
+      "stato": "completato",
+      "sezioni": {
+        "scrutinate": 2,
+        "totali": 2
+      },
+      "sintesi": "Risultati Candidati Sindaco relativi a n. 2 su n. 2 sezioni",
+      "candidati": [
+        {
+          "numero": 1,
+          "nome": "TRIOLO ALESSANDRO",
+          "voti": 830,
+          "perc": 51.36,
+          "eletto": true,
+          "ballottaggio": false,
+          "liste": [
+            {
+              "numero": 1,
+              "nome": "ALI' TERME PRIMA DI TUTTO ALESSANDRO TRIOLO SINDACO",
+              "candidati": 10,
+              "voti": 833,
+              "perc": 52.62,
+              "contrassegno": "ME_11231.JPG"
+            }
+          ]
+        },
+        {
+          "numero": 2,
+          "nome": "MICALIZZI TOMMASO",
+          "voti": 786,
+          "perc": 48.64,
+          "eletto": false,
+          "ballottaggio": false,
+          "liste": [
+            {
+              "numero": 2,
+              "nome": "ALI' TERME RIPARTIAMO INSIEME TOMMASO MICALIZZI SINDACO",
+              "candidati": 10,
+              "voti": 750,
+              "perc": 47.38,
+              "contrassegno": "ME_11233.JPG"
+            }
+          ]
+        }
+      ],
+      "slug": "ali-terme",
+      "comune_id": 17,
+      "provincia_sigla": "ME",
+      "source": {
+        "candidati_liste": "https://www.elezioni.regione.sicilia.it/ME/ReportCandidatiListeME17.html",
+        "dati_lista": "https://www.elezioni.regione.sicilia.it/ME/ReportDatiListaME17.html"
+      }
+    },
+    "giardini-naxos": {
+      "stato": "completato",
+      "sezioni": {
+        "scrutinate": 13,
+        "totali": 13
+      },
+      "sintesi": "Risultati Candidati Sindaco relativi a n. 13 su n. 13 sezioni",
+      "candidati": [
+        {
+          "numero": 1,
+          "nome": "PUCCIO SALVO",
+          "voti": 2457,
+          "perc": 46.26,
+          "eletto": false,
+          "ballottaggio": false,
+          "liste": [
+            {
+              "numero": 1,
+              "nome": "PUCCIO SINDACO DI GIARDINI NAXOS",
+              "candidati": 12,
+              "voti": 2024,
+              "perc": 39.18,
+              "contrassegno": "ME_11281.JPG"
+            }
+          ]
+        },
+        {
+          "numero": 2,
+          "nome": "BOSCO AGATINO SALVATORE",
+          "voti": 2745,
+          "perc": 51.69,
+          "eletto": true,
+          "ballottaggio": false,
+          "liste": [
+            {
+              "numero": 2,
+              "nome": "GIARDINI NAXOS BOSCO SINDACO",
+              "candidati": 12,
+              "voti": 2713,
+              "perc": 52.52,
+              "contrassegno": "ME_11283.JPG"
+            }
+          ]
+        },
+        {
+          "numero": 3,
+          "nome": "CANNIZZARO ROSALBA",
+          "voti": 43,
+          "perc": 0.81,
+          "eletto": false,
+          "ballottaggio": false,
+          "liste": [
+            {
+              "numero": 3,
+              "nome": "UNA MARCIA IN PIU' PER GIARDINI NAXOS",
+              "candidati": 9,
+              "voti": 169,
+              "perc": 3.27,
+              "contrassegno": "ME_11285.JPG"
+            }
+          ]
+        },
+        {
+          "numero": 4,
+          "nome": "ELIA MANDRI ALFIO",
+          "voti": 66,
+          "perc": 1.24,
+          "eletto": false,
+          "ballottaggio": false,
+          "liste": [
+            {
+              "numero": 4,
+              "nome": "SULLA STRADA GIUSTA GIRDINI NAXOS",
+              "candidati": 12,
+              "voti": 260,
+              "perc": 5.03,
+              "contrassegno": "ME_11287.JPG"
+            }
+          ]
+        }
+      ],
+      "slug": "giardini-naxos",
+      "comune_id": 144,
+      "provincia_sigla": "ME",
+      "source": {
+        "candidati_liste": "https://www.elezioni.regione.sicilia.it/ME/ReportCandidatiListeME144.html",
+        "dati_lista": "https://www.elezioni.regione.sicilia.it/ME/ReportDatiListaME144.html"
+      }
+    },
+    "basico": {
+      "stato": "completato",
+      "sezioni": {
+        "scrutinate": 1,
+        "totali": 1
+      },
+      "sintesi": "Risultati Candidati Sindaco relativi a n. 1 su n. 1 sezioni",
+      "candidati": [
+        {
+          "numero": 1,
+          "nome": "BERTOLAMI PELLERITI TINDARO detto FILIPPO",
+          "voti": 212,
+          "perc": 53.0,
+          "eletto": true,
+          "ballottaggio": false,
+          "liste": [
+            {
+              "numero": 1,
+              "nome": "BASICO' NEL CUORE",
+              "candidati": 10,
+              "voti": 221,
+              "perc": 56.09,
+              "contrassegno": "ME_11269.JPG"
+            }
+          ]
+        },
+        {
+          "numero": 2,
+          "nome": "COTONE ANTONIO",
+          "voti": 188,
+          "perc": 47.0,
+          "eletto": false,
+          "ballottaggio": false,
+          "liste": [
+            {
+              "numero": 2,
+              "nome": "BASICO' IERI OGGI DOMANI",
+              "candidati": 10,
+              "voti": 173,
+              "perc": 43.91,
+              "contrassegno": "ME_11271.JPG"
+            }
+          ]
+        }
+      ],
+      "slug": "basico",
+      "comune_id": 32,
+      "provincia_sigla": "ME",
+      "source": {
+        "candidati_liste": "https://www.elezioni.regione.sicilia.it/ME/ReportCandidatiListeME32.html",
+        "dati_lista": "https://www.elezioni.regione.sicilia.it/ME/ReportDatiListaME32.html"
+      }
+    },
+    "graniti": {
+      "stato": "completato",
+      "sezioni": {
+        "scrutinate": 2,
+        "totali": 2
+      },
+      "sintesi": "Risultati Candidati Sindaco relativi a n. 2 su n. 2 sezioni",
+      "candidati": [
+        {
+          "numero": 1,
+          "nome": "LO MONTE CARMELO",
+          "voti": 594,
+          "perc": 54.8,
+          "eletto": true,
+          "ballottaggio": false,
+          "liste": [
+            {
+              "numero": 1,
+              "nome": "PER GRANITI LO MONTE CARMELO SINDACO",
+              "candidati": 10,
+              "voti": 568,
+              "perc": 55.52,
+              "contrassegno": "ME_11273.JPG"
+            }
+          ]
+        },
+        {
+          "numero": 2,
+          "nome": "LO GIUDICE FRANCESCO",
+          "voti": 490,
+          "perc": 45.2,
+          "eletto": false,
+          "ballottaggio": false,
+          "liste": [
+            {
+              "numero": 2,
+              "nome": "UNITI PER GRANITI LO GIUDICE SINDACO",
+              "candidati": 10,
+              "voti": 455,
+              "perc": 44.48,
+              "contrassegno": "ME_11275.JPG"
+            }
+          ]
+        }
+      ],
+      "slug": "graniti",
+      "comune_id": 152,
+      "provincia_sigla": "ME",
+      "source": {
+        "candidati_liste": "https://www.elezioni.regione.sicilia.it/ME/ReportCandidatiListeME152.html",
+        "dati_lista": "https://www.elezioni.regione.sicilia.it/ME/ReportDatiListaME152.html"
+      }
+    },
+    "limina": {
+      "stato": "completato",
+      "sezioni": {
+        "scrutinate": 2,
+        "totali": 2
+      },
+      "sintesi": "Risultati Candidati Sindaco relativi a n. 2 su n. 2 sezioni",
+      "candidati": [
+        {
+          "numero": 1,
+          "nome": "RICCIARDI FILIPPO",
+          "voti": 377,
+          "perc": 66.96,
+          "eletto": true,
+          "ballottaggio": false,
+          "liste": [
+            {
+              "numero": 1,
+              "nome": "VOLONTA' POPOLARE FILIPPO RICCIARDI SINDACO",
+              "candidati": 10,
+              "voti": 361,
+              "perc": 64.69,
+              "contrassegno": "ME_11277.JPG"
+            }
+          ]
+        },
+        {
+          "numero": 2,
+          "nome": "SPADARO JENNA CONCETTA detta GENNI",
+          "voti": 186,
+          "perc": 33.04,
+          "eletto": false,
+          "ballottaggio": false,
+          "liste": [
+            {
+              "numero": 2,
+              "nome": "PROGETTARE IL FUTURO COSTRUIRE IL PRESENTE",
+              "candidati": 10,
+              "voti": 197,
+              "perc": 35.31,
+              "contrassegno": "ME_11279.JPG"
+            }
+          ]
+        }
+      ],
+      "slug": "limina",
+      "comune_id": 172,
+      "provincia_sigla": "ME",
+      "source": {
+        "candidati_liste": "https://www.elezioni.regione.sicilia.it/ME/ReportCandidatiListeME172.html",
+        "dati_lista": "https://www.elezioni.regione.sicilia.it/ME/ReportDatiListaME172.html"
+      }
+    },
+    "malvagna": {
+      "stato": "completato",
+      "sezioni": {
+        "scrutinate": 1,
+        "totali": 1
+      },
+      "sintesi": "Risultati Candidati Sindaco relativi a n. 1 su n. 1 sezioni",
+      "candidati": [
+        {
+          "numero": 1,
+          "nome": "MUNGIOVINO RITA",
+          "voti": 209,
+          "perc": 48.16,
+          "eletto": false,
+          "ballottaggio": false,
+          "liste": [
+            {
+              "numero": 1,
+              "nome": "PER MALVAGNA MUNGIOVINO SINDACO",
+              "candidati": 10,
+              "voti": 201,
+              "perc": 46.64,
+              "contrassegno": "ME_11295.JPG"
+            }
+          ]
+        },
+        {
+          "numero": 2,
+          "nome": "PANEBIANCO NINO",
+          "voti": 225,
+          "perc": 51.84,
+          "eletto": true,
+          "ballottaggio": false,
+          "liste": [
+            {
+              "numero": 2,
+              "nome": "LA MALVAGNA CHE VOGLIAMO - PANEBIANCO SINDACO",
+              "candidati": 10,
+              "voti": 230,
+              "perc": 53.36,
+              "contrassegno": "ME_11297.JPG"
+            }
+          ]
+        }
+      ],
+      "slug": "malvagna",
+      "comune_id": 179,
+      "provincia_sigla": "ME",
+      "source": {
+        "candidati_liste": "https://www.elezioni.regione.sicilia.it/ME/ReportCandidatiListeME179.html",
+        "dati_lista": "https://www.elezioni.regione.sicilia.it/ME/ReportDatiListaME179.html"
+      }
+    },
+    "malfa": {
+      "stato": "completato",
+      "sezioni": {
+        "scrutinate": 1,
+        "totali": 1
+      },
+      "sintesi": "Risultati Candidati Sindaco relativi a n. 1 su n. 1 sezioni",
+      "candidati": [
+        {
+          "numero": 1,
+          "nome": "SIRACUSANO GIUSEPPE",
+          "voti": 371,
+          "perc": 61.63,
+          "eletto": true,
+          "ballottaggio": false,
+          "liste": [
+            {
+              "numero": 1,
+              "nome": "NOI PER MALFA",
+              "candidati": 10,
+              "voti": 436,
+              "perc": 74.91,
+              "contrassegno": "ME_11289.JPG"
+            }
+          ]
+        },
+        {
+          "numero": 2,
+          "nome": "ISAJA MAURIZIO",
+          "voti": 133,
+          "perc": 22.09,
+          "eletto": false,
+          "ballottaggio": false,
+          "liste": [
+            {
+              "numero": 2,
+              "nome": "MALFA NEL CUORE",
+              "candidati": 7,
+              "voti": 70,
+              "perc": 12.03,
+              "contrassegno": "ME_11291.JPG"
+            }
+          ]
+        },
+        {
+          "numero": 3,
+          "nome": "SALTALAMACCHIA CLAUDIO",
+          "voti": 98,
+          "perc": 16.28,
+          "eletto": false,
+          "ballottaggio": false,
+          "liste": [
+            {
+              "numero": 3,
+              "nome": "PRIMA I PAESANI",
+              "candidati": 8,
+              "voti": 76,
+              "perc": 13.06,
+              "contrassegno": "ME_11293.JPG"
+            }
+          ]
+        }
+      ],
+      "slug": "malfa",
+      "comune_id": 178,
+      "provincia_sigla": "ME",
+      "source": {
+        "candidati_liste": "https://www.elezioni.regione.sicilia.it/ME/ReportCandidatiListeME178.html",
+        "dati_lista": "https://www.elezioni.regione.sicilia.it/ME/ReportDatiListaME178.html"
+      }
+    },
+    "meri": {
+      "stato": "completato",
+      "sezioni": {
+        "scrutinate": 2,
+        "totali": 2
+      },
+      "sintesi": "Risultati Candidati Sindaco relativi a n. 2 su n. 2 sezioni",
+      "candidati": [
+        {
+          "numero": 1,
+          "nome": "SIRACUSA ANTONINO",
+          "voti": 654,
+          "perc": 43.83,
+          "eletto": false,
+          "ballottaggio": false,
+          "liste": [
+            {
+              "numero": 1,
+              "nome": "RINASCITA MERIESE - RIPARTIAMO DA QUI - SINDACO NINO SIRACUSA",
+              "candidati": 10,
+              "voti": 644,
+              "perc": 43.63,
+              "contrassegno": "ME_11299.JPG"
+            }
+          ]
+        },
+        {
+          "numero": 2,
+          "nome": "CICCIARI GIUSI",
+          "voti": 838,
+          "perc": 56.17,
+          "eletto": true,
+          "ballottaggio": false,
+          "liste": [
+            {
+              "numero": 2,
+              "nome": "NOI PER IL FUTURO MERIESE - GIUSI CICCIARI SINDACO",
+              "candidati": 10,
+              "voti": 832,
+              "perc": 56.37,
+              "contrassegno": "ME_11301.JPG"
+            }
+          ]
+        }
+      ],
+      "slug": "meri",
+      "comune_id": 193,
+      "provincia_sigla": "ME",
+      "source": {
+        "candidati_liste": "https://www.elezioni.regione.sicilia.it/ME/ReportCandidatiListeME193.html",
+        "dati_lista": "https://www.elezioni.regione.sicilia.it/ME/ReportDatiListaME193.html"
+      }
+    },
+    "barcellona-pozzo-di-gotto": {
+      "stato": "completato",
+      "sezioni": {
+        "scrutinate": 48,
+        "totali": 48
+      },
+      "sintesi": "Risultati Candidati Sindaco relativi a n. 48 su n. 48 sezioni",
+      "candidati": [
+        {
+          "numero": 1,
+          "nome": "SCOLARO MELANGELA",
+          "voti": 9676,
+          "perc": 40.45,
+          "eletto": true,
+          "ballottaggio": false,
+          "liste": [
+            {
+              "numero": 4,
+              "nome": "SUD CHIAMA NORD UNA MARCIA IN PIU' PER BARCELLONA POZZO DI GOTTO SCOLARO",
+              "candidati": 24,
+              "voti": 720,
+              "perc": 3.1,
+              "contrassegno": "ME_11235.JPG"
+            },
+            {
+              "numero": 5,
+              "nome": "SUD CHIAMA NORD AVREMO CURA DI TE BARCELLONA POZZO DI GOTTO SCOLARO",
+              "candidati": 20,
+              "voti": 68,
+              "perc": 0.29,
+              "contrassegno": "ME_11237.JPG"
+            },
+            {
+              "numero": 8,
+              "nome": "SUD CHIAMA NORD DE LUCA SINDACO DI SICILIA SCOLARO",
+              "candidati": 24,
+              "voti": 1601,
+              "perc": 6.9,
+              "contrassegno": "ME_11239.JPG"
+            },
+            {
+              "numero": 13,
+              "nome": "BARCELLONA POZZO DI GOTTO IN COMUNE SCOLARO SINDACO",
+              "candidati": 24,
+              "voti": 1530,
+              "perc": 6.6,
+              "contrassegno": "ME_11241.JPG"
+            },
+            {
+              "numero": 16,
+              "nome": "SUD CHIAMA NORD SCOLARO SINDACO DI BARCELLONA POZZO DI GOTTO",
+              "candidati": 24,
+              "voti": 2511,
+              "perc": 10.83,
+              "contrassegno": "ME_11243.JPG"
+            }
+          ]
+        },
+        {
+          "numero": 2,
+          "nome": "BONGIOVANNI DAVID",
+          "voti": 4717,
+          "perc": 19.72,
+          "eletto": false,
+          "ballottaggio": false,
+          "liste": [
+            {
+              "numero": 1,
+              "nome": "BARCELLONA POZZO DI GOTTO CITTA' APERTA CONTRO CORRENTE LOTTARE X RESTARE ISMAELE LA VARDERA 2026",
+              "candidati": 24,
+              "voti": 1591,
+              "perc": 6.86,
+              "contrassegno": "ME_11245.JPG"
+            },
+            {
+              "numero": 10,
+              "nome": "PARTITO DEMOCRATICO",
+              "candidati": 24,
+              "voti": 2053,
+              "perc": 8.85,
+              "contrassegno": "ME_11247.JPG"
+            },
+            {
+              "numero": 12,
+              "nome": "MOVIMENTO 5 STELLE 2050",
+              "candidati": 18,
+              "voti": 561,
+              "perc": 2.42,
+              "contrassegno": "ME_11249.JPG"
+            }
+          ]
+        },
+        {
+          "numero": 3,
+          "nome": "BARBERA NICOLA MARIA",
+          "voti": 9528,
+          "perc": 39.83,
+          "eletto": false,
+          "ballottaggio": false,
+          "liste": [
+            {
+              "numero": 2,
+              "nome": "VAMOS! CON BARBERA SINDACO",
+              "candidati": 24,
+              "voti": 951,
+              "perc": 4.1,
+              "contrassegno": "ME_11251.JPG"
+            },
+            {
+              "numero": 3,
+              "nome": "ASCOLTIAMO BARCELLONA POZZO DI GOTTO BARBERA SINDACO",
+              "candidati": 18,
+              "voti": 12,
+              "perc": 0.05,
+              "contrassegno": "ME_11253.JPG"
+            },
+            {
+              "numero": 6,
+              "nome": "AZZURRI PER BARCELLONA POZZO DI GOTTO BARBERA SINDACO",
+              "candidati": 24,
+              "voti": 1499,
+              "perc": 6.46,
+              "contrassegno": "ME_11255.JPG"
+            },
+            {
+              "numero": 7,
+              "nome": "#NOI CI SIAMO",
+              "candidati": 24,
+              "voti": 694,
+              "perc": 2.99,
+              "contrassegno": "ME_11257.JPG"
+            },
+            {
+              "numero": 9,
+              "nome": "FUORI DAL CORO PRIMA BARCELLONA POZZO DI GOTTO",
+              "candidati": 24,
+              "voti": 1158,
+              "perc": 4.99,
+              "contrassegno": "ME_11259.JPG"
+            },
+            {
+              "numero": 11,
+              "nome": "PARTITO POPOLARE EUROPEO FORZA ITALIA BERLUSCONI",
+              "candidati": 24,
+              "voti": 1893,
+              "perc": 8.16,
+              "contrassegno": "ME_11261.JPG"
+            },
+            {
+              "numero": 14,
+              "nome": "NICOLA BARBERA SINDACO X BARCELLONA POZZO DI GOTTO",
+              "candidati": 24,
+              "voti": 1973,
+              "perc": 8.51,
+              "contrassegno": "ME_11263.JPG"
+            },
+            {
+              "numero": 15,
+              "nome": "FRATELLI D'ITALIA GIORGIA MELONI",
+              "candidati": 24,
+              "voti": 3353,
+              "perc": 14.46,
+              "contrassegno": "ME_11265.JPG"
+            },
+            {
+              "numero": 17,
+              "nome": "LACIVICA BARCELLONA P.G. BARBERA SINDACO",
+              "candidati": 24,
+              "voti": 1027,
+              "perc": 4.43,
+              "contrassegno": "ME_11267.JPG"
+            }
+          ]
+        }
+      ],
+      "slug": "barcellona-pozzo-di-gotto",
+      "comune_id": 30,
+      "provincia_sigla": "ME",
+      "source": {
+        "candidati_liste": "https://www.elezioni.regione.sicilia.it/ME/ReportCandidatiListeME30.html",
+        "dati_lista": "https://www.elezioni.regione.sicilia.it/ME/ReportDatiListaME30.html"
+      }
+    },
+    "naso": {
+      "stato": "completato",
+      "sezioni": {
+        "scrutinate": 7,
+        "totali": 7
+      },
+      "sintesi": "Risultati Candidati Sindaco relativi a n. 7 su n. 7 sezioni",
+      "candidati": [
+        {
+          "numero": 1,
+          "nome": "LETIZIA DANIELE",
+          "voti": 1033,
+          "perc": 43.31,
+          "eletto": false,
+          "ballottaggio": false,
+          "liste": [
+            {
+              "numero": 1,
+              "nome": "DANIELE LETIZIA SINDACO - RIPATIAMO INSIEME PER NASO",
+              "candidati": 12,
+              "voti": 969,
+              "perc": 41.23,
+              "contrassegno": "ME_11403.JPG"
+            }
+          ]
+        },
+        {
+          "numero": 2,
+          "nome": "NANI' GAETANO",
+          "voti": 1352,
+          "perc": 56.69,
+          "eletto": true,
+          "ballottaggio": false,
+          "liste": [
+            {
+              "numero": 2,
+              "nome": "NASO PROGETTO FUTURO - GAETANO NANI' SINDACO",
+              "candidati": 12,
+              "voti": 1381,
+              "perc": 58.77,
+              "contrassegno": "ME_11405.JPG"
+            }
+          ]
+        }
+      ],
+      "slug": "naso",
+      "comune_id": 225,
+      "provincia_sigla": "ME",
+      "source": {
+        "candidati_liste": "https://www.elezioni.regione.sicilia.it/ME/ReportCandidatiListeME225.html",
+        "dati_lista": "https://www.elezioni.regione.sicilia.it/ME/ReportDatiListaME225.html"
+      }
+    },
+    "milazzo": {
+      "stato": "completato",
+      "sezioni": {
+        "scrutinate": 37,
+        "totali": 37
+      },
+      "sintesi": "Risultati Candidati Sindaco relativi a n. 37 su n. 37 sezioni",
+      "candidati": [
+        {
+          "numero": 1,
+          "nome": "FALLITI GIUSEPPE",
+          "voti": 759,
+          "perc": 4.07,
+          "eletto": false,
+          "ballottaggio": false,
+          "liste": [
+            {
+              "numero": 11,
+              "nome": "CONTRO CORRENTE - LA VARDERA X MILAZZO",
+              "candidati": 24,
+              "voti": 766,
+              "perc": 4.29,
+              "contrassegno": "ME_11375.JPG"
+            }
+          ]
+        },
+        {
+          "numero": 2,
+          "nome": "VACCA MICHELE",
+          "voti": 1342,
+          "perc": 7.19,
+          "eletto": false,
+          "ballottaggio": false,
+          "liste": [
+            {
+              "numero": 17,
+              "nome": "PARTITO DEMOCRATICO - MOVIMENTO 5 STELLE - RIFONDAZIONE PARTITO COMUNISTA",
+              "candidati": 24,
+              "voti": 968,
+              "perc": 5.42,
+              "contrassegno": "ME_11391.JPG"
+            }
+          ]
+        },
+        {
+          "numero": 3,
+          "nome": "MIDILI GIUSEPPE",
+          "voti": 10977,
+          "perc": 58.81,
+          "eletto": true,
+          "ballottaggio": false,
+          "liste": [
+            {
+              "numero": 1,
+              "nome": "FARE MILAZZO - MIDILI SINDACO",
+              "candidati": 24,
+              "voti": 604,
+              "perc": 3.38,
+              "contrassegno": "ME_11355.JPG"
+            },
+            {
+              "numero": 2,
+              "nome": "CITTA' FUTURA - MIDILI SINDACO",
+              "candidati": 24,
+              "voti": 2421,
+              "perc": 13.57,
+              "contrassegno": "ME_11357.JPG"
+            },
+            {
+              "numero": 9,
+              "nome": "FORZA ITALIA BERLUSCONI - PARTITO POPOLARE EUROPEO",
+              "candidati": 24,
+              "voti": 2254,
+              "perc": 12.63,
+              "contrassegno": "ME_11371.JPG"
+            },
+            {
+              "numero": 12,
+              "nome": "PRIMA MILAZZO - NOI MODERATI - MIDILI SINDACO",
+              "candidati": 24,
+              "voti": 1204,
+              "perc": 6.75,
+              "contrassegno": "ME_11377.JPG"
+            },
+            {
+              "numero": 13,
+              "nome": "MILAZZO 2026 - MIDILI SINDACO",
+              "candidati": 24,
+              "voti": 1907,
+              "perc": 10.69,
+              "contrassegno": "ME_11383.JPG"
+            },
+            {
+              "numero": 14,
+              "nome": "FRATELLI D'ITALIA - GIORGIA MELONI",
+              "candidati": 24,
+              "voti": 2178,
+              "perc": 12.2,
+              "contrassegno": "ME_11385.JPG"
+            },
+            {
+              "numero": 16,
+              "nome": "CAMBIAMENTE PER MILAZZO - MIDILI SINDACO",
+              "candidati": 24,
+              "voti": 2112,
+              "perc": 11.84,
+              "contrassegno": "ME_11389.JPG"
+            }
+          ]
+        },
+        {
+          "numero": 4,
+          "nome": "ITALIANO LORENZO",
+          "voti": 2583,
+          "perc": 13.84,
+          "eletto": false,
+          "ballottaggio": false,
+          "liste": [
+            {
+              "numero": 4,
+              "nome": "LORENZO ITALIANO SINDACO",
+              "candidati": 24,
+              "voti": 1640,
+              "perc": 9.19,
+              "contrassegno": "ME_11361.JPG"
+            },
+            {
+              "numero": 5,
+              "nome": "MILAZZO AL CENTRO CON LORENZO ITALIANO SINDACO",
+              "candidati": 18,
+              "voti": 55,
+              "perc": 0.31,
+              "contrassegno": "ME_11363.JPG"
+            },
+            {
+              "numero": 15,
+              "nome": "INSIEME PER MILAZZO - ITALIANO SINDACO",
+              "candidati": 16,
+              "voti": 145,
+              "perc": 0.81,
+              "contrassegno": "ME_11387.JPG"
+            }
+          ]
+        },
+        {
+          "numero": 5,
+          "nome": "CASTELLI LAURA",
+          "voti": 2772,
+          "perc": 14.85,
+          "eletto": false,
+          "ballottaggio": false,
+          "liste": [
+            {
+              "numero": 3,
+              "nome": "CASTELLI SINDACO DI MILAZZO",
+              "candidati": 24,
+              "voti": 261,
+              "perc": 1.46,
+              "contrassegno": "ME_11359.JPG"
+            },
+            {
+              "numero": 6,
+              "nome": "DE LUCA SINDACO DI SICILIA - CASTELLI",
+              "candidati": 24,
+              "voti": 178,
+              "perc": 1.0,
+              "contrassegno": "ME_11365.JPG"
+            },
+            {
+              "numero": 7,
+              "nome": "UNA MARCIA IN PIU' PER MILAZZO - CASTELLI",
+              "candidati": 24,
+              "voti": 1022,
+              "perc": 5.73,
+              "contrassegno": "ME_11367.JPG"
+            },
+            {
+              "numero": 10,
+              "nome": "LA SVOLTA PER MILAZZO - CASTELLI",
+              "candidati": 17,
+              "voti": 7,
+              "perc": 0.04,
+              "contrassegno": "ME_11373.JPG"
+            }
+          ]
+        },
+        {
+          "numero": 6,
+          "nome": "TORRE CARMELO",
+          "voti": 231,
+          "perc": 1.24,
+          "eletto": false,
+          "ballottaggio": false,
+          "liste": [
+            {
+              "numero": 8,
+              "nome": "CARTA CANTA - CARMELO TORRE SINDACO",
+              "candidati": 17,
+              "voti": 123,
+              "perc": 0.69,
+              "contrassegno": "ME_11369.JPG"
+            }
+          ]
+        }
+      ],
+      "slug": "milazzo",
+      "comune_id": 196,
+      "provincia_sigla": "ME",
+      "source": {
+        "candidati_liste": "https://www.elezioni.regione.sicilia.it/ME/ReportCandidatiListeME196.html",
+        "dati_lista": "https://www.elezioni.regione.sicilia.it/ME/ReportDatiListaME196.html"
+      }
+    },
+    "saponara": {
+      "stato": "completato",
+      "sezioni": {
+        "scrutinate": 6,
+        "totali": 6
+      },
+      "sintesi": "Risultati Candidati Sindaco relativi a n. 6 su n. 6 sezioni",
+      "candidati": [
+        {
+          "numero": 1,
+          "nome": "RIZZO GIUSEPPE",
+          "voti": 67,
+          "perc": 2.93,
+          "eletto": false,
+          "ballottaggio": false,
+          "liste": [
+            {
+              "numero": 1,
+              "nome": "DC - DEMOCRAZIA CRISTIANA",
+              "candidati": 12,
+              "voti": 48,
+              "perc": 2.13,
+              "contrassegno": "ME_11393.JPG"
+            }
+          ]
+        },
+        {
+          "numero": 2,
+          "nome": "SPIDALERI MARIA",
+          "voti": 1114,
+          "perc": 48.71,
+          "eletto": true,
+          "ballottaggio": false,
+          "liste": [
+            {
+              "numero": 2,
+              "nome": "RADICI E FUTURO - #INSIEMEPERSAPONARA - MARIA SPIDALERI SINDACO",
+              "candidati": 12,
+              "voti": 1114,
+              "perc": 49.34,
+              "contrassegno": "ME_11395.JPG"
+            }
+          ]
+        },
+        {
+          "numero": 3,
+          "nome": "MERLINO GIUSEPPE",
+          "voti": 1106,
+          "perc": 48.36,
+          "eletto": false,
+          "ballottaggio": false,
+          "liste": [
+            {
+              "numero": 3,
+              "nome": "IMPEGNO PER SAPONARA - GIUSEPPE MERLINO SINDACO",
+              "candidati": 12,
+              "voti": 1096,
+              "perc": 48.54,
+              "contrassegno": "ME_11397.JPG"
+            }
+          ]
+        }
+      ],
+      "slug": "saponara",
+      "comune_id": 334,
+      "provincia_sigla": "ME",
+      "source": {
+        "candidati_liste": "https://www.elezioni.regione.sicilia.it/ME/ReportCandidatiListeME334.html",
+        "dati_lista": "https://www.elezioni.regione.sicilia.it/ME/ReportDatiListaME334.html"
+      }
+    },
+    "mirto": {
+      "stato": "completato",
+      "sezioni": {
+        "scrutinate": 2,
+        "totali": 2
+      },
+      "sintesi": "Risultati Candidati Sindaco relativi a n. 2 su n. 2 sezioni",
+      "candidati": [
+        {
+          "numero": 1,
+          "nome": "ZINGALES MAURIZIO",
+          "voti": 489,
+          "perc": 100.0,
+          "eletto": true,
+          "ballottaggio": false,
+          "liste": [
+            {
+              "numero": 1,
+              "nome": "PACE LAVORO LIBERTA' - ZINGALES SINDACO",
+              "candidati": 10,
+              "voti": 482,
+              "perc": 100.0,
+              "contrassegno": "ME_11407.JPG"
+            }
+          ]
+        }
+      ],
+      "slug": "mirto",
+      "comune_id": 203,
+      "provincia_sigla": "ME",
+      "source": {
+        "candidati_liste": "https://www.elezioni.regione.sicilia.it/ME/ReportCandidatiListeME203.html",
+        "dati_lista": "https://www.elezioni.regione.sicilia.it/ME/ReportDatiListaME203.html"
+      }
+    },
+    "raccuja": {
+      "stato": "completato",
+      "sezioni": {
+        "scrutinate": 2,
+        "totali": 2
+      },
+      "sintesi": "Risultati Candidati Sindaco relativi a n. 2 su n. 2 sezioni",
+      "candidati": [
+        {
+          "numero": 1,
+          "nome": "MARTELLA IVAN",
+          "voti": 518,
+          "perc": 100.0,
+          "eletto": true,
+          "ballottaggio": false,
+          "liste": [
+            {
+              "numero": 1,
+              "nome": "RACCUJA 5.0 #UNFUTURODAFARE",
+              "candidati": 10,
+              "voti": 513,
+              "perc": 100.0,
+              "contrassegno": "ME_11401.JPG"
+            }
+          ]
+        }
+      ],
+      "slug": "raccuja",
+      "comune_id": 267,
+      "provincia_sigla": "ME",
+      "source": {
+        "candidati_liste": "https://www.elezioni.regione.sicilia.it/ME/ReportCandidatiListeME267.html",
+        "dati_lista": "https://www.elezioni.regione.sicilia.it/ME/ReportDatiListaME267.html"
+      }
+    },
+    "san-salvatore-di-fitalia": {
+      "stato": "completato",
+      "sezioni": {
+        "scrutinate": 2,
+        "totali": 2
+      },
+      "sintesi": "Risultati Candidati Sindaco relativi a n. 2 su n. 2 sezioni",
+      "candidati": [
+        {
+          "numero": 1,
+          "nome": "PIZZOLANTE GIUSEPPE",
+          "voti": 726,
+          "perc": 100.0,
+          "eletto": true,
+          "ballottaggio": false,
+          "liste": [
+            {
+              "numero": 1,
+              "nome": "S. SALVATORE DI FITALIA CON PIZZOLANTE SINDACO",
+              "candidati": 10,
+              "voti": 712,
+              "perc": 100.0,
+              "contrassegno": "ME_11399.JPG"
+            }
+          ]
+        }
+      ],
+      "slug": "san-salvatore-di-fitalia",
+      "comune_id": 310,
+      "provincia_sigla": "ME",
+      "source": {
+        "candidati_liste": "https://www.elezioni.regione.sicilia.it/ME/ReportCandidatiListeME310.html",
+        "dati_lista": "https://www.elezioni.regione.sicilia.it/ME/ReportDatiListaME310.html"
+      }
+    },
+    "messina": {
+      "stato": "in_corso",
+      "sezioni": {
+        "scrutinate": 248,
+        "totali": 253
+      },
+      "sintesi": "Risultati Candidati Sindaco relativi a n. 248 su n. 253 sezioni",
+      "candidati": [
+        {
+          "numero": 1,
+          "nome": "SCURRIA MARCELLO",
+          "voti": 29048,
+          "perc": 26.96,
+          "eletto": false,
+          "ballottaggio": false,
+          "liste": [
+            {
+              "numero": 2,
+              "nome": "DEMOCRAZIA CRISTIANA - PARTITO REPUBBLICANO ITALIANO - PARTITO ANIMALISTA",
+              "candidati": 24,
+              "voti": 543,
+              "perc": 0.54,
+              "contrassegno": "ME_11305.JPG"
+            },
+            {
+              "numero": 4,
+              "nome": "MARCELLO SCURRIA SINDACO DI MESSINA",
+              "candidati": 32,
+              "voti": 5330,
+              "perc": 5.25,
+              "contrassegno": "ME_11309.JPG"
+            },
+            {
+              "numero": 16,
+              "nome": "FRATELLI D'ITALIA - GIORGIA MELONI",
+              "candidati": 32,
+              "voti": 7695,
+              "perc": 7.58,
+              "contrassegno": "ME_11333.JPG"
+            },
+            {
+              "numero": 18,
+              "nome": "NOI MODERATI - PARTITO POPOLARE EUROPEO",
+              "candidati": 32,
+              "voti": 474,
+              "perc": 0.47,
+              "contrassegno": "ME_11337.JPG"
+            },
+            {
+              "numero": 20,
+              "nome": "FORZA ITALIA - BERLUSCONI - SCURRIA SINDACO",
+              "candidati": 32,
+              "voti": 3516,
+              "perc": 3.46,
+              "contrassegno": "ME_11341.JPG"
+            },
+            {
+              "numero": 24,
+              "nome": "POPOLARI E AUTONOMISTI - GRANDE SICILIA",
+              "candidati": 32,
+              "voti": 7636,
+              "perc": 7.52,
+              "contrassegno": "ME_11349.JPG"
+            },
+            {
+              "numero": 25,
+              "nome": "LEGA MESSINA",
+              "candidati": 32,
+              "voti": 5166,
+              "perc": 5.09,
+              "contrassegno": "ME_11351.JPG"
+            }
+          ]
+        },
+        {
+          "numero": 2,
+          "nome": "RUSSO ANTONIA detta ANTONELLA",
+          "voti": 13158,
+          "perc": 12.21,
+          "eletto": false,
+          "ballottaggio": false,
+          "liste": [
+            {
+              "numero": 1,
+              "nome": "PARTITO DEMOCRATICO",
+              "candidati": 32,
+              "voti": 8659,
+              "perc": 8.53,
+              "contrassegno": "ME_11303.JPG"
+            },
+            {
+              "numero": 14,
+              "nome": "MOVIMENTO 5 STELLE - CONTRO CORRENTE",
+              "candidati": 32,
+              "voti": 3083,
+              "perc": 3.04,
+              "contrassegno": "ME_11329.JPG"
+            }
+          ]
+        },
+        {
+          "numero": 3,
+          "nome": "BASILE FEDERICO",
+          "voti": 62916,
+          "perc": 58.4,
+          "eletto": false,
+          "ballottaggio": false,
+          "liste": [
+            {
+              "numero": 3,
+              "nome": "LA POLITICA DEL FARE - BASILE",
+              "candidati": 29,
+              "voti": 895,
+              "perc": 0.88,
+              "contrassegno": "ME_11307.JPG"
+            },
+            {
+              "numero": 5,
+              "nome": "ORGOGLIO MESSINESE - BASILE",
+              "candidati": 32,
+              "voti": 1128,
+              "perc": 1.11,
+              "contrassegno": "ME_11311.JPG"
+            },
+            {
+              "numero": 6,
+              "nome": "LAVORO E SOLIDARIETA' - BASILE",
+              "candidati": 32,
+              "voti": 605,
+              "perc": 0.6,
+              "contrassegno": "ME_11313.JPG"
+            },
+            {
+              "numero": 7,
+              "nome": "IL FUTURO E' ADESSO - BASILE",
+              "candidati": 30,
+              "voti": 439,
+              "perc": 0.43,
+              "contrassegno": "ME_11315.JPG"
+            },
+            {
+              "numero": 8,
+              "nome": "SUD CHIAMA NORD PER MESSINA - BASILE",
+              "candidati": 32,
+              "voti": 14509,
+              "perc": 14.3,
+              "contrassegno": "ME_11317.JPG"
+            },
+            {
+              "numero": 9,
+              "nome": "DE LUCA SINDACO DI SICILIA - BASILE",
+              "candidati": 32,
+              "voti": 3514,
+              "perc": 3.46,
+              "contrassegno": "ME_11319.JPG"
+            },
+            {
+              "numero": 10,
+              "nome": "SVILUPPO SOSTENIBILE - BASILE",
+              "candidati": 32,
+              "voti": 561,
+              "perc": 0.55,
+              "contrassegno": "ME_11321.JPG"
+            },
+            {
+              "numero": 11,
+              "nome": "AMO MESSINA - BASILE",
+              "candidati": 32,
+              "voti": 6019,
+              "perc": 5.93,
+              "contrassegno": "ME_11323.JPG"
+            },
+            {
+              "numero": 12,
+              "nome": "BASILE SINDACO DI MESSINA",
+              "candidati": 32,
+              "voti": 9421,
+              "perc": 9.28,
+              "contrassegno": "ME_11325.JPG"
+            },
+            {
+              "numero": 13,
+              "nome": "COSTA BLU - BASILE",
+              "candidati": 28,
+              "voti": 459,
+              "perc": 0.45,
+              "contrassegno": "ME_11327.JPG"
+            },
+            {
+              "numero": 15,
+              "nome": "LIBERI E FORTI - BASILE",
+              "candidati": 32,
+              "voti": 4212,
+              "perc": 4.15,
+              "contrassegno": "ME_11331.JPG"
+            },
+            {
+              "numero": 17,
+              "nome": "ZANCLE - BASILE",
+              "candidati": 30,
+              "voti": 552,
+              "perc": 0.54,
+              "contrassegno": "ME_11335.JPG"
+            },
+            {
+              "numero": 21,
+              "nome": "CATENO PER I GIOVANI - BASILE",
+              "candidati": 32,
+              "voti": 1227,
+              "perc": 1.21,
+              "contrassegno": "ME_11343.JPG"
+            },
+            {
+              "numero": 23,
+              "nome": "FEDERICO PER MESSINA - BASILE",
+              "candidati": 32,
+              "voti": 6945,
+              "perc": 6.84,
+              "contrassegno": "ME_11347.JPG"
+            },
+            {
+              "numero": 26,
+              "nome": "MESSINA PROTAGONISTA - BASILE",
+              "candidati": 32,
+              "voti": 7469,
+              "perc": 7.36,
+              "contrassegno": "ME_11353.JPG"
+            }
+          ]
+        },
+        {
+          "numero": 4,
+          "nome": "SCIACCA GAETANO",
+          "voti": 1828,
+          "perc": 1.7,
+          "eletto": false,
+          "ballottaggio": false,
+          "liste": [
+            {
+              "numero": 19,
+              "nome": "RINASCITA MESSINA - SCIACCA SINDACO",
+              "candidati": 31,
+              "voti": 1150,
+              "perc": 1.13,
+              "contrassegno": "ME_11339.JPG"
+            }
+          ]
+        },
+        {
+          "numero": 5,
+          "nome": "VALVIERI LETTERIO detto LILLO",
+          "voti": 793,
+          "perc": 0.74,
+          "eletto": false,
+          "ballottaggio": false,
+          "liste": [
+            {
+              "numero": 22,
+              "nome": "LILLO VALVIERI SINDACO MESSINA",
+              "candidati": 22,
+              "voti": 281,
+              "perc": 0.28,
+              "contrassegno": "ME_11345.JPG"
+            }
+          ]
+        }
+      ],
+      "slug": "messina",
+      "comune_id": 194,
+      "provincia_sigla": "ME",
+      "source": {
+        "candidati_liste": "https://www.elezioni.regione.sicilia.it/ME/ReportCandidatiListeME194.html",
+        "dati_lista": "https://www.elezioni.regione.sicilia.it/ME/ReportDatiListaME194.html"
+      }
+    },
+    "savoca": {
+      "stato": "completato",
+      "sezioni": {
+        "scrutinate": 3,
+        "totali": 3
+      },
+      "sintesi": "Risultati Candidati Sindaco relativi a n. 3 su n. 3 sezioni",
+      "candidati": [
+        {
+          "numero": 1,
+          "nome": "STRACUZZI MASSIMO",
+          "voti": 820,
+          "perc": 92.03,
+          "eletto": true,
+          "ballottaggio": false,
+          "liste": [
+            {
+              "numero": 1,
+              "nome": "STRACUZZI SINDACO VIVI SAVOCA CONTINUITA' E RINNOVAMENTO",
+              "candidati": 10,
+              "voti": 841,
+              "perc": 95.35,
+              "contrassegno": "ME_11379.JPG"
+            }
+          ]
+        },
+        {
+          "numero": 2,
+          "nome": "INFORMANTE CHARMEL PIO",
+          "voti": 71,
+          "perc": 7.97,
+          "eletto": false,
+          "ballottaggio": false,
+          "liste": [
+            {
+              "numero": 2,
+              "nome": "SAVOCA PER SEMPRE",
+              "candidati": 7,
+              "voti": 41,
+              "perc": 4.65,
+              "contrassegno": "ME_11381.JPG"
+            }
+          ]
+        }
+      ],
+      "slug": "savoca",
+      "comune_id": 335,
+      "provincia_sigla": "ME",
+      "source": {
+        "candidati_liste": "https://www.elezioni.regione.sicilia.it/ME/ReportCandidatiListeME335.html",
+        "dati_lista": "https://www.elezioni.regione.sicilia.it/ME/ReportDatiListaME335.html"
+      }
+    },
+    "aliminusa": {
+      "stato": "completato",
+      "sezioni": {
+        "scrutinate": 2,
+        "totali": 2
+      },
+      "sintesi": "Risultati Candidati Sindaco relativi a n. 2 su n. 2 sezioni",
+      "candidati": [
+        {
+          "numero": 1,
+          "nome": "DI PASQUALE CROCETTA MARIA",
+          "voti": 398,
+          "perc": 55.66,
+          "eletto": true,
+          "ballottaggio": false,
+          "liste": [
+            {
+              "numero": 1,
+              "nome": "BUONGIORNO ALIMINUSA - CROCETTA DI PASQUALE SINDACO",
+              "candidati": 10,
+              "voti": 393,
+              "perc": 55.2,
+              "contrassegno": "PA_11613.JPG"
+            }
+          ]
+        },
+        {
+          "numero": 2,
+          "nome": "DOLCE GIUSEPPINA detta ROSANNA",
+          "voti": 317,
+          "perc": 44.34,
+          "eletto": false,
+          "ballottaggio": false,
+          "liste": [
+            {
+              "numero": 2,
+              "nome": "INSIEME PER ALIMINUSA -",
+              "candidati": 10,
+              "voti": 319,
+              "perc": 44.8,
+              "contrassegno": "PA_11615.JPG"
+            }
+          ]
+        }
+      ],
+      "slug": "aliminusa",
+      "comune_id": 20,
+      "provincia_sigla": "PA",
+      "source": {
+        "candidati_liste": "https://www.elezioni.regione.sicilia.it/PA/ReportCandidatiListePA20.html",
+        "dati_lista": "https://www.elezioni.regione.sicilia.it/PA/ReportDatiListaPA20.html"
+      }
+    },
+    "campofelice-di-fitalia": {
+      "stato": "completato",
+      "sezioni": {
+        "scrutinate": 1,
+        "totali": 1
+      },
+      "sintesi": "Risultati Candidati Sindaco relativi a n. 1 su n. 1 sezioni",
+      "candidati": [
+        {
+          "numero": 1,
+          "nome": "CANZONERI ANNA",
+          "voti": 212,
+          "perc": 93.39,
+          "eletto": true,
+          "ballottaggio": false,
+          "liste": [
+            {
+              "numero": 1,
+              "nome": "INSIEME SEMPRE PER CAMPOFELICE",
+              "candidati": 10,
+              "voti": 217,
+              "perc": 96.02,
+              "contrassegno": "PA_11621.JPG"
+            }
+          ]
+        },
+        {
+          "numero": 2,
+          "nome": "LA BARBA FABIO",
+          "voti": 15,
+          "perc": 6.61,
+          "eletto": false,
+          "ballottaggio": false,
+          "liste": [
+            {
+              "numero": 2,
+              "nome": "IMPEGNIAMOCI PER IL PAESE",
+              "candidati": 7,
+              "voti": 9,
+              "perc": 3.98,
+              "contrassegno": "PA_11623.JPG"
+            }
+          ]
+        }
+      ],
+      "slug": "campofelice-di-fitalia",
+      "comune_id": 64,
+      "provincia_sigla": "PA",
+      "source": {
+        "candidati_liste": "https://www.elezioni.regione.sicilia.it/PA/ReportCandidatiListePA64.html",
+        "dati_lista": "https://www.elezioni.regione.sicilia.it/PA/ReportDatiListaPA64.html"
+      }
+    },
+    "altofonte": {
+      "stato": "completato",
+      "sezioni": {
+        "scrutinate": 8,
+        "totali": 8
+      },
+      "sintesi": "Risultati Candidati Sindaco relativi a n. 8 su n. 8 sezioni",
+      "candidati": [
+        {
+          "numero": 1,
+          "nome": "CATANESE VITALIANO detto VITO",
+          "voti": 1350,
+          "perc": 27.27,
+          "eletto": false,
+          "ballottaggio": false,
+          "liste": [
+            {
+              "numero": 1,
+              "nome": "LISTA CIVICA CON ANGELA DE LUCA - CATANESE VITO SINDACO",
+              "candidati": 12,
+              "voti": 1348,
+              "perc": 27.5,
+              "contrassegno": "PA_11209.JPG"
+            }
+          ]
+        },
+        {
+          "numero": 2,
+          "nome": "RACCUGLIA GIACOMO LUCA",
+          "voti": 2156,
+          "perc": 43.55,
+          "eletto": true,
+          "ballottaggio": false,
+          "liste": [
+            {
+              "numero": 2,
+              "nome": "UNITI CAMBIAMO ALTOFONTE - RACCUGLIA SINDACO",
+              "candidati": 12,
+              "voti": 2125,
+              "perc": 43.35,
+              "contrassegno": "PA_11211.JPG"
+            }
+          ]
+        },
+        {
+          "numero": 3,
+          "nome": "CAPIZZI PATRIZIA",
+          "voti": 1445,
+          "perc": 29.19,
+          "eletto": false,
+          "ballottaggio": false,
+          "liste": [
+            {
+              "numero": 3,
+              "nome": "INSIEME PER ALTOFONTE - PATRIZIA CAPIZZI CANDIDATA SINDACA DI ALTOFONTE",
+              "candidati": 12,
+              "voti": 1429,
+              "perc": 29.15,
+              "contrassegno": "PA_11213.JPG"
+            }
+          ]
+        }
+      ],
+      "slug": "altofonte",
+      "comune_id": 22,
+      "provincia_sigla": "PA",
+      "source": {
+        "candidati_liste": "https://www.elezioni.regione.sicilia.it/PA/ReportCandidatiListePA22.html",
+        "dati_lista": "https://www.elezioni.regione.sicilia.it/PA/ReportDatiListaPA22.html"
+      }
+    },
+    "caltavuturo": {
+      "stato": "completato",
+      "sezioni": {
+        "scrutinate": 5,
+        "totali": 5
+      },
+      "sintesi": "Risultati Candidati Sindaco relativi a n. 5 su n. 5 sezioni",
+      "candidati": [
+        {
+          "numero": 1,
+          "nome": "PORRETTA PIETRO",
+          "voti": 1706,
+          "perc": 78.47,
+          "eletto": true,
+          "ballottaggio": false,
+          "liste": [
+            {
+              "numero": 1,
+              "nome": "PROGETTO COMUNE CALTAVUTURO - PORRETTA SINDACO",
+              "candidati": 12,
+              "voti": 1718,
+              "perc": 79.87,
+              "contrassegno": "PA_11617.JPG"
+            }
+          ]
+        },
+        {
+          "numero": 2,
+          "nome": "ROMANA GIUSEPPINA",
+          "voti": 468,
+          "perc": 21.53,
+          "eletto": false,
+          "ballottaggio": false,
+          "liste": [
+            {
+              "numero": 2,
+              "nome": "CALTAVUTURO FUTURA - GIUSI ROMANA SINDACO",
+              "candidati": 12,
+              "voti": 433,
+              "perc": 20.13,
+              "contrassegno": "PA_11619.JPG"
+            }
+          ]
+        }
+      ],
+      "slug": "caltavuturo",
+      "comune_id": 59,
+      "provincia_sigla": "PA",
+      "source": {
+        "candidati_liste": "https://www.elezioni.regione.sicilia.it/PA/ReportCandidatiListePA59.html",
+        "dati_lista": "https://www.elezioni.regione.sicilia.it/PA/ReportDatiListaPA59.html"
+      }
+    },
+    "godrano": {
+      "stato": "completato",
+      "sezioni": {
+        "scrutinate": 1,
+        "totali": 1
+      },
+      "sintesi": "Risultati Candidati Sindaco relativi a n. 1 su n. 1 sezioni",
+      "candidati": [
+        {
+          "numero": 1,
+          "nome": "BELLINI SEBASTIANO DANIELE",
+          "voti": 648,
+          "perc": 100.0,
+          "eletto": true,
+          "ballottaggio": false,
+          "liste": [
+            {
+              "numero": 1,
+              "nome": "INSIEME PER IL FUTURO - SINDACO BELLINI",
+              "candidati": 10,
+              "voti": 643,
+              "perc": 100.0,
+              "contrassegno": "PA_11215.JPG"
+            }
+          ]
+        }
+      ],
+      "slug": "godrano",
+      "comune_id": 150,
+      "provincia_sigla": "PA",
+      "source": {
+        "candidati_liste": "https://www.elezioni.regione.sicilia.it/PA/ReportCandidatiListePA150.html",
+        "dati_lista": "https://www.elezioni.regione.sicilia.it/PA/ReportDatiListaPA150.html"
+      }
+    },
+    "isola-delle-femmine": {
+      "stato": "completato",
+      "sezioni": {
+        "scrutinate": 5,
+        "totali": 5
+      },
+      "sintesi": "Risultati Candidati Sindaco relativi a n. 5 su n. 5 sezioni",
+      "candidati": [
+        {
+          "numero": 1,
+          "nome": "BOLOGNA STEFANO",
+          "voti": 1838,
+          "perc": 44.4,
+          "eletto": false,
+          "ballottaggio": false,
+          "liste": [
+            {
+              "numero": 1,
+              "nome": "UN'ALTRA ISOLA..SI - BOLOGNA SINDACO",
+              "candidati": 12,
+              "voti": 1778,
+              "perc": 43.47,
+              "contrassegno": "PA_11631.JPG"
+            }
+          ]
+        },
+        {
+          "numero": 2,
+          "nome": "NEVOLOSO ORAZIO",
+          "voti": 2302,
+          "perc": 55.6,
+          "eletto": true,
+          "ballottaggio": false,
+          "liste": [
+            {
+              "numero": 2,
+              "nome": "CAMBIAMO ISOLA - SINDACO NEVOLOSO",
+              "candidati": 12,
+              "voti": 2312,
+              "perc": 56.53,
+              "contrassegno": "PA_11633.JPG"
+            }
+          ]
+        }
+      ],
+      "slug": "isola-delle-femmine",
+      "comune_id": 158,
+      "provincia_sigla": "PA",
+      "source": {
+        "candidati_liste": "https://www.elezioni.regione.sicilia.it/PA/ReportCandidatiListePA158.html",
+        "dati_lista": "https://www.elezioni.regione.sicilia.it/PA/ReportDatiListaPA158.html"
+      }
+    },
+    "gratteri": {
+      "stato": "completato",
+      "sezioni": {
+        "scrutinate": 2,
+        "totali": 2
+      },
+      "sintesi": "Risultati Candidati Sindaco relativi a n. 2 su n. 2 sezioni",
+      "candidati": [
+        {
+          "numero": 1,
+          "nome": "RANDI EUGENIO",
+          "voti": 210,
+          "perc": 34.04,
+          "eletto": false,
+          "ballottaggio": false,
+          "liste": [
+            {
+              "numero": 1,
+              "nome": "GRATTERI E' - COMUNITA'-IDENTITA'-FUTURO - EUGENIO RANDI SINDACO",
+              "candidati": 10,
+              "voti": 213,
+              "perc": 34.92,
+              "contrassegno": "PA_11625.JPG"
+            }
+          ]
+        },
+        {
+          "numero": 2,
+          "nome": "COCO EMANUELE",
+          "voti": 26,
+          "perc": 4.21,
+          "eletto": false,
+          "ballottaggio": false,
+          "liste": [
+            {
+              "numero": 2,
+              "nome": "NUOVA GRATTERI - EMANUELE COCO SINDACO",
+              "candidati": 9,
+              "voti": 24,
+              "perc": 3.93,
+              "contrassegno": "PA_11627.JPG"
+            }
+          ]
+        },
+        {
+          "numero": 3,
+          "nome": "SANTORO GIACOMO",
+          "voti": 381,
+          "perc": 61.75,
+          "eletto": true,
+          "ballottaggio": false,
+          "liste": [
+            {
+              "numero": 3,
+              "nome": "GRATTERI FUTURA - SANTORO SINDACO",
+              "candidati": 10,
+              "voti": 373,
+              "perc": 61.15,
+              "contrassegno": "PA_11629.JPG"
+            }
+          ]
+        }
+      ],
+      "slug": "gratteri",
+      "comune_id": 153,
+      "provincia_sigla": "PA",
+      "source": {
+        "candidati_liste": "https://www.elezioni.regione.sicilia.it/PA/ReportCandidatiListePA153.html",
+        "dati_lista": "https://www.elezioni.regione.sicilia.it/PA/ReportDatiListaPA153.html"
+      }
+    },
+    "carini": {
+      "stato": "completato",
+      "sezioni": {
+        "scrutinate": 27,
+        "totali": 27
+      },
+      "sintesi": "Risultati Candidati Sindaco relativi a n. 27 su n. 27 sezioni",
+      "candidati": [
+        {
+          "numero": 1,
+          "nome": "GAMBINO VALERIA",
+          "voti": 5478,
+          "perc": 31.36,
+          "eletto": false,
+          "ballottaggio": false,
+          "liste": [
+            {
+              "numero": 4,
+              "nome": "AZIONE POPOLARE",
+              "candidati": 24,
+              "voti": 636,
+              "perc": 3.82,
+              "contrassegno": "PA_11729.JPG"
+            },
+            {
+              "numero": 5,
+              "nome": "MOVIMENTO 5 STELLE - CARINI SI SVEGLIA - CARINI 2026 - VALERIA GAMBINO SINDACO",
+              "candidati": 20,
+              "voti": 539,
+              "perc": 3.24,
+              "contrassegno": "PA_11731.JPG"
+            },
+            {
+              "numero": 6,
+              "nome": "IL GERMOGLIO",
+              "candidati": 20,
+              "voti": 970,
+              "perc": 5.82,
+              "contrassegno": "PA_11733.JPG"
+            },
+            {
+              "numero": 9,
+              "nome": "AVANTI CARINI - PARTITO DEMOCRATICO",
+              "candidati": 21,
+              "voti": 1027,
+              "perc": 6.16,
+              "contrassegno": "PA_11735.JPG"
+            },
+            {
+              "numero": 17,
+              "nome": "CON TUTTA L'ANIMA - VALERIA GAMBINO SINDACO",
+              "candidati": 24,
+              "voti": 920,
+              "perc": 5.52,
+              "contrassegno": "PA_11737.JPG"
+            },
+            {
+              "numero": 18,
+              "nome": "CARINI OLTRE",
+              "candidati": 19,
+              "voti": 1415,
+              "perc": 8.49,
+              "contrassegno": "PA_11739.JPG"
+            }
+          ]
+        },
+        {
+          "numero": 2,
+          "nome": "PELLERITO PIETRO PAOLO detto PIER PAOLO",
+          "voti": 716,
+          "perc": 4.1,
+          "eletto": false,
+          "ballottaggio": false,
+          "liste": [
+            {
+              "numero": 10,
+              "nome": "PARTITO POPOLARE EUROPEO - NOI MODERATI - CARINI SI",
+              "candidati": 23,
+              "voti": 420,
+              "perc": 2.52,
+              "contrassegno": "PA_11741.JPG"
+            }
+          ]
+        },
+        {
+          "numero": 3,
+          "nome": "GALLINA GIOVANNI",
+          "voti": 1846,
+          "perc": 10.57,
+          "eletto": false,
+          "ballottaggio": false,
+          "liste": [
+            {
+              "numero": 8,
+              "nome": "SUD CHIAMA NORD PER LE AUTONOMIE - UNA MARCIA IN PIU' PER CARINI - GALLINA SINDACO",
+              "candidati": 20,
+              "voti": 62,
+              "perc": 0.37,
+              "contrassegno": "PA_11743.JPG"
+            },
+            {
+              "numero": 12,
+              "nome": "SUD CHIAMA NORD PER LE AUTONOMIE - CITTADINI ATTIVI PER CARINI - GALLINA SINDACO",
+              "candidati": 24,
+              "voti": 183,
+              "perc": 1.1,
+              "contrassegno": "PA_11745.JPG"
+            },
+            {
+              "numero": 13,
+              "nome": "SUD CHIAMA NORD PER LE AUTONOMIE - GALLINA SINDACO DI CARINI",
+              "candidati": 24,
+              "voti": 1023,
+              "perc": 6.14,
+              "contrassegno": "PA_11747.JPG"
+            }
+          ]
+        },
+        {
+          "numero": 4,
+          "nome": "COVELLO ROSA",
+          "voti": 9427,
+          "perc": 53.97,
+          "eletto": true,
+          "ballottaggio": false,
+          "liste": [
+            {
+              "numero": 1,
+              "nome": "RADICI & PROGRESSO",
+              "candidati": 19,
+              "voti": 929,
+              "perc": 5.58,
+              "contrassegno": "PA_11749.JPG"
+            },
+            {
+              "numero": 2,
+              "nome": "CAMBIAMO CARINI",
+              "candidati": 24,
+              "voti": 1132,
+              "perc": 6.8,
+              "contrassegno": "PA_11751.JPG"
+            },
+            {
+              "numero": 3,
+              "nome": "NOI CON LA SICILIA - POPOLARI E AUTONOMISTI",
+              "candidati": 24,
+              "voti": 826,
+              "perc": 4.96,
+              "contrassegno": "PA_11753.JPG"
+            },
+            {
+              "numero": 7,
+              "nome": "GRANDE CARINI - PRIMA L'ITALIA - LEGA SALVINI",
+              "candidati": 24,
+              "voti": 1174,
+              "perc": 7.05,
+              "contrassegno": "PA_11755.JPG"
+            },
+            {
+              "numero": 11,
+              "nome": "PARTITO POPOLARE EUROPEO - FORZA ITALIA - BERLUSCONI",
+              "candidati": 24,
+              "voti": 2409,
+              "perc": 14.46,
+              "contrassegno": "PA_11757.JPG"
+            },
+            {
+              "numero": 14,
+              "nome": "LISTA CIVICA - COVELLO SINDACO CARINI - #COVELLOSINDACO",
+              "candidati": 16,
+              "voti": 348,
+              "perc": 2.09,
+              "contrassegno": "PA_11759.JPG"
+            },
+            {
+              "numero": 15,
+              "nome": "GIOVANI IDEE",
+              "candidati": 24,
+              "voti": 1509,
+              "perc": 9.06,
+              "contrassegno": "PA_11761.JPG"
+            },
+            {
+              "numero": 16,
+              "nome": "FRATELLI D'ITALIA - GIORGIA MELONI",
+              "candidati": 24,
+              "voti": 1136,
+              "perc": 6.82,
+              "contrassegno": "PA_11763.JPG"
+            }
+          ]
+        }
+      ],
+      "slug": "carini",
+      "comune_id": 76,
+      "provincia_sigla": "PA",
+      "source": {
+        "candidati_liste": "https://www.elezioni.regione.sicilia.it/PA/ReportCandidatiListePA76.html",
+        "dati_lista": "https://www.elezioni.regione.sicilia.it/PA/ReportDatiListaPA76.html"
+      }
+    },
+    "lascari": {
+      "stato": "completato",
+      "sezioni": {
+        "scrutinate": 3,
+        "totali": 3
+      },
+      "sintesi": "Risultati Candidati Sindaco relativi a n. 3 su n. 3 sezioni",
+      "candidati": [
+        {
+          "numero": 1,
+          "nome": "CESARE ANTONIO EDUARDO",
+          "voti": 1207,
+          "perc": 48.36,
+          "eletto": false,
+          "ballottaggio": false,
+          "liste": [
+            {
+              "numero": 1,
+              "nome": "FARE COMUNITA' - CESARE SINDACO",
+              "candidati": 12,
+              "voti": 1227,
+              "perc": 49.98,
+              "contrassegno": "PA_11217.JPG"
+            }
+          ]
+        },
+        {
+          "numero": 2,
+          "nome": "SCHITTINO FRANCO",
+          "voti": 1289,
+          "perc": 51.64,
+          "eletto": true,
+          "ballottaggio": false,
+          "liste": [
+            {
+              "numero": 2,
+              "nome": "CONTINUITA' E INNOVAZIONE - FRANCO SCHITTINO SINDACO",
+              "candidati": 12,
+              "voti": 1228,
+              "perc": 50.02,
+              "contrassegno": "PA_11219.JPG"
+            }
+          ]
+        }
+      ],
+      "slug": "lascari",
+      "comune_id": 163,
+      "provincia_sigla": "PA",
+      "source": {
+        "candidati_liste": "https://www.elezioni.regione.sicilia.it/PA/ReportCandidatiListePA163.html",
+        "dati_lista": "https://www.elezioni.regione.sicilia.it/PA/ReportDatiListaPA163.html"
+      }
+    },
+    "santa-cristina-gela": {
+      "stato": "completato",
+      "sezioni": {
+        "scrutinate": 1,
+        "totali": 1
+      },
+      "sintesi": "Risultati Candidati Sindaco relativi a n. 1 su n. 1 sezioni",
+      "candidati": [
+        {
+          "numero": 1,
+          "nome": "CANGIALOSI GIUSEPPE",
+          "voti": 555,
+          "perc": 100.0,
+          "eletto": true,
+          "ballottaggio": false,
+          "liste": [
+            {
+              "numero": 1,
+              "nome": "UNITI PER SANTA CRISTINA GELA - CANGIALOSI SINDACO",
+              "candidati": 10,
+              "voti": 546,
+              "perc": 100.0,
+              "contrassegno": "PA_11229.JPG"
+            }
+          ]
+        }
+      ],
+      "slug": "santa-cristina-gela",
+      "comune_id": 314,
+      "provincia_sigla": "PA",
+      "source": {
+        "candidati_liste": "https://www.elezioni.regione.sicilia.it/PA/ReportCandidatiListePA314.html",
+        "dati_lista": "https://www.elezioni.regione.sicilia.it/PA/ReportDatiListaPA314.html"
+      }
+    },
+    "polizzi-generosa": {
+      "stato": "completato",
+      "sezioni": {
+        "scrutinate": 4,
+        "totali": 4
+      },
+      "sintesi": "Risultati Candidati Sindaco relativi a n. 4 su n. 4 sezioni",
+      "candidati": [
+        {
+          "numero": 1,
+          "nome": "LO VERDE GANDOFO",
+          "voti": 617,
+          "perc": 33.5,
+          "eletto": false,
+          "ballottaggio": false,
+          "liste": [
+            {
+              "numero": 1,
+              "nome": "POLIZZI FUTURA - GANDOLFO LO VERDE SINDACO",
+              "candidati": 10,
+              "voti": 579,
+              "perc": 31.73,
+              "contrassegno": "PA_11221.JPG"
+            }
+          ]
+        },
+        {
+          "numero": 2,
+          "nome": "LIBRIZZI GANDOLFO",
+          "voti": 1225,
+          "perc": 66.5,
+          "eletto": true,
+          "ballottaggio": false,
+          "liste": [
+            {
+              "numero": 2,
+              "nome": "COSTRUIRE COMUNITA' - LIBRIZZI SINDACO",
+              "candidati": 10,
+              "voti": 1246,
+              "perc": 68.27,
+              "contrassegno": "PA_11223.JPG"
+            }
+          ]
+        }
+      ],
+      "slug": "polizzi-generosa",
+      "comune_id": 259,
+      "provincia_sigla": "PA",
+      "source": {
+        "candidati_liste": "https://www.elezioni.regione.sicilia.it/PA/ReportCandidatiListePA259.html",
+        "dati_lista": "https://www.elezioni.regione.sicilia.it/PA/ReportDatiListaPA259.html"
+      }
+    },
+    "scillato": {
+      "stato": "completato",
+      "sezioni": {
+        "scrutinate": 1,
+        "totali": 1
+      },
+      "sintesi": "Risultati Candidati Sindaco relativi a n. 1 su n. 1 sezioni",
+      "candidati": [
+        {
+          "numero": 1,
+          "nome": "NICCHI GAETANO",
+          "voti": 219,
+          "perc": 47.3,
+          "eletto": false,
+          "ballottaggio": false,
+          "liste": [
+            {
+              "numero": 1,
+              "nome": "RINNOVIAMO SCILLATO - NICCHI SINDACO",
+              "candidati": 10,
+              "voti": 222,
+              "perc": 48.16,
+              "contrassegno": "PA_11635.JPG"
+            }
+          ]
+        },
+        {
+          "numero": 2,
+          "nome": "CORTINA GIULIANO",
+          "voti": 244,
+          "perc": 52.7,
+          "eletto": true,
+          "ballottaggio": false,
+          "liste": [
+            {
+              "numero": 2,
+              "nome": "CONTINUITA' E INNOVAZIONE - CORTINA SINDACO",
+              "candidati": 10,
+              "voti": 239,
+              "perc": 51.84,
+              "contrassegno": "PA_11637.JPG"
+            }
+          ]
+        }
+      ],
+      "slug": "scillato",
+      "comune_id": 340,
+      "provincia_sigla": "PA",
+      "source": {
+        "candidati_liste": "https://www.elezioni.regione.sicilia.it/PA/ReportCandidatiListePA340.html",
+        "dati_lista": "https://www.elezioni.regione.sicilia.it/PA/ReportDatiListaPA340.html"
+      }
+    },
+    "pollina": {
+      "stato": "completato",
+      "sezioni": {
+        "scrutinate": 4,
+        "totali": 4
+      },
+      "sintesi": "Risultati Candidati Sindaco relativi a n. 4 su n. 4 sezioni",
+      "candidati": [
+        {
+          "numero": 1,
+          "nome": "MUSOTTO PIETRO",
+          "voti": 1256,
+          "perc": 63.21,
+          "eletto": true,
+          "ballottaggio": false,
+          "liste": [
+            {
+              "numero": 1,
+              "nome": "MAIOLICHE - PIETRO MUSOTTO SINDACO",
+              "candidati": 10,
+              "voti": 1243,
+              "perc": 62.94,
+              "contrassegno": "PA_11225.JPG"
+            }
+          ]
+        },
+        {
+          "numero": 2,
+          "nome": "SCAVONE CIRINO",
+          "voti": 731,
+          "perc": 36.79,
+          "eletto": false,
+          "ballottaggio": false,
+          "liste": [
+            {
+              "numero": 2,
+              "nome": "ORIZZONTE COMUNE - CIRO SCAVONE SINDACO",
+              "candidati": 10,
+              "voti": 732,
+              "perc": 37.06,
+              "contrassegno": "PA_11227.JPG"
+            }
+          ]
+        }
+      ],
+      "slug": "pollina",
+      "comune_id": 260,
+      "provincia_sigla": "PA",
+      "source": {
+        "candidati_liste": "https://www.elezioni.regione.sicilia.it/PA/ReportCandidatiListePA260.html",
+        "dati_lista": "https://www.elezioni.regione.sicilia.it/PA/ReportDatiListaPA260.html"
+      }
+    },
+    "termini-imerese": {
+      "stato": "completato",
+      "sezioni": {
+        "scrutinate": 30,
+        "totali": 30
+      },
+      "sintesi": "Risultati Candidati Sindaco relativi a n. 30 su n. 30 sezioni",
+      "candidati": [
+        {
+          "numero": 1,
+          "nome": "BATTAGLIA ANTONIO",
+          "voti": 2961,
+          "perc": 20.23,
+          "eletto": false,
+          "ballottaggio": false,
+          "liste": [
+            {
+              "numero": 6,
+              "nome": "LEGA SICILIA",
+              "candidati": 16,
+              "voti": 1278,
+              "perc": 9.07,
+              "contrassegno": "PA_11603.JPG"
+            },
+            {
+              "numero": 8,
+              "nome": "MOVIMENTO CIVICO INSIEME SI PUO'",
+              "candidati": 16,
+              "voti": 475,
+              "perc": 3.37,
+              "contrassegno": "PA_11607.JPG"
+            },
+            {
+              "numero": 9,
+              "nome": "FRATELLI D'ITALIA - GIORGIA MELONI",
+              "candidati": 16,
+              "voti": 1340,
+              "perc": 9.51,
+              "contrassegno": "PA_11609.JPG"
+            },
+            {
+              "numero": 10,
+              "nome": "ALLEANZA PER TERMINI - BATTAGLIA SINDACO",
+              "candidati": 16,
+              "voti": 1127,
+              "perc": 8.0,
+              "contrassegno": "PA_11611.JPG"
+            }
+          ]
+        },
+        {
+          "numero": 2,
+          "nome": "TERRANOVA MARIA",
+          "voti": 10561,
+          "perc": 72.16,
+          "eletto": true,
+          "ballottaggio": false,
+          "liste": [
+            {
+              "numero": 1,
+              "nome": "INSIEME PER TERMINI - MARIA TERRANOVA SINDACO",
+              "candidati": 16,
+              "voti": 1898,
+              "perc": 13.47,
+              "contrassegno": "PA_11639.JPG"
+            },
+            {
+              "numero": 3,
+              "nome": "PARTITO DEMOCRATICO",
+              "candidati": 16,
+              "voti": 1855,
+              "perc": 13.16,
+              "contrassegno": "PA_11597.JPG"
+            },
+            {
+              "numero": 4,
+              "nome": "TERMINI IN COMUNE - MARIA TERRANOVA SINDACO",
+              "candidati": 16,
+              "voti": 1407,
+              "perc": 9.98,
+              "contrassegno": "PA_11599.JPG"
+            },
+            {
+              "numero": 5,
+              "nome": "MOVIMENTO 5 STELLE 2050",
+              "candidati": 16,
+              "voti": 1253,
+              "perc": 8.89,
+              "contrassegno": "PA_11643.JPG"
+            },
+            {
+              "numero": 7,
+              "nome": "MARIA, CHE SINDACA",
+              "candidati": 16,
+              "voti": 2686,
+              "perc": 19.06,
+              "contrassegno": "PA_11641.JPG"
+            }
+          ]
+        },
+        {
+          "numero": 3,
+          "nome": "MENDOLIA NICOLA",
+          "voti": 1113,
+          "perc": 7.61,
+          "eletto": false,
+          "ballottaggio": false,
+          "liste": [
+            {
+              "numero": 2,
+              "nome": "PIU' TERMINI IMERESE - CONTRO CORRENTE - MENDOLIA SINDACO",
+              "candidati": 16,
+              "voti": 772,
+              "perc": 5.48,
+              "contrassegno": "PA_11595.JPG"
+            }
+          ]
+        }
+      ],
+      "slug": "termini-imerese",
+      "comune_id": 355,
+      "provincia_sigla": "PA",
+      "source": {
+        "candidati_liste": "https://www.elezioni.regione.sicilia.it/PA/ReportCandidatiListePA355.html",
+        "dati_lista": "https://www.elezioni.regione.sicilia.it/PA/ReportDatiListaPA355.html"
+      }
+    },
+    "ispica": {
+      "stato": "completato",
+      "sezioni": {
+        "scrutinate": 14,
+        "totali": 14
+      },
+      "sintesi": "Risultati Candidati Sindaco relativi a n. 14 su n. 14 sezioni",
+      "candidati": [
+        {
+          "numero": 1,
+          "nome": "MONACA PAOLO",
+          "voti": 1534,
+          "perc": 17.34,
+          "eletto": false,
+          "ballottaggio": true,
+          "liste": [
+            {
+              "numero": 3,
+              "nome": "PAOLO MONACA SINDACO DI ISPICA SUD CHIAMA NORD",
+              "candidati": 16,
+              "voti": 677,
+              "perc": 8.12,
+              "contrassegno": "RG_11185.JPG"
+            },
+            {
+              "numero": 6,
+              "nome": "DIFENDIAMO ISPICA DA IBLEA ACQUE MONACA SINDACO",
+              "candidati": 16,
+              "voti": 29,
+              "perc": 0.35,
+              "contrassegno": "RG_11191.JPG"
+            },
+            {
+              "numero": 11,
+              "nome": "PARTITO DEMOCRATICO",
+              "candidati": 16,
+              "voti": 203,
+              "perc": 2.43,
+              "contrassegno": "RG_11201.JPG"
+            }
+          ]
+        },
+        {
+          "numero": 2,
+          "nome": "CAFISI TONINO",
+          "voti": 1310,
+          "perc": 14.81,
+          "eletto": false,
+          "ballottaggio": true,
+          "liste": [
+            {
+              "numero": 2,
+              "nome": "LISTA CIVICA CAFISI SINDACO",
+              "candidati": 16,
+              "voti": 443,
+              "perc": 5.31,
+              "contrassegno": "RG_11183.JPG"
+            },
+            {
+              "numero": 13,
+              "nome": "FRATELLI D'ITALIA GIORGIA MELONI",
+              "candidati": 16,
+              "voti": 794,
+              "perc": 9.52,
+              "contrassegno": "RG_11205.JPG"
+            },
+            {
+              "numero": 14,
+              "nome": "PARTITO POPOLARE EUROPEO NOI MODERATI",
+              "candidati": 16,
+              "voti": 94,
+              "perc": 1.13,
+              "contrassegno": "RG_11207.JPG"
+            },
+            {
+              "numero": 7,
+              "nome": "CONTRO CORRENTE LOTTARE X RESISTERE ISMAELE LA VARDERA",
+              "candidati": 16,
+              "voti": 873,
+              "perc": 10.47,
+              "contrassegno": "RG_11193.JPG"
+            },
+            {
+              "numero": 8,
+              "nome": "MOVIMENTO 5 STELLE ISPICA PROGRESSO ALLEANZA VERDI SINISTRA ARENA SINDACO",
+              "candidati": 16,
+              "voti": 467,
+              "perc": 5.6,
+              "contrassegno": "RG_11195.JPG"
+            }
+          ]
+        },
+        {
+          "numero": 4,
+          "nome": "GALIFI ANGELO",
+          "voti": 1292,
+          "perc": 14.61,
+          "eletto": false,
+          "ballottaggio": false,
+          "liste": [
+            {
+              "numero": 1,
+              "nome": "PARTITO POPOLARE EUROPEO FORZA ITALIA BERLUSCONI",
+              "candidati": 16,
+              "voti": 857,
+              "perc": 10.28,
+              "contrassegno": "RG_11181.JPG"
+            },
+            {
+              "numero": 4,
+              "nome": "ISPICA 2026 ANGELO GALIFI SINDACO",
+              "candidati": 16,
+              "voti": 453,
+              "perc": 5.43,
+              "contrassegno": "RG_11187.JPG"
+            },
+            {
+              "numero": 12,
+              "nome": "POPOLARI E AUTONOMISTI GRANDE SICILIA",
+              "candidati": 16,
+              "voti": 322,
+              "perc": 3.86,
+              "contrassegno": "RG_11203.JPG"
+            },
+            {
+              "numero": 5,
+              "nome": "PENSIAMO ISPICA",
+              "candidati": 16,
+              "voti": 412,
+              "perc": 4.94,
+              "contrassegno": "RG_11189.JPG"
+            },
+            {
+              "numero": 9,
+              "nome": "LISTA CIVICA PIERENZO MURAGLIE SINDACO",
+              "candidati": 16,
+              "voti": 1715,
+              "perc": 20.57,
+              "contrassegno": "RG_11197.JPG"
+            },
+            {
+              "numero": 10,
+              "nome": "LIBERA E FORTE",
+              "candidati": 16,
+              "voti": 997,
+              "perc": 11.96,
+              "contrassegno": "RG_11199.JPG"
+            }
+          ]
+        }
+      ],
+      "slug": "ispica",
+      "comune_id": 159,
+      "provincia_sigla": "RG",
+      "source": {
+        "candidati_liste": "https://www.elezioni.regione.sicilia.it/RG/ReportCandidatiListeRG159.html",
+        "dati_lista": "https://www.elezioni.regione.sicilia.it/RG/ReportDatiListaRG159.html"
+      }
+    },
+    "campobello-di-mazara": {
+      "stato": "completato",
+      "sezioni": {
+        "scrutinate": 14,
+        "totali": 14
+      },
+      "sintesi": "Risultati Candidati Sindaco relativi a n. 14 su n. 14 sezioni",
+      "candidati": [
+        {
+          "numero": 1,
+          "nome": "MANGIARACINA DANIELE VITO",
+          "voti": 3377,
+          "perc": 54.28,
+          "eletto": true,
+          "ballottaggio": false,
+          "liste": [
+            {
+              "numero": 1,
+              "nome": "RINASCITA CAMPOBELLESE DANIELE MANGIARACINA SINDACO",
+              "candidati": 16,
+              "voti": 3300,
+              "perc": 53.67,
+              "contrassegno": "TP_11681.JPG"
+            }
+          ]
+        },
+        {
+          "numero": 2,
+          "nome": "DI STEFANO PIETRO",
+          "voti": 2227,
+          "perc": 35.79,
+          "eletto": false,
+          "ballottaggio": false,
+          "liste": [
+            {
+              "numero": 2,
+              "nome": "INSIEME PER CAMPOBELLO PIERO DI STEFANO SINDACO",
+              "candidati": 16,
+              "voti": 2276,
+              "perc": 37.01,
+              "contrassegno": "TP_11683.JPG"
+            }
+          ]
+        },
+        {
+          "numero": 3,
+          "nome": "CATANZARO GIOACCHINA",
+          "voti": 618,
+          "perc": 9.93,
+          "eletto": false,
+          "ballottaggio": false,
+          "liste": [
+            {
+              "numero": 3,
+              "nome": "IL FUTURO MIGLIORE PER CAMPOBELLO DI MAZARA GIOACCHINA CATANZARO SINDACA",
+              "candidati": 14,
+              "voti": 573,
+              "perc": 9.32,
+              "contrassegno": "TP_11685.JPG"
+            }
+          ]
+        }
+      ],
+      "slug": "campobello-di-mazara",
+      "comune_id": 62,
+      "provincia_sigla": "TP",
+      "source": {
+        "candidati_liste": "https://www.elezioni.regione.sicilia.it/TP/ReportCandidatiListeTP62.html",
+        "dati_lista": "https://www.elezioni.regione.sicilia.it/TP/ReportDatiListaTP62.html"
+      }
+    },
+    "misilmeri": {
+      "stato": "completato",
+      "sezioni": {
+        "scrutinate": 20,
+        "totali": 20
+      },
+      "sintesi": "Risultati Candidati Sindaco relativi a n. 20 su n. 20 sezioni",
+      "candidati": [
+        {
+          "numero": 1,
+          "nome": "RIZZOLO ROSARIO",
+          "voti": 9153,
+          "perc": 62.3,
+          "eletto": true,
+          "ballottaggio": false,
+          "liste": [
+            {
+              "numero": 2,
+              "nome": "MOVIMENTO DEMOCRATICO E VERDE - ROSARIO RIZZOLO SINDACO",
+              "candidati": 14,
+              "voti": 96,
+              "perc": 0.69,
+              "contrassegno": "PA_11565.JPG"
+            },
+            {
+              "numero": 3,
+              "nome": "MISILMERI FUTURA - ROSARIO RIZZOLO SINDACO",
+              "candidati": 16,
+              "voti": 1343,
+              "perc": 9.61,
+              "contrassegno": "PA_11551.JPG"
+            },
+            {
+              "numero": 7,
+              "nome": "MISILMERI PRIMA DI TUTTO - SINDACO RIZZOLO",
+              "candidati": 16,
+              "voti": 287,
+              "perc": 2.05,
+              "contrassegno": "PA_11557.JPG"
+            },
+            {
+              "numero": 8,
+              "nome": "PROGETTO MISILMERI - PROGETTIAMO IL FUTURO DELLA NOSTRA CITTA' - ROSARIO RIZZOLO SINDACO",
+              "candidati": 16,
+              "voti": 1646,
+              "perc": 11.78,
+              "contrassegno": "PA_11569.JPG"
+            },
+            {
+              "numero": 9,
+              "nome": "PORTELLA DI MARE UNITA - SINDACO ROSARIO RIZZOLO",
+              "candidati": 16,
+              "voti": 1093,
+              "perc": 7.82,
+              "contrassegno": "PA_11559.JPG"
+            },
+            {
+              "numero": 10,
+              "nome": "MISILMERI IN CAMMINO - ROSARIO RIZZOLO SINDACO",
+              "candidati": 16,
+              "voti": 1545,
+              "perc": 11.05,
+              "contrassegno": "PA_11561.JPG"
+            },
+            {
+              "numero": 11,
+              "nome": "PRIMAVERA MISILMERI - ROSARIO RIZZOLO SINDACO",
+              "candidati": 16,
+              "voti": 1431,
+              "perc": 10.24,
+              "contrassegno": "PA_11563.JPG"
+            }
+          ]
+        },
+        {
+          "numero": 2,
+          "nome": "STADARELLI ROSALIA",
+          "voti": 5539,
+          "perc": 37.7,
+          "eletto": false,
+          "ballottaggio": false,
+          "liste": [
+            {
+              "numero": 1,
+              "nome": "FORZA ITALIA BERLUSCONI",
+              "candidati": 16,
+              "voti": 2188,
+              "perc": 15.65,
+              "contrassegno": "PA_11549.JPG"
+            },
+            {
+              "numero": 4,
+              "nome": "SIAMO MISILMERI",
+              "candidati": 16,
+              "voti": 2298,
+              "perc": 16.44,
+              "contrassegno": "PA_11553.JPG"
+            },
+            {
+              "numero": 5,
+              "nome": "RIGENERAZIONE MISILMERI E PORTELLA DI MARE",
+              "candidati": 16,
+              "voti": 1063,
+              "perc": 7.61,
+              "contrassegno": "PA_11555.JPG"
+            },
+            {
+              "numero": 6,
+              "nome": "CONTINUIAMO INSIEME",
+              "candidati": 16,
+              "voti": 988,
+              "perc": 7.07,
+              "contrassegno": "PA_11567.JPG"
+            }
+          ]
+        }
+      ],
+      "slug": "misilmeri",
+      "comune_id": 204,
+      "provincia_sigla": "PA",
+      "source": {
+        "candidati_liste": "https://www.elezioni.regione.sicilia.it/PA/ReportCandidatiListePA204.html",
+        "dati_lista": "https://www.elezioni.regione.sicilia.it/PA/ReportDatiListaPA204.html"
+      }
+    },
+    "floridia": {
+      "stato": "completato",
+      "sezioni": {
+        "scrutinate": 20,
+        "totali": 20
+      },
+      "sintesi": "Risultati Candidati Sindaco relativi a n. 20 su n. 20 sezioni",
+      "candidati": [
+        {
+          "numero": 1,
+          "nome": "SALA ANTONIO detto ANTONELLO",
+          "voti": 3059,
+          "perc": 25.07,
+          "eletto": false,
+          "ballottaggio": false,
+          "liste": [
+            {
+              "numero": 1,
+              "nome": "GRANDE SICILIA - ANTONELLO SALA SINDACO",
+              "candidati": 16,
+              "voti": 1437,
+              "perc": 12.5,
+              "contrassegno": "SR_11711.JPG"
+            },
+            {
+              "numero": 2,
+              "nome": "SPAZIO CIVICO PER FLORIDIA - ANTONELLO SALA SINDACO",
+              "candidati": 16,
+              "voti": 557,
+              "perc": 4.85,
+              "contrassegno": "SR_11713.JPG"
+            },
+            {
+              "numero": 3,
+              "nome": "FORZA ITALIA - BERLUSCONI - PARTIRO POPOLARE EUROPEO",
+              "candidati": 16,
+              "voti": 648,
+              "perc": 5.64,
+              "contrassegno": "SR_11715.JPG"
+            },
+            {
+              "numero": 5,
+              "nome": "INSIEME PER FLORIDIA",
+              "candidati": 16,
+              "voti": 639,
+              "perc": 5.56,
+              "contrassegno": "SR_11719.JPG"
+            },
+            {
+              "numero": 8,
+              "nome": "FRATELLI D'ITALIA - GIORGIA MELONI",
+              "candidati": 16,
+              "voti": 484,
+              "perc": 4.21,
+              "contrassegno": "SR_11725.JPG"
+            }
+          ]
+        },
+        {
+          "numero": 2,
+          "nome": "CARIANNI MARCO",
+          "voti": 9141,
+          "perc": 74.93,
+          "eletto": true,
+          "ballottaggio": false,
+          "liste": [
+            {
+              "numero": 4,
+              "nome": "PARTITO DEMOCRATICO",
+              "candidati": 16,
+              "voti": 1437,
+              "perc": 12.5,
+              "contrassegno": "SR_11717.JPG"
+            },
+            {
+              "numero": 6,
+              "nome": "FLORIDIA FUTURA - CARIANNI SINDACO",
+              "candidati": 16,
+              "voti": 2628,
+              "perc": 22.87,
+              "contrassegno": "SR_11721.JPG"
+            },
+            {
+              "numero": 7,
+              "nome": "DIREZIONE FLORIDIA - CARIANNI SINDACO",
+              "candidati": 16,
+              "voti": 1846,
+              "perc": 16.06,
+              "contrassegno": "SR_11723.JPG"
+            },
+            {
+              "numero": 9,
+              "nome": "PROGETTO FLORIDIA - LISTA CIVICA - CARIANNI SINDACO",
+              "candidati": 16,
+              "voti": 1816,
+              "perc": 15.8,
+              "contrassegno": "SR_11727.JPG"
+            }
+          ]
+        }
+      ],
+      "slug": "floridia",
+      "comune_id": 128,
+      "provincia_sigla": "SR",
+      "source": {
+        "candidati_liste": "https://www.elezioni.regione.sicilia.it/SR/ReportCandidatiListeSR128.html",
+        "dati_lista": "https://www.elezioni.regione.sicilia.it/SR/ReportDatiListaSR128.html"
+      }
+    },
+    "villabate": {
+      "stato": "completato",
+      "sezioni": {
+        "scrutinate": 15,
+        "totali": 15
+      },
+      "sintesi": "Risultati Candidati Sindaco relativi a n. 15 su n. 15 sezioni",
+      "candidati": [
+        {
+          "numero": 1,
+          "nome": "PITARRESI GIOVANNI",
+          "voti": 5181,
+          "perc": 63.85,
+          "eletto": true,
+          "ballottaggio": false,
+          "liste": [
+            {
+              "numero": 1,
+              "nome": "VILLABATE IN MOVIMENTO PITARRESI SINDACO",
+              "candidati": 16,
+              "voti": 366,
+              "perc": 4.68,
+              "contrassegno": "PA_11571.JPG"
+            },
+            {
+              "numero": 2,
+              "nome": "LAVORO FAMIGLIA SOLIDARIETA' PITARRESI SINDACO",
+              "candidati": 16,
+              "voti": 1422,
+              "perc": 18.19,
+              "contrassegno": "PA_11573.JPG"
+            },
+            {
+              "numero": 4,
+              "nome": "NOI PER VILLABATE PITARRESI SINDACO",
+              "candidati": 16,
+              "voti": 616,
+              "perc": 7.88,
+              "contrassegno": "PA_11577.JPG"
+            },
+            {
+              "numero": 6,
+              "nome": "VILLABATE ATTIVA PITARRESI SINDACO",
+              "candidati": 16,
+              "voti": 740,
+              "perc": 9.47,
+              "contrassegno": "PA_11581.JPG"
+            },
+            {
+              "numero": 7,
+              "nome": "LIBERI PER IL CAMBIAMENTO PITARRESI SINDACO",
+              "candidati": 16,
+              "voti": 1106,
+              "perc": 14.15,
+              "contrassegno": "PA_11583.JPG"
+            },
+            {
+              "numero": 8,
+              "nome": "VILLABATE CRESCE PITARRESI SINDACO",
+              "candidati": 16,
+              "voti": 601,
+              "perc": 7.69,
+              "contrassegno": "PA_11585.JPG"
+            }
+          ]
+        },
+        {
+          "numero": 2,
+          "nome": "OLIVERI VINCENZO",
+          "voti": 2933,
+          "perc": 36.15,
+          "eletto": false,
+          "ballottaggio": false,
+          "liste": [
+            {
+              "numero": 3,
+              "nome": "RINASCITA VILLABATESE OLIVERI SINDACO",
+              "candidati": 16,
+              "voti": 431,
+              "perc": 5.51,
+              "contrassegno": "PA_11575.JPG"
+            },
+            {
+              "numero": 5,
+              "nome": "VILLABATE LIBERA E FORTE OLIVERI SINDACO",
+              "candidati": 14,
+              "voti": 582,
+              "perc": 7.44,
+              "contrassegno": "PA_11579.JPG"
+            },
+            {
+              "numero": 9,
+              "nome": "FRATELLI D'ITALIA GIORGIA MELONI",
+              "candidati": 16,
+              "voti": 702,
+              "perc": 8.98,
+              "contrassegno": "PA_11587.JPG"
+            },
+            {
+              "numero": 10,
+              "nome": "VILLABATE ALTERNATIVA OLIVERI SINDACO",
+              "candidati": 16,
+              "voti": 852,
+              "perc": 10.9,
+              "contrassegno": "PA_11589.JPG"
+            },
+            {
+              "numero": 11,
+              "nome": "FORZA ITALIA BERLUSCONI PARTITO POPOLARE EUROPEO",
+              "candidati": 13,
+              "voti": 400,
+              "perc": 5.12,
+              "contrassegno": "PA_11591.JPG"
+            }
+          ]
+        }
+      ],
+      "slug": "villabate",
+      "comune_id": 381,
+      "provincia_sigla": "PA",
+      "source": {
+        "candidati_liste": "https://www.elezioni.regione.sicilia.it/PA/ReportCandidatiListePA381.html",
+        "dati_lista": "https://www.elezioni.regione.sicilia.it/PA/ReportDatiListaPA381.html"
+      }
+    },
+    "lentini": {
+      "stato": "in_corso",
+      "sezioni": {
+        "scrutinate": 31,
+        "totali": 32
+      },
+      "sintesi": "Risultati Candidati Sindaco relativi a n. 31 su n. 32 sezioni",
+      "candidati": [
+        {
+          "numero": 1,
+          "nome": "FISICARO GIUSEPPE",
+          "voti": 4274,
+          "perc": 41.41,
+          "eletto": false,
+          "ballottaggio": false,
+          "liste": [
+            {
+              "numero": 2,
+              "nome": "FRATELLI D'ITALIA - GIORGIA MELONI",
+              "candidati": 16,
+              "voti": 653,
+              "perc": 6.74,
+              "contrassegno": "SR_11515.JPG"
+            },
+            {
+              "numero": 4,
+              "nome": "LENTINI ANDIAMO AVANTI - GIUSEPPE FISICARO SINDACO",
+              "candidati": 16,
+              "voti": 888,
+              "perc": 9.17,
+              "contrassegno": "SR_11517.JPG"
+            },
+            {
+              "numero": 5,
+              "nome": "LENTINI GRANDE SICILIA - GIUSEPPE FISICARO SINDACO",
+              "candidati": 16,
+              "voti": 701,
+              "perc": 7.24,
+              "contrassegno": "SR_11519.JPG"
+            },
+            {
+              "numero": 8,
+              "nome": "LISTA CIVICA - LENTINI AZZURRA",
+              "candidati": 16,
+              "voti": 418,
+              "perc": 4.32,
+              "contrassegno": "SR_11521.JPG"
+            },
+            {
+              "numero": 11,
+              "nome": "LIBERI - GIUSEPPE FISICARO SINDACO",
+              "candidati": 15,
+              "voti": 1179,
+              "perc": 12.18,
+              "contrassegno": "SR_11523.JPG"
+            },
+            {
+              "numero": 12,
+              "nome": "SINDACO GIUSEPPE FISICARO PER LENTINI",
+              "candidati": 16,
+              "voti": 504,
+              "perc": 5.21,
+              "contrassegno": "SR_11525.JPG"
+            },
+            {
+              "numero": 16,
+              "nome": "LENTINI GIOVANE",
+              "candidati": 16,
+              "voti": 264,
+              "perc": 2.73,
+              "contrassegno": "SR_11527.JPG"
+            }
+          ]
+        },
+        {
+          "numero": 2,
+          "nome": "SANZARO EFREM",
+          "voti": 1550,
+          "perc": 15.02,
+          "eletto": false,
+          "ballottaggio": false,
+          "liste": [
+            {
+              "numero": 1,
+              "nome": "LENTINI 2031 - EFREM SANZARO SINDACO",
+              "candidati": 16,
+              "voti": 274,
+              "perc": 2.83,
+              "contrassegno": "SR_11529.JPG"
+            },
+            {
+              "numero": 3,
+              "nome": "LA VOCE DEI LENTINESI - EFREM SANZARO SINDACO",
+              "candidati": 16,
+              "voti": 103,
+              "perc": 1.06,
+              "contrassegno": "SR_11531.JPG"
+            },
+            {
+              "numero": 6,
+              "nome": "INSIEME - EFREM SANZARO SINDACO",
+              "candidati": 16,
+              "voti": 521,
+              "perc": 5.38,
+              "contrassegno": "SR_11533.JPG"
+            },
+            {
+              "numero": 15,
+              "nome": "ANTUDO TERRA - LISTA CIVICA LENTINI",
+              "candidati": 13,
+              "voti": 337,
+              "perc": 3.48,
+              "contrassegno": "SR_11535.JPG"
+            }
+          ]
+        },
+        {
+          "numero": 3,
+          "nome": "PUPILLO VINCENZO",
+          "voti": 4497,
+          "perc": 43.57,
+          "eletto": false,
+          "ballottaggio": false,
+          "liste": [
+            {
+              "numero": 7,
+              "nome": "LENTINI 2026 - UNITI X CAMBIARE - MOVIMENTO 5 STELLE - SINISTRA FUTURA",
+              "candidati": 16,
+              "voti": 497,
+              "perc": 5.13,
+              "contrassegno": "SR_11537.JPG"
+            },
+            {
+              "numero": 9,
+              "nome": "TERRITORIO UNITO",
+              "candidati": 16,
+              "voti": 858,
+              "perc": 8.86,
+              "contrassegno": "SR_11539.JPG"
+            },
+            {
+              "numero": 10,
+              "nome": "PARTITO DEMOCRATICO",
+              "candidati": 16,
+              "voti": 1081,
+              "perc": 11.16,
+              "contrassegno": "SR_11541.JPG"
+            },
+            {
+              "numero": 13,
+              "nome": "LENTINI BENE COMUNE - LISTA CIVICA",
+              "candidati": 16,
+              "voti": 670,
+              "perc": 6.92,
+              "contrassegno": "SR_11543.JPG"
+            },
+            {
+              "numero": 14,
+              "nome": "LENTINI C'E'",
+              "candidati": 16,
+              "voti": 734,
+              "perc": 7.58,
+              "contrassegno": "SR_11545.JPG"
+            }
+          ]
+        }
+      ],
+      "slug": "lentini",
+      "comune_id": 165,
+      "provincia_sigla": "SR",
+      "source": {
+        "candidati_liste": "https://www.elezioni.regione.sicilia.it/SR/ReportCandidatiListeSR165.html",
+        "dati_lista": "https://www.elezioni.regione.sicilia.it/SR/ReportDatiListaSR165.html"
+      }
+    },
+    "gibellina": {
+      "stato": "completato",
+      "sezioni": {
+        "scrutinate": 6,
+        "totali": 6
+      },
+      "sintesi": "Risultati Candidati Sindaco relativi a n. 6 su n. 6 sezioni",
+      "candidati": [
+        {
+          "numero": 1,
+          "nome": "NAVARRA GIANLUCA",
+          "voti": 324,
+          "perc": 13.25,
+          "eletto": false,
+          "ballottaggio": false,
+          "liste": [
+            {
+              "numero": 1,
+              "nome": "UNITI PER GIBELLINA - GIANLUCA NAVARRA SINDACO",
+              "candidati": 12,
+              "voti": 361,
+              "perc": 15.07,
+              "contrassegno": "TP_11507.JPG"
+            }
+          ]
+        },
+        {
+          "numero": 2,
+          "nome": "PIRRELLO DANIELA",
+          "voti": 471,
+          "perc": 19.26,
+          "eletto": false,
+          "ballottaggio": false,
+          "liste": [
+            {
+              "numero": 2,
+              "nome": "GIBELLINA 2026 - DANIELA SINDACA",
+              "candidati": 12,
+              "voti": 485,
+              "perc": 20.24,
+              "contrassegno": "TP_11509.JPG"
+            }
+          ]
+        },
+        {
+          "numero": 3,
+          "nome": "FAZZINO ANTONIO detto GIUSEPPE",
+          "voti": 565,
+          "perc": 23.1,
+          "eletto": false,
+          "ballottaggio": false,
+          "liste": [
+            {
+              "numero": 3,
+              "nome": "IL FUTURO SI COSTRUISCE INSIEME - FAZZINO SINDACO - GIBELLINA",
+              "candidati": 12,
+              "voti": 581,
+              "perc": 24.25,
+              "contrassegno": "TP_11511.JPG"
+            }
+          ]
+        },
+        {
+          "numero": 4,
+          "nome": "SUTERA SALVATORE",
+          "voti": 1086,
+          "perc": 44.4,
+          "eletto": true,
+          "ballottaggio": false,
+          "liste": [
+            {
+              "numero": 4,
+              "nome": "SUTERA PER GIBELLINA",
+              "candidati": 12,
+              "voti": 969,
+              "perc": 40.44,
+              "contrassegno": "TP_11513.JPG"
+            }
+          ]
+        }
+      ],
+      "slug": "gibellina",
+      "comune_id": 147,
+      "provincia_sigla": "TP",
+      "source": {
+        "candidati_liste": "https://www.elezioni.regione.sicilia.it/TP/ReportCandidatiListeTP147.html",
+        "dati_lista": "https://www.elezioni.regione.sicilia.it/TP/ReportDatiListaTP147.html"
+      }
+    },
+    "marsala": {
+      "stato": "in_corso",
+      "sezioni": {
+        "scrutinate": 78,
+        "totali": 80
+      },
+      "sintesi": "Risultati Candidati Sindaco relativi a n. 78 su n. 80 sezioni",
+      "candidati": [
+        {
+          "numero": 1,
+          "nome": "PATTI ANDREANA MARIA",
+          "voti": 20344,
+          "perc": 50.25,
+          "eletto": false,
+          "ballottaggio": false,
+          "liste": [
+            {
+              "numero": 1,
+              "nome": "COMPATTI PER MARSALA - ANDREANA PATTI SINDACA",
+              "candidati": 24,
+              "voti": 3419,
+              "perc": 8.94,
+              "contrassegno": "TP_11645.JPG"
+            },
+            {
+              "numero": 2,
+              "nome": "PROGETTIAMO MARSALA",
+              "candidati": 24,
+              "voti": 2321,
+              "perc": 6.07,
+              "contrassegno": "TP_11647.JPG"
+            },
+            {
+              "numero": 8,
+              "nome": "PATITO DEMOCRATICO",
+              "candidati": 24,
+              "voti": 3384,
+              "perc": 8.85,
+              "contrassegno": "TP_11659.JPG"
+            },
+            {
+              "numero": 10,
+              "nome": "MARSALA CIVICA - SUD CHIAMA NORD - PATTI",
+              "candidati": 24,
+              "voti": 2199,
+              "perc": 5.75,
+              "contrassegno": "TP_11663.JPG"
+            },
+            {
+              "numero": 11,
+              "nome": "SI MUOVE LA CITTA' - ANDREANA PATTI SINDACA",
+              "candidati": 24,
+              "voti": 4740,
+              "perc": 12.4,
+              "contrassegno": "TP_11665.JPG"
+            },
+            {
+              "numero": 12,
+              "nome": "PATTI SINDACA - MOVIMENTO 5 STELLE - AVANTI MARSALA",
+              "candidati": 24,
+              "voti": 759,
+              "perc": 1.99,
+              "contrassegno": "TP_11667.JPG"
+            },
+            {
+              "numero": 14,
+              "nome": "ALLEANZA VERDI E SINISTRA - EUROPA VERDE - SINISTRA ITALIANA",
+              "candidati": 24,
+              "voti": 1835,
+              "perc": 4.8,
+              "contrassegno": "TP_11671.JPG"
+            }
+          ]
+        },
+        {
+          "numero": 2,
+          "nome": "ADAMO GIULIA",
+          "voti": 6212,
+          "perc": 15.34,
+          "eletto": false,
+          "ballottaggio": false,
+          "liste": [
+            {
+              "numero": 4,
+              "nome": "MOVIMENTO POPOLARE ARCOBALENO",
+              "candidati": 24,
+              "voti": 508,
+              "perc": 1.33,
+              "contrassegno": "TP_11651.JPG"
+            },
+            {
+              "numero": 9,
+              "nome": "FORZA ITALIA - BERLUSCONI - PARTITO POPOLARE EUROPEO",
+              "candidati": 23,
+              "voti": 2245,
+              "perc": 5.87,
+              "contrassegno": "TP_11661.JPG"
+            },
+            {
+              "numero": 13,
+              "nome": "CORAGGIO E PASSIONE PER MARSALA - GIULIA ADAMO SINDACO",
+              "candidati": 21,
+              "voti": 984,
+              "perc": 2.57,
+              "contrassegno": "TP_11669.JPG"
+            },
+            {
+              "numero": 15,
+              "nome": "NOI MODERATI - NOI MARSALESI - POPOLARI AUTONOMISTI",
+              "candidati": 21,
+              "voti": 1693,
+              "perc": 4.43,
+              "contrassegno": "TP_11673.JPG"
+            },
+            {
+              "numero": 16,
+              "nome": "LEGA - LA NOSTRA FORZA SONO I TERRITORI",
+              "candidati": 24,
+              "voti": 2141,
+              "perc": 5.6,
+              "contrassegno": "TP_11675.JPG"
+            },
+            {
+              "numero": 18,
+              "nome": "FRATELLI D'ITALIA - GIORGIA MELONI",
+              "candidati": 23,
+              "voti": 2336,
+              "perc": 6.11,
+              "contrassegno": "TP_11679.JPG"
+            }
+          ]
+        },
+        {
+          "numero": 3,
+          "nome": "GRILLO MASSIMO VINCENZO",
+          "voti": 13534,
+          "perc": 33.43,
+          "eletto": false,
+          "ballottaggio": false,
+          "liste": [
+            {
+              "numero": 3,
+              "nome": "VIVERE LA CITTA'",
+              "candidati": 24,
+              "voti": 1330,
+              "perc": 3.48,
+              "contrassegno": "TP_11649.JPG"
+            },
+            {
+              "numero": 5,
+              "nome": "LILIBEO VIVA",
+              "candidati": 23,
+              "voti": 1457,
+              "perc": 3.81,
+              "contrassegno": "TP_11653.JPG"
+            },
+            {
+              "numero": 6,
+              "nome": "LIBERI - MASSIMO GRILLO SINDACO",
+              "candidati": 24,
+              "voti": 3632,
+              "perc": 9.5,
+              "contrassegno": "TP_11655.JPG"
+            },
+            {
+              "numero": 7,
+              "nome": "UNIONE DI CENTRO - ITALIA",
+              "candidati": 24,
+              "voti": 3097,
+              "perc": 8.1,
+              "contrassegno": "TP_11657.JPG"
+            }
+          ]
+        },
+        {
+          "numero": 4,
+          "nome": "CURATOLO LEONARDO",
+          "voti": 397,
+          "perc": 0.98,
+          "eletto": false,
+          "ballottaggio": false,
+          "liste": [
+            {
+              "numero": 17,
+              "nome": "MARSALA FUTURA CON LEONARDO CURATOLO",
+              "candidati": 24,
+              "voti": 143,
+              "perc": 0.37,
+              "contrassegno": "TP_11677.JPG"
+            }
+          ]
+        }
+      ],
+      "slug": "marsala",
+      "comune_id": 184,
+      "provincia_sigla": "TP",
+      "source": {
+        "candidati_liste": "https://www.elezioni.regione.sicilia.it/TP/ReportCandidatiListeTP184.html",
+        "dati_lista": "https://www.elezioni.regione.sicilia.it/TP/ReportDatiListaTP184.html"
+      }
+    },
+    "augusta": {
+      "stato": "completato",
+      "sezioni": {
+        "scrutinate": 41,
+        "totali": 41
+      },
+      "sintesi": "Risultati Candidati Sindaco relativi a n. 41 su n. 41 sezioni",
+      "candidati": [
+        {
+          "numero": 1,
+          "nome": "DI MARE GIUSEPPE detto PEPPE",
+          "voti": 16685,
+          "perc": 84.09,
+          "eletto": true,
+          "ballottaggio": false,
+          "liste": [
+            {
+              "numero": 1,
+              "nome": "CINQUE + CINQUE - DI MARE SINDACO",
+              "candidati": 24,
+              "voti": 3274,
+              "perc": 17.2,
+              "contrassegno": "SR_11687.JPG"
+            },
+            {
+              "numero": 2,
+              "nome": "FORZA ITALIA - BERLUSCONI - PARTITO POPOLARE EUROPEO",
+              "candidati": 24,
+              "voti": 1717,
+              "perc": 9.02,
+              "contrassegno": "SR_11689.JPG"
+            },
+            {
+              "numero": 7,
+              "nome": "#I LOVE AUGUSTA - GIUSEPPE DI MARE SINDACO",
+              "candidati": 24,
+              "voti": 1986,
+              "perc": 10.43,
+              "contrassegno": "SR_11699.JPG"
+            },
+            {
+              "numero": 8,
+              "nome": "AUGUSTA 2020",
+              "candidati": 24,
+              "voti": 1140,
+              "perc": 5.99,
+              "contrassegno": "SR_11701.JPG"
+            },
+            {
+              "numero": 9,
+              "nome": "GRANDE SICILIA - GIUSEPPE DI MARE SINDACO",
+              "candidati": 24,
+              "voti": 3514,
+              "perc": 18.46,
+              "contrassegno": "SR_11703.JPG"
+            },
+            {
+              "numero": 10,
+              "nome": "PIU' AUGUSTA #DIMARESINDACO",
+              "candidati": 24,
+              "voti": 1543,
+              "perc": 8.11,
+              "contrassegno": "SR_11705.JPG"
+            },
+            {
+              "numero": 11,
+              "nome": "GIUSEPPE DI MARE SINDACO - IL CAMBIAMENTO CONTINUA INSIEME",
+              "candidati": 24,
+              "voti": 2767,
+              "perc": 14.54,
+              "contrassegno": "SR_11707.JPG"
+            },
+            {
+              "numero": 12,
+              "nome": "INSIEME PER AUGUSTA",
+              "candidati": 24,
+              "voti": 976,
+              "perc": 5.13,
+              "contrassegno": "SR_11709.JPG"
+            }
+          ]
+        },
+        {
+          "numero": 2,
+          "nome": "PANCARI SALVATORE detto SALVO",
+          "voti": 2718,
+          "perc": 13.7,
+          "eletto": false,
+          "ballottaggio": false,
+          "liste": [
+            {
+              "numero": 3,
+              "nome": "ALLEANZA VERDI E SINISTRA",
+              "candidati": 18,
+              "voti": 518,
+              "perc": 2.72,
+              "contrassegno": "SR_11691.JPG"
+            },
+            {
+              "numero": 5,
+              "nome": "MOVIMENTO 5 STELLE 2050",
+              "candidati": 21,
+              "voti": 864,
+              "perc": 4.54,
+              "contrassegno": "SR_11695.JPG"
+            },
+            {
+              "numero": 6,
+              "nome": "PARTITO DEMOCRATICO - PANCARI SINDACO",
+              "candidati": 18,
+              "voti": 649,
+              "perc": 3.41,
+              "contrassegno": "SR_11697.JPG"
+            }
+          ]
+        },
+        {
+          "numero": 3,
+          "nome": "CACCIAGUERRA CONCETTO",
+          "voti": 438,
+          "perc": 2.21,
+          "eletto": false,
+          "ballottaggio": false,
+          "liste": [
+            {
+              "numero": 4,
+              "nome": "CORAGGIO E LIBERTA'! - CONCETTO CACCIAGUERRA SINDACO",
+              "candidati": 20,
+              "voti": 87,
+              "perc": 0.46,
+              "contrassegno": "SR_11693.JPG"
+            }
+          ]
+        }
+      ],
+      "slug": "augusta",
+      "comune_id": 26,
+      "provincia_sigla": "SR",
+      "source": {
+        "candidati_liste": "https://www.elezioni.regione.sicilia.it/SR/ReportCandidatiListeSR26.html",
+        "dati_lista": "https://www.elezioni.regione.sicilia.it/SR/ReportDatiListaSR26.html"
+      }
+    }
+  },
+  "totali": {
+    "comuni": 71,
+    "stato_completato": 67,
+    "stato_in_corso": 4,
+    "stato_non_disponibile": 0
+  }
+}

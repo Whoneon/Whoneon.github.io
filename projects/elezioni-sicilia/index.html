@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Elezioni Sicilia, Antonio Guastella</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400;500&family=Syne:wght@400;500;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../project-detail.css">
+  <style>
+    /* CTA demo prominente, specifica per questa pagina */
+    .demo-cta {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1.5rem;
+      padding: 1.5rem 1.75rem;
+      background: linear-gradient(135deg, rgba(0,229,160,0.06), rgba(0,229,160,0.02));
+      border: 1px solid rgba(0,229,160,0.3);
+      border-radius: 8px;
+      margin: 0 0 3rem;
+    }
+    .demo-cta-text { display: flex; flex-direction: column; gap: 0.35rem; }
+    .demo-cta-label {
+      font-family: var(--mono);
+      font-size: 0.65rem;
+      color: var(--accent);
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+    }
+    .demo-cta-title { font-size: 1.05rem; font-weight: 600; color: var(--text); }
+    .demo-cta-sub { font-family: var(--mono); font-size: 0.75rem; color: var(--muted2); }
+    .demo-cta-btn {
+      font-family: var(--mono);
+      font-size: 0.78rem;
+      letter-spacing: 0.08em;
+      color: var(--bg);
+      background: var(--accent);
+      padding: 0.85rem 1.5rem;
+      border-radius: 4px;
+      text-decoration: none;
+      white-space: nowrap;
+      transition: background 0.2s, transform 0.15s;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+    .demo-cta-btn:hover { background: #00ffb3; transform: translateY(-1px); }
+    .demo-cta-btn::after { content: '↗'; }
+  </style>
+</head>
+<body>
+
+<nav>
+  <a href="../../" class="nav-logo">whoneon.is-a.dev</a>
+  <a href="../../#projects" class="nav-back">← tutti i progetti</a>
+</nav>
+
+<div class="page">
+
+  <div class="proj-eyebrow">Civic Tech · PA · 2026</div>
+  <h1 class="proj-title">Elezioni Sicilia</h1>
+
+  <div class="proj-meta-row">
+    <div class="meta-item">
+      <span class="meta-label">ruolo</span>
+      <span class="meta-value">Progettazione &amp; sviluppo completo</span>
+    </div>
+    <div class="meta-item">
+      <span class="meta-label">dominio</span>
+      <span class="meta-value">Pubblica amministrazione · dati elettorali</span>
+    </div>
+    <div class="meta-item">
+      <span class="meta-label">stack principale</span>
+      <span class="meta-value">Next.js 15 · TypeScript · Python · Bootstrap Italia</span>
+    </div>
+    <div class="meta-item">
+      <span class="meta-label">tipo</span>
+      <span class="meta-value">Prototipo standalone · non commissionato</span>
+    </div>
+  </div>
+
+  <!-- CTA DEMO -->
+  <div class="demo-cta">
+    <div class="demo-cta-text">
+      <span class="demo-cta-label">demo navigabile</span>
+      <span class="demo-cta-title">Apri il prototipo del portale</span>
+    </div>
+    <a href="../../demos/elezioni-sicilia/" target="_blank" rel="noopener" class="demo-cta-btn">Apri demo</a>
+  </div>
+
+  <!-- CONTESTO -->
+  <div class="block">
+    <div class="block-title"><span class="num">01</span> Contesto</div>
+    <p class="prose">
+      Il portale <a href="https://www.elezioni.regione.sicilia.it" target="_blank" rel="noopener" style="color:var(--accent)">elezioni.regione.sicilia.it</a>, gestito dal Servizio Elettorale dell'Assessorato Regionale delle Autonomie Locali e della Funzione Pubblica, pubblica i dati delle tornate elettorali siciliane dal 2009. Le pagine HTML hanno uno schema <em>invariato da 17 anni</em>: stabile, machine-readable in teoria, ma servito con encoding ISO-8859-15, JS bloccante, zero standard di accessibilità moderna e nessuna API.
+    </p>
+    <p class="prose" style="margin-top:1rem;">
+      <strong>Elezioni Sicilia</strong> è un prototipo standalone, non commissionato, che rispecchia quel portale con un livello di servizio conforme alle linee guida AgID, <em>Bootstrap Italia</em>, font Designers Italia, <em>WCAG 2.1 AA</em>, mappa SVG accessibile, dati machine-readable, senza sostituire nulla del sistema esistente. È pensato per essere mostrato a Regione, AgID e comuni come prova di concetto di "come potrebbe essere".
+    </p>
+  </div>
+
+  <!-- PIPELINE -->
+  <div class="block">
+    <div class="block-title"><span class="num">02</span> Pipeline dati</div>
+    <p class="prose">
+      L'ingest è un modulo Python che scarica le pagine <code style="color:var(--warm)">Report*.html</code> del portale ufficiale, ne caca una copia in <code style="color:var(--warm)">ingest/raw/</code> e produce JSON normalizzati. Idempotente: i dati grezzi sono cachati, basta cancellare la cartella per forzare il refresh.
+    </p>
+
+    <div class="arch-box">
+      <div class="arch-layer">
+        <div class="arch-layer-name">sorgente, portale ufficiale</div>
+        <div class="arch-items">
+          <span class="arch-item">ReportTabellaAffluenza.html</span>
+          <span class="arch-item">[PROV]/ReportRisultati[PROV].html</span>
+          <span class="arch-item">[PROV]/ReportCandidati[PROV].html</span>
+          <span class="arch-item">regionali2022/riepilogoRegionale.html</span>
+        </div>
+      </div>
+      <div class="arch-arrow">↓ HTTP · cache locale</div>
+      <div class="arch-layer">
+        <div class="arch-layer-name">ingest, Python 3.13</div>
+        <div class="arch-items">
+          <span class="arch-item">BeautifulSoup (parser HTML/ISO-8859-15)</span>
+          <span class="arch-item">Normalizzazione schema</span>
+          <span class="arch-item">Tracciabilità, campo source.url per record</span>
+          <span class="arch-item">Output JSON in public/data/</span>
+        </div>
+      </div>
+      <div class="arch-arrow">↓ npm run build</div>
+      <div class="arch-layer">
+        <div class="arch-layer-name">web, Next.js 15 (SSG)</div>
+        <div class="arch-items">
+          <span class="arch-item">App Router · TypeScript 5</span>
+          <span class="arch-item">86 pagine HTML pre-renderizzate</span>
+          <span class="arch-item">First Load JS &lt; 110 KB per rotta</span>
+          <span class="arch-item">trailingSlash, link relativi portabili</span>
+        </div>
+      </div>
+      <div class="arch-arrow">↓</div>
+      <div class="arch-layer">
+        <div class="arch-layer-name">deploy, qualsiasi web server</div>
+        <div class="arch-items">
+          <span class="arch-item">Apache/Nginx interno Regione</span>
+          <span class="arch-item">CDN (Vercel / Cloudflare Pages / Netlify)</span>
+          <span class="arch-item">ZIP autosufficiente da aprire in browser</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- COSA C'È -->
+  <div class="block">
+    <div class="block-title"><span class="num">03</span> Cosa contiene il prototipo</div>
+    <div class="two-col">
+      <div class="info-card">
+        <div class="info-card-title">Pagine pubbliche</div>
+        <div class="kv-row"><span class="kv-key">Home</span><span class="kv-val">Dashboard editoriale tornata corrente</span></div>
+        <div class="kv-row"><span class="kv-key">Affluenza</span><span class="kv-val">Tabella completa, 4 rilevamenti</span></div>
+        <div class="kv-row"><span class="kv-key">Comune</span><span class="kv-val">Scheda per ognuno dei 71 comuni</span></div>
+        <div class="kv-row"><span class="kv-key">Provincia</span><span class="kv-val">9 schede provinciali</span></div>
+        <div class="kv-row"><span class="kv-key">Storico</span><span class="kv-val">Archivio Regionali 2022</span></div>
+        <div class="kv-row"><span class="kv-key">Metodologia</span><span class="kv-val">Fonti, mapping, integrabilità</span></div>
+      </div>
+      <div class="info-card">
+        <div class="info-card-title">Conformità &amp; standard</div>
+        <div class="kv-row"><span class="kv-key">UI</span><span class="kv-val">Bootstrap Italia 2.x</span></div>
+        <div class="kv-row"><span class="kv-key">Font</span><span class="kv-val">Titillium · Lora · Roboto Mono</span></div>
+        <div class="kv-row"><span class="kv-key">A11y</span><span class="kv-val">WCAG 2.1 AA · skip-link · ARIA</span></div>
+        <div class="kv-row"><span class="kv-key">Mappa</span><span class="kv-val">SVG inline da GeoJSON ISTAT</span></div>
+        <div class="kv-row"><span class="kv-key">Rendering</span><span class="kv-val">SSG puro · zero fetch runtime</span></div>
+        <div class="kv-row"><span class="kv-key">Open data</span><span class="kv-val">JSON pubblici con source.url</span></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- INTEGRAZIONE -->
+  <div class="block">
+    <div class="block-title"><span class="num">04</span> Due modalità di integrazione</div>
+    <p class="prose">
+      Il prototipo è pensato per affiancarsi al sistema esistente, non sostituirlo. È configurabile in due modi al deploy:
+    </p>
+    <div class="two-col" style="margin-top: 1.5rem;">
+      <div class="info-card">
+        <div class="info-card-title">A · Standalone (zero impatto)</div>
+        <div class="kv-row"><span class="kv-key">Sorgente</span><span class="kv-val">Scrape del portale ufficiale</span></div>
+        <div class="kv-row"><span class="kv-key">Refresh</span><span class="kv-val">Ingest periodico (es. ogni 5 min)</span></div>
+        <div class="kv-row"><span class="kv-key">Ruolo</span><span class="kv-val">Mirror accessibile / cache CDN</span></div>
+        <div class="kv-row"><span class="kv-key">Impatto IT</span><span class="kv-val">Nessuna modifica al backend CED</span></div>
+      </div>
+      <div class="info-card">
+        <div class="info-card-title">B · API nativa (integrato)</div>
+        <div class="kv-row"><span class="kv-key">Sorgente</span><span class="kv-val">Backend CED → REST/JSON</span></div>
+        <div class="kv-row"><span class="kv-key">Rendering</span><span class="kv-val">SSG/ISR di Next.js</span></div>
+        <div class="kv-row"><span class="kv-key">Schema</span><span class="kv-val">Già definito nei JSON del prototipo</span></div>
+        <div class="kv-row"><span class="kv-key">Endpoint tipo</span><span class="kv-val">/api/v1/comuni/{slug}/affluenza</span></div>
+      </div>
+    </div>
+
+    <div class="callout" style="margin-top: 1.5rem; border-left-color: var(--warm);">
+      <p><strong>Perché conta la modalità B.</strong> Oggi <code style="color:var(--warm)">dati.gov.it</code> pubblica i risultati elettorali solo post-scrutinio; le API real-time esistenti (Eleweb e simili) sono B2B/B2G chiuse, riservate a partner contrattualizzati; Eligendo (Min. Interno) serve solo file scaricabili in formato compresso. Adottando la modalità B, il portale della Regione Sicilia diventerebbe <strong>la prima API REST pubblica e real-time per le elezioni regionali italiane</strong>, conforme alle linee guida AgID 547/2021, pubblicabile su PDND, riusabile come standard di fatto dalle altre Regioni. Un primato facilmente difendibile in conferenze AgID / FORUM PA.</p>
+    </div>
+  </div>
+
+  <!-- ROADMAP -->
+  <div class="block">
+    <div class="block-title"><span class="num">05</span> Roadmap strategica</div>
+    <p class="prose">
+      Idee successive al prototipo, ordinate per impatto-su-effort. Pensate per la conversazione con Regione / AgID / comuni.
+    </p>
+
+    <div class="callout" style="margin-top: 1.5rem;">
+      <p><strong>Open data &amp; trasparenza.</strong> Pubblicazione dei JSON normalizzati su <code style="color:var(--warm)">dati.gov.it</code> con licenza CC-BY. Endpoint OpenAPI documentato. Audit trail con hash SHA-256 + timestamp per ogni snapshot, anti fake-news.</p>
+    </div>
+
+    <div class="callout">
+      <p><strong>Sala stampa.</strong> Widget embed (iframe/JS) integrabile da testate (Repubblica, Giornale di Sicilia, TGR Sicilia). Open Graph dinamici 1200×630 con dati reali per comune. Export CSV/JSON/PDF in un click.</p>
+    </div>
+
+    <div class="callout">
+      <p><strong>Cittadini.</strong> PWA installabile con notifiche push ("affluenza del tuo comune aggiornata"). Integrazione IO/SPID per esperienza personalizzata. "Trova il tuo seggio" con dataset ISTAT delle sezioni elettorali. Telegram bot ufficiale.</p>
+    </div>
+
+    <div class="callout warn">
+      <p><strong>Strumenti PA.</strong> Dashboard riservata SPID per Prefetti e Sindaci con KPI sezione per sezione. PDF AgID-compliant auto-generato a chiusura scrutinio (sostituisce il "Download Report" attuale). Widget embeddabile su <code style="color:var(--warm)">comune.{nome}.it</code>.</p>
+    </div>
+  </div>
+
+  <!-- STACK -->
+  <div class="block">
+    <div class="block-title"><span class="num">06</span> Stack completo</div>
+    <div class="tag-row">
+      <span class="tag hl">Next.js 15</span>
+      <span class="tag hl">TypeScript 5</span>
+      <span class="tag hl">React</span>
+      <span class="tag hl">Python 3.13</span>
+      <span class="tag">BeautifulSoup</span>
+      <span class="tag hl">Bootstrap Italia 2.x</span>
+      <span class="tag">Titillium Web</span>
+      <span class="tag">SSG / ISR</span>
+      <span class="tag">GeoJSON · ISTAT</span>
+      <span class="tag">SVG inline</span>
+      <span class="tag">WCAG 2.1 AA</span>
+      <span class="tag">App Router</span>
+    </div>
+  </div>
+
+  <div class="proj-footer">
+    <a href="../../#projects">← tutti i progetti</a>
+    <a href="../../demos/elezioni-sicilia/" target="_blank" rel="noopener" class="proj-footer-cta">Apri demo live →</a>
+  </div>
+
+</div>
+</body>
+</html>

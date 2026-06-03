@@ -1,0 +1,214 @@
+{
+  "tornata": {
+    "id": "regionali2022",
+    "tipo": "Regionali",
+    "data_voto": [
+      "2022-09-25"
+    ],
+    "titolo": "Elezioni Regionali del 25 settembre 2022",
+    "stato_scrutinio": "completato"
+  },
+  "source": {
+    "url": "https://www.elezioni.regione.sicilia.it/regionali2022/rep_7/riepilogoRegionale.html",
+    "format": "html_table_iso8859-15"
+  },
+  "sezioni": {
+    "scrutinate": 5298,
+    "totali": 5298
+  },
+  "candidati_presidente": [
+    {
+      "lista_regionale": "SICILIANI LIBERI",
+      "nome": "Eliana Silvia Saturnia ESPOSITO Detta/o Eliana",
+      "voti": 10973,
+      "perc": 0.52,
+      "eletto": false,
+      "liste_collegate": [
+        {
+          "nome": "SICILIANI LIBERI",
+          "voti": 7654,
+          "perc": 0.409,
+          "seggi": 0,
+          "contrassegno": "provinciali_siciliani-liberi.jpg"
+        }
+      ],
+      "contrassegno": "regionali_siciliani-liberi.jpg"
+    },
+    {
+      "lista_regionale": "CHINNICI PRESIDENTE",
+      "nome": "Caterina CHINNICI",
+      "voti": 341252,
+      "perc": 16.175,
+      "eletto": false,
+      "liste_collegate": [
+        {
+          "nome": "PARTITO DEMOCRATICO",
+          "voti": 238761,
+          "perc": 12.769,
+          "seggi": 11,
+          "contrassegno": "provinciali_PD.jpg"
+        },
+        {
+          "nome": "CENTO PASSI PER LA SICILIA",
+          "voti": 55599,
+          "perc": 2.973,
+          "seggi": 0,
+          "contrassegno": "provinciali_fava-centopassi.jpg"
+        }
+      ],
+      "contrassegno": "regionali_chinnici.jpg"
+    },
+    {
+      "lista_regionale": "IN SICILIA - RENATO SCHIFANI PRESIDENTE",
+      "nome": "Renato SCHIFANI",
+      "voti": 887215,
+      "perc": 42.052,
+      "eletto": true,
+      "liste_collegate": [
+        {
+          "nome": "DC DEMOCRAZIA CRISTIANA",
+          "voti": 121691,
+          "perc": 6.508,
+          "seggi": 4,
+          "contrassegno": "provinciali_DC.jpg"
+        },
+        {
+          "nome": "POPOLARI E AUTONOMISTI",
+          "voti": 127096,
+          "perc": 6.797,
+          "seggi": 4,
+          "contrassegno": "provinciali_noiconlasicilia.jpg"
+        },
+        {
+          "nome": "FORZA ITALIA",
+          "voti": 275736,
+          "perc": 14.746,
+          "seggi": 11,
+          "contrassegno": "provinciali_berlusconi-forzaitalia.jpg"
+        },
+        {
+          "nome": "FRATELLI D'ITALIA",
+          "voti": 282345,
+          "perc": 15.1,
+          "seggi": 11,
+          "contrassegno": "provinciali_meloni.jpg"
+        },
+        {
+          "nome": "PRIMA L'ITALIA - SALVINI PREMIER",
+          "voti": 127454,
+          "perc": 6.816,
+          "seggi": 4,
+          "contrassegno": "provinciali_prima-litalia.jpg"
+        }
+      ],
+      "contrassegno": "regionali_schifani.jpg"
+    },
+    {
+      "lista_regionale": "AZIONE - ITALIA VIVA  - CALENDA",
+      "nome": "Gaetano ARMAO",
+      "voti": 43835,
+      "perc": 2.078,
+      "eletto": false,
+      "liste_collegate": [
+        {
+          "nome": "AZIONE - ITALIA VIVA  - CALENDA",
+          "voti": 39788,
+          "perc": 2.128,
+          "seggi": 0,
+          "contrassegno": "provinciali_armao.jpg"
+        }
+      ],
+      "contrassegno": "regionali_calenda-italiaviva-armao.jpg"
+    },
+    {
+      "lista_regionale": "DE LUCA SINDACO DI SICILIA - SUD CHIAMA NORD",
+      "nome": "Cateno DE LUCA",
+      "voti": 505386,
+      "perc": 23.954,
+      "eletto": false,
+      "liste_collegate": [
+        {
+          "nome": "DE LUCA SINDACO DI SICILIA - SUD CHIAMA NORD",
+          "voti": 254453,
+          "perc": 13.608,
+          "seggi": 6,
+          "contrassegno": "provinciali_deluca.jpg"
+        },
+        {
+          "nome": "SICILIA VERA",
+          "voti": 50877,
+          "perc": 2.721,
+          "seggi": 0,
+          "contrassegno": "provinciali_siciliaVera.jpg"
+        },
+        {
+          "nome": "BASTA MAFIE",
+          "voti": 1356,
+          "perc": 0.073,
+          "seggi": 0,
+          "contrassegno": "provinciali_basta-mafie.jpg"
+        },
+        {
+          "nome": "TERRA D'AMURI",
+          "voti": 3390,
+          "perc": 0.181,
+          "seggi": 0,
+          "contrassegno": "provinciali_terra-damuri.jpg"
+        },
+        {
+          "nome": "ORGOGLIO SICULO CON CATENO",
+          "voti": 18165,
+          "perc": 0.971,
+          "seggi": 0,
+          "contrassegno": "provinciali_orgogliosiculo-Cateno.jpg"
+        },
+        {
+          "nome": "GIOVANI SICILIANI",
+          "voti": 3042,
+          "perc": 0.163,
+          "seggi": 0,
+          "contrassegno": "provinciali_giovani-siciliani.jpg"
+        },
+        {
+          "nome": "AUTONOMIA SICILIANA",
+          "voti": 2987,
+          "perc": 0.16,
+          "seggi": 0,
+          "contrassegno": "provinciali_autonomia-siciliana.jpg"
+        },
+        {
+          "nome": "IMPRESA SICILIA",
+          "voti": 2702,
+          "perc": 0.145,
+          "seggi": 0,
+          "contrassegno": "provinciali_Impresa-Sicilia.jpg"
+        },
+        {
+          "nome": "LAVORO IN SICILIA",
+          "voti": 1793,
+          "perc": 0.096,
+          "seggi": 0,
+          "contrassegno": "provinciali_lavoro-in-sicilia.jpg"
+        }
+      ],
+      "contrassegno": "regionali_deluca.jpg"
+    },
+    {
+      "lista_regionale": "MOVIMENTO 5 STELLE 2050",
+      "nome": "Nunzio DI PAOLA Detta/o Nuccio",
+      "voti": 321142,
+      "perc": 15.221,
+      "eletto": false,
+      "liste_collegate": [
+        {
+          "nome": "MOVIMENTO 5 STELLE 2050",
+          "voti": 254974,
+          "perc": 13.636,
+          "seggi": 11,
+          "contrassegno": "provinciali_M5S.jpg"
+        }
+      ],
+      "contrassegno": "regionali_m5s.jpg"
+    }
+  ]
+}
