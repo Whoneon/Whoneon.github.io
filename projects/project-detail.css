@@ -16,7 +16,7 @@
 }
 
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-html { scroll-behavior: smooth; }
+html { scroll-behavior: smooth; overflow-x: hidden; }
 
 body {
   background: var(--bg);
@@ -176,4 +176,10 @@ nav {
   .page { padding: 6rem 1.5rem 4rem; }
   .two-col { grid-template-columns: 1fr; }
   .results-grid { grid-template-columns: 1fr 1fr; }
+}
+
+@media (max-width: 480px) {
+  .results-grid { grid-template-columns: 1fr; }
+  .result-num { font-size: 1.4rem; }
+  .proj-footer { flex-direction: column; gap: 1rem; align-items: flex-start; }
 }

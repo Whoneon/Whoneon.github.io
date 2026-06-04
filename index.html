@@ -28,7 +28,7 @@
 
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
-    html { scroll-behavior: smooth; }
+    html { scroll-behavior: smooth; overflow-x: hidden; }
 
     body {
       background: var(--bg);
@@ -785,7 +785,9 @@
       .about-grid, .contact-grid { grid-template-columns: 1fr; gap: 2.5rem; }
       .stack-groups { grid-template-columns: repeat(2, 1fr); }
       .projects-grid { grid-template-columns: 1fr; }
-      .hero-stats { gap: 2rem; }
+      .hero-stats { display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem 2rem; margin-top: 3rem; }
+      .hero-actions { flex-wrap: nowrap; }
+      .btn-primary, .btn-secondary { padding: 0.75rem 1.25rem; font-size: 0.75rem; }
       footer { flex-direction: column; gap: 1rem; padding: 1.5rem; }
       .demo-card { grid-template-columns: auto 1fr; }
       .demo-badge { display: none; }
